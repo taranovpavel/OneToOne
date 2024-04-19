@@ -1,0 +1,58 @@
+.header{
+    padding: 12px 0;
+    background-color: #151515;
+    width: 100%;
+}
+.innerHeader{
+    display: flex;
+    justify-content: space-between;
+    color: #ffffff;
+}
+.pages{
+    display: flex;
+    gap: 32px;
+}
+.right{
+    display: flex;
+    gap: 32px;
+}
+.search{
+    padding: 7px 35px;
+    border: none;
+    background-image: url("../images/iocn-loupe.svg");
+    background-repeat: no-repeat;
+    background-position: 10px 8px;
+    border-radius: 16px;
+}
+.search:focus{
+    border: none;
+}
+.links{
+    display: flex;
+    gap: 15px;
+}
+.link{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background-color: #fff;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+.telegram{
+    width: 100%;
+    height: 20px;
+    margin-right: 3px;
+    cursor: pointer;
+}
+.tiktok{
+    width: 100%;
+    height: 25px;
+    cursor: pointer;
+}
+.instagram{
+    width: 100%;
+    height: 20px;
+    cursor: pointer;
+}
