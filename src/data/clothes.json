@@ -5,7 +5,8 @@
     "PRICE": "100$",
     "TYPE": "HOODIES",
     "URL1": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250443_1000.jpg",
-    "URL2": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250416_1000.jpg"
+    "URL2": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250414_2048.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250416_1000.jpg"
   },
   {
     "NAME": "printed \"Cotton Wreath\" hoodie",
@@ -13,7 +14,8 @@
     "PRICE": "100$",
     "TYPE": "HOODIES",
     "URL1": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374441_1000.jpg",
-    "URL2": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374443_2048.jpg"
+    "URL2": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374439_1000.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374443_2048.jpg"
   },
   {
     "NAME": "Cotton Wreath-print track pants",
@@ -21,7 +23,8 @@
     "PRICE": "100$",
     "TYPE": "PANTS",
     "URL1": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184645_2048.jpg",
-    "URL2": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184659_2048.jpg"
+    "URL2": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184663_1000.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184659_2048.jpg"
   },
   {
     "NAME": "Cotton Wreath-print hoodie",
@@ -29,7 +32,8 @@
     "PRICE": "100$",
     "TYPE": "HOODIES",
     "URL1": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514239_2048.jpg",
-    "URL2": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514237_2048.jpg"
+    "URL2": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514241_2048.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514237_2048.jpg"
   },
   {
     "NAME": "drawstring \"Cotton Wreath\" track pants",
@@ -37,7 +41,8 @@
     "PRICE": "100$",
     "TYPE": "PANTS",
     "URL1": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374296_2048.jpg",
-    "URL2": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374302_1000.jpg"
+    "URL2": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374294_2048.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374302_1000.jpg"
   },
   {
     "NAME": "Cotton Wreath-print track pants",
@@ -45,7 +50,8 @@
     "PRICE": "100$",
     "TYPE": "PANTS",
     "URL1": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184622_1000.jpg",
-    "URL2": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184620_2048.jpg"
+    "URL2": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184619_2048.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184620_2048.jpg"
   },
   {
     "NAME": "Cotton Wreath-print track pants",
@@ -53,7 +59,8 @@
     "PRICE": "100$",
     "TYPE": "PANTS",
     "URL1": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184638_2048.jpg",
-    "URL2": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184657_2048.jpg"
+    "URL2": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184649_2048.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184657_2048.jpg"
   },
   {
     "NAME": "wreath-print cotton hoodie",
@@ -61,6 +68,16 @@
     "PRICE": "100$",
     "TYPE": "HOODIES",
     "URL1": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628391_1000.jpg",
-    "URL2": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628378_2048.jpg"
+    "URL2": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628372_2048.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628378_2048.jpg"
+  },
+  {
+    "NAME": "printed \"Cotton Wreath\" hoodie",
+    "BRAND": "Denim Tears",
+    "PRICE": "100$",
+    "TYPE": "HOODIES",
+    "URL1": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374270_2048.jpg",
+    "URL2": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374257_2048.jpg",
+    "URL3": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374256_2048.jpg"
   }
 ]

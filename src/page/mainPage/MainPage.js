@@ -36,7 +36,6 @@ const MainPage = () => {
     return (
         <>
             <Header></Header>
-            <SwiperComponent swiperImages={images}></SwiperComponent>
             <Container inner={
                 <>
                     <TabsComponent categoriesSelect={categoriesSelect} value={value} setValue={setValue}/>
