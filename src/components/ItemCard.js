@@ -1,12 +1,12 @@
 import React from 'react';
 import classes from "./ItemCard.module.css";
+import { ReactComponent as Buy} from "../images/icon-buy.svg"
 const ItemCard = ({clothes}) => {
     return (
         <div className={classes.card}>
             <img src={clothes.url} alt={clothes.name}/>
-            <p>{clothes.type} {clothes.brand}</p>
-            <p>{clothes.price}</p>
-            <button>в корзину</button>
+            <p className={classes.name}>{clothes.name} {clothes.brand}</p>
+            <p className={classes.price}>{clothes.price}</p>
         </div>
     );
 };

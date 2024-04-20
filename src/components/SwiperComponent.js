@@ -5,7 +5,6 @@ import "swiper/css/pagination"
 import "swiper/css/autoplay"
 import {Autoplay, Pagination, Scrollbar} from "swiper/modules";
 import classes from "./SwaiperComponent.module.css";
-import Container from "./Container";
 const SwiperComponent = ({swiperImages}) => {
     return (
         <Swiper
