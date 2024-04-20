@@ -3,6 +3,7 @@
     flex-direction: column;
     gap: 8px;
     width: 350px;
+    text-align: center;
 }
 .card img{
     width: 100%;

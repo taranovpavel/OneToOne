@@ -3,7 +3,7 @@ import {createSlice, createAsyncThunk} from "@reduxjs/toolkit";
 export const getPost = createAsyncThunk(
     "getPost",
     async function(info,{dispatch}){
-        const response= await fetch("http://localhost")
+        const response= await fetch("file:///C:/Users/Administrator/Desktop/Sait/sait/src/data/clothes.json")
         const data = await response.json()
         dispatch(getPosts(data))
     }
