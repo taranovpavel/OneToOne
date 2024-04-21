@@ -1,10 +1,21 @@
 import React from 'react';
 import ItemCard from "./ItemCard";
 import data from '../data/clothes.json'
-const ItemCardPage = ({type}) => {
+import NothingFoundPage from "./NothingFoundPage";
+const ItemCardPage = ({type, isSearch}) => {
+    let dataFilter
+    if (isSearch===true){
+        dataFilter =  data.filter(item=> (item.NAME.toLowerCase()+item.TYPE_ENG.toLowerCase()+item.TYPE_RUS.toLowerCase()+item.BRAND.toLowerCase()).includes(type.toLowerCase()))
+    }
     return (
         <>
-            {type === "ALL"?<>{data.map((item,idx) =><ItemCard key={idx} clothes={item}/>)}</>:<>{data.map((item,idx) =>item.TYPE===type?<ItemCard key={idx} clothes={item}/>:"")}</>}
+            {isSearch?
+                dataFilter.length>0?
+                    <>{dataFilter.map((item,idx) =><ItemCard key={idx} clothes={item}/>)}</>:
+                    <NothingFoundPage/>:
+                type === "ALL"?
+                    <>{data.map((item,idx) =><ItemCard key={idx} clothes={item}/>)}</>:
+                    <>{data.map((item,idx) =>item.TYPE===type?<ItemCard key={idx} clothes={item}/>:"")}</>}
         </>
     );
 };

@@ -22,17 +22,20 @@
 .line{
     width: 100%;
     height: 1px;
-    background: #fafafa;
+    background: #b3b3b3;
 }
 .label{
     color: #fafafa;
 }
 .tables{
     display: flex;
+    align-items: normal;
     gap: 180px;
 }
-.table li {
+.table li{
     margin-bottom: 8px;
+}
+.table li a{
     color: #b3b3b3;
 }
 .bottom{

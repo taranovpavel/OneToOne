@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Container from "./Container";
 import classes from "./Header.module.css";
 import { ReactComponent as Basket } from "../images/icon-basket.svg"
@@ -7,7 +7,7 @@ import { ReactComponent as TikTok } from "../images/icon-tiktok.svg"
 import { ReactComponent as Instagram} from "../images/icon-instagram.svg"
 import { ReactComponent as Logo} from "../images/icon-logo.svg"
 
-const Header = () => {
+const Header = ({input, setInput}) => {
         return (
             <div className={classes.header}>
                 <Container
@@ -20,7 +20,7 @@ const Header = () => {
                                     <li><a className={classes.link}><Instagram className={classes.instagram}/></a></li>
                                     <li><a className={classes.link}><Telegram className={classes.telegram}/></a></li>
                                 </ul>
-                                <input placeholder="искать" type="text" className={classes.search}/>
+                                <input placeholder="искать" type="text"  onChange={event => setInput(event.target.value)} className={classes.search}/>
                                 <Basket/>
                             </div>
                         </div>

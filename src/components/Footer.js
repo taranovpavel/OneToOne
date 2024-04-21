@@ -25,22 +25,18 @@ const Footer = () => {
                         <div className={classes.bottom}>
                             <div className={classes.tables}>
                                 <ul className={classes.table}>
-                                    <li><p className={classes.label}>label</p></li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
+                                    <li><p className={classes.label}>Покупателям</p></li>
+                                    <li><a href="">Политика конфиденциальности</a></li>
+                                    <li><a href="">Договор оферты</a></li>
+                                    <li><a href="">Доставка</a></li>
+                                    <li><a href="">Возрат</a></li>
+                                    <li><a href="">Поддержка</a></li>
                                 </ul>
                                 <ul className={classes.table}>
-                                    <li><p className={classes.label}>label</p></li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                </ul>
-                                <ul className={classes.table}>
-                                    <li><p className={classes.label}>label</p></li>
-                                    <li>test</li>
-                                    <li>test</li>
-                                    <li>test</li>
+                                    <li><p className={classes.label}>ONETOONE</p></li>
+                                    <li><a href="">О нас</a></li>
+                                    <li><a href="">Реквизиты</a></li>
+                                    <li><a href="">Контакты</a></li>
                                 </ul>
                             </div>
                         </div>

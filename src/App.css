@@ -8,6 +8,8 @@ body{
     padding: 0;
     box-sizing: border-box;
     align-items: center;
+    outline: none;
+    text-decoration: none;
 }
 .container{
     width: 1440px;
@@ -15,10 +17,10 @@ body{
 }
 .flex{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     flex-wrap: wrap;
     width: 1440px;
-    gap: 30px;
+    gap: 30px 100px;
     margin: 0 auto;
     padding: 0 80px;
 }
