@@ -2,7 +2,6 @@ import React from 'react';
 import classes from "./Footer.module.css";
 import Container from "./Container";
 import { ReactComponent as Telegram } from "../images/icon-telegram.svg"
-import { ReactComponent as TikTok } from "../images/icon-tiktok.svg"
 import { ReactComponent as Instagram} from "../images/icon-instagram.svg"
 import { ReactComponent as Logo} from "../images/icon-logo.svg"
 const Footer = () => {
@@ -15,7 +14,6 @@ const Footer = () => {
                             <Logo className={classes.logo}/>
                             <div className={classes.footerLinks}>
                                 <ul className={classes.innerFooterLinks}>
-                                    <li><a href=""><TikTok className={classes.tiktok}/></a></li>
                                     <li><a href=""><Instagram className={classes.instagram}/></a></li>
                                     <li><a href=""><Telegram className={classes.telegram}/></a></li>
                                 </ul>

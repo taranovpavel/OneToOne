@@ -24,3 +24,6 @@ body{
     margin: 0 auto;
     padding: 0 80px;
 }
+.swiper-pagination-bullet-active {
+    background-color: #9C27B0 !important;
+}
