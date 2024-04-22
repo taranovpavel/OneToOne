@@ -31,6 +31,7 @@ const MultipleSelector = ({size,setSize,data}) => {
                     value={size}
                     label="Размер"
                     onChange={handleChange}
+                    indicatorColor="secondary"
                 >
                     <MenuItem disabled={!data.XS} value={"XS"}>XS</MenuItem>
                     <MenuItem disabled={!data.S} value={"S"}>S</MenuItem>

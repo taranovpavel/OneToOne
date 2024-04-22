@@ -25,7 +25,7 @@ const MainPage = () => {
     const [input, setInput] = useState("")
     return (
         <>
-            <Header input={input} setInput={setInput}></Header>
+            <Header input={input} setInput={setInput} isSearch={true}></Header>
             <Container inner={
                 <>
                     <TabsComponent categoriesSelect={categoriesSelect} value={value} setValue={setValue} setInput={setInput}/>
