@@ -25,16 +25,18 @@ const ClothesInfoPage = () => {
             <Header></Header>
             <Container classname={"flex"} inner={
                 <>
-                    <SwiperComponent image1={clothes.URL_1} image2={clothes.URL_2} image3={clothes.URL_3} swiperClasses={"swiperBig"} imageClasses={"imageBig"}/>
+                    <SwiperComponent image1={clothes.URL_1} image2={clothes.URL_2} image3={clothes.URL_3} swiperClasses={"swiperBig"} imageClasses={"imageBig"} autoplay={true}/>
                     <div className={classes.text}>
-                        <p className={classes.name}>{clothes.NAME} {clothes.BRAND}</p>
-                        <p className={classes.price}>{clothes.PRICE}</p>
+                        <p className={classes.name}>{clothes.TYPE_RUS} {clothes.BRAND}</p>
+                        <div className={classes.divPrice}>
+                            <p className={classes.price}>${clothes.PRICE}</p>
+                            <p className={classes.taxes}>Пошлины включены</p>
+                        </div>
                         <MultipleSelector size={size} setSize={setSize} data={clothes.SIZE}/>
                         <Button inner={"BUY NOW"}></Button>
-                        <p className={classes.Description}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Alias architecto commodi consequatur cum debitis dolor doloribus eos error est exercitationem facere facilis in inventore iure laboriosam magni nisi nulla odio officia, perspiciatis possimus quibusdam quidem quod ratione saepe sapiente, tempora.</p>
                         <p className={classes.composition}>Состав: {clothes.COMPOSITION_RUS}</p>
                         <p className={classes.secondaryText}>Количество ограничено</p>
-                        <p className={classes.secondaryText}>Доставка заказа займет от 2 до 3 дней</p>
+                        <p className={classes.secondaryText}>14-18 дней до склада, после переотправка в вашу страну <br/>( в общей сложности 14-30 дней )</p>
                         <p className={classes.secondaryText}>Если есть дополнительные вопросы напишите в <a href="">поддержку</a>.</p>
                     </div>
                 </>
