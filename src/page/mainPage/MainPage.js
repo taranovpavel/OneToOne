@@ -8,7 +8,7 @@ import ItemCardPage from "../../components/ItemCardPage";
 import {useSelector} from "react-redux";
 
 const GetCategories=({action, isSearch})=>{
-    return <Container classname={"flex"} inner={<ItemCardPage type={action} isSearch={isSearch}/>}/>
+    return <Container classname={"flex-wrap"} inner={<ItemCardPage type={action} isSearch={isSearch}/>}/>
 }
 const MainPage = () => {
     const categoriesSelect = [

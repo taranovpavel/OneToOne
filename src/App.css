@@ -2,7 +2,7 @@ body{
     background-color: #ffffff;
 }
 * {
-    font-family: "Cousine", monospace;
+    font-family: "Cousine", monospace  !important;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,6 +16,14 @@ body{
     margin: 0 auto;
 }
 .flex{
+    align-items: normal;
+    display: flex;
+    width: 1440px;
+    gap: 30px 100px;
+    margin: 0 auto;
+    padding: 30px 80px;
+}
+.flex-wrap{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
@@ -26,4 +34,35 @@ body{
 }
 .swiper-pagination-bullet-active {
     background-color: #9C27B0 !important;
+}
+.swiper{
+    height: 500px;
+    width: 100%;
+}
+.image{
+    width: 100%;
+    height: 350px !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.swiperBig{
+    height: 600px;
+    width: 480px;
+    margin: 0 !important;
+    padding: 40px 0 !important;
+}
+.imageBig{
+    width: 100%;
+    height: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.swiper-pagination{
+    /*bottom: -10px !important;*/
+}
+.MuiSelect-select{
+    width: 105px !important;
+    padding: 10px !important;
 }

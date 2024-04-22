@@ -4,8 +4,7 @@ import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/autoplay"
 import {Autoplay, Pagination, Scrollbar} from "swiper/modules";
-import classes from "./SwaiperComponent.module.css";
-const SwiperComponent = ({image1,image2,image3}) => {
+const SwiperComponent = ({image1,image2,image3,swiperClasses = "swiper", imageClasses = "image"}) => {
     return (
         <Swiper
             grabCursor={true}
@@ -15,11 +14,11 @@ const SwiperComponent = ({image1,image2,image3}) => {
             modules={[ Pagination, Scrollbar, ]}
             slidesPerView={1}
             pagination={{ clickable: true }}
-            className={classes.mySwiper}
+            className={swiperClasses}
         >
-            <SwiperSlide className={classes.image} style={{backgroundImage:`url(${image1})`}}/>
-            <SwiperSlide className={classes.image} style={{backgroundImage:`url(${image2})`}}/>
-            <SwiperSlide className={classes.image} style={{backgroundImage:`url(${image3})`}}/>
+            <SwiperSlide className={imageClasses} style={{backgroundImage:`url(${image1})`}}/>
+            <SwiperSlide className={imageClasses} style={{backgroundImage:`url(${image2})`}}/>
+            <SwiperSlide className={imageClasses} style={{backgroundImage:`url(${image3})`}}/>
         </Swiper>
     );
 };

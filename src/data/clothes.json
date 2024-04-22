@@ -6,8 +6,17 @@
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
+    "COMPOSITION_RUS": "Хлопок 100%",
     "SPECIAL": false,
     "ID": 1,
+    "SIZE": {
+      "XS": false,
+      "S": false,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
     "URL_1": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250443_1000.jpg",
     "URL_2": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250414_2048.jpg",
     "URL_3": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250416_1000.jpg"

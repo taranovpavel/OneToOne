@@ -14,7 +14,7 @@
 }
 .right{
     display: flex;
-    gap: 32px;
+    gap: 15px;
 }
 .search{
     padding: 7px 35px;
