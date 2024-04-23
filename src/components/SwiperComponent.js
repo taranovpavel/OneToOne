@@ -4,7 +4,10 @@ import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/autoplay"
 import {Autoplay, Pagination, Scrollbar} from "swiper/modules";
-const SwiperComponent = ({image1,image2,image3,swiperClasses = "swiper", imageClasses = "image", autoplay= false}) => {
+const SwiperComponent = ({photos,swiperClasses = "swiper", imageClasses = "image", autoplay= false}) => {
+    let newPhotos = []
+    for(const key in photos){newPhotos.push(key)}
+    console.log(newPhotos)
     return (
         <Swiper
             grabCursor={true}
@@ -20,9 +23,9 @@ const SwiperComponent = ({image1,image2,image3,swiperClasses = "swiper", imageCl
             pagination={{ clickable: true }}
             className={swiperClasses}
         >
-            <SwiperSlide className={imageClasses} style={{backgroundImage:`url(${image1})`}}/>
-            <SwiperSlide className={imageClasses} style={{backgroundImage:`url(${image2})`}}/>
-            <SwiperSlide className={imageClasses} style={{backgroundImage:`url(${image3})`}}/>
+            {newPhotos.map((item,idx)=>
+                <SwiperSlide className={imageClasses} key={idx} style={{backgroundImage: `url(${photos[item]})`}} />
+            )}
         </Swiper>
     );
 };

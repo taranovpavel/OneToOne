@@ -25,7 +25,7 @@ const ClothesInfoPage = () => {
             <Header></Header>
             <Container classname={"flex"} inner={
                 <>
-                    <SwiperComponent image1={clothes.URL_1} image2={clothes.URL_2} image3={clothes.URL_3} swiperClasses={"swiperBig"} imageClasses={"imageBig"} autoplay={true}/>
+                    <SwiperComponent photos={clothes.PHOTOS} swiperClasses={"swiperBig"} imageClasses={"imageBig"} autoplay={true}/>
                     <div className={classes.text}>
                         <p className={classes.name}>{clothes.TYPE_RUS} {clothes.BRAND}</p>
                         <div className={classes.divPrice}>

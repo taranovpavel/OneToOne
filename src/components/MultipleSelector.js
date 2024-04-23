@@ -6,18 +6,11 @@ import Select from '@mui/material/Select';
 
 const MultipleSelector = ({size,setSize,data}) => {
     const [open, setOpen] = React.useState(false);
-
-    const handleChange = (event) => {
-        setSize(event.target.value);
-    };
-
-    const handleClose = () => {
-        setOpen(false);
-    };
-
-    const handleOpen = () => {
-        setOpen(true);
-    };
+    let newData = []
+    for(const key in data){newData.push(key)}
+    const handleChange = (event) => {setSize(event.target.value)}
+    const handleClose = () => {setOpen(false)}
+    const handleOpen = () => {setOpen(true)}
     return (
         <div>
             <FormControl>
@@ -33,12 +26,9 @@ const MultipleSelector = ({size,setSize,data}) => {
                     onChange={handleChange}
                     indicatorColor="secondary"
                 >
-                    <MenuItem disabled={!data.XS} value={"XS"}>XS</MenuItem>
-                    <MenuItem disabled={!data.S} value={"S"}>S</MenuItem>
-                    <MenuItem disabled={!data.M} value={"M"}>M</MenuItem>
-                    <MenuItem disabled={!data.L} value={"L"}>L</MenuItem>
-                    <MenuItem disabled={!data.XL} value={"XL"}>XL</MenuItem>
-                    <MenuItem disabled={!data.XXL}value={"XXL"}>XXL</MenuItem>
+                    {newData.map((item,idx)=>
+                        <MenuItem key={idx} disabled={!data[item]} value={item}>{item}</MenuItem>
+                    )}
                 </Select>
             </FormControl>
         </div>

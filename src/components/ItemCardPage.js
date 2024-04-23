@@ -18,9 +18,7 @@ const ItemCardPage = ({type, isSearch}) => {
         }
         return arr;
     }
-    let a = shuffle(randomData)
-    console.log(data)
-    console.log(randomData)
+    shuffle(randomData)
     return (
         <>
             {isSearch?

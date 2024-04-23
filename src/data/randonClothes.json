@@ -11,6 +11,7 @@
     "SPECIAL": false,
     "ID": 1,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -18,9 +19,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250443_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250414_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250416_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250443_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250414_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/23/14/83/85/23148385_53250416_1000.jpg"
+    }
   },
   {
     "NAME": "printed \"Cotton Wreath\" hoodie",
@@ -34,6 +37,7 @@
     "SPECIAL": false,
     "ID": 2,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -41,9 +45,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374441_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374439_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374443_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374441_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374439_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/46/85/97/22468597_52374443_2048.jpg"
+    }
   },
   {
     "NAME": "Cotton Wreath-print track pants",
@@ -57,6 +63,7 @@
     "SPECIAL": false,
     "ID": 3,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -64,9 +71,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184645_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184663_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184659_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184645_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184663_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/99/58/53/22995853_53184659_2048.jpg"
+    }
   },
   {
     "NAME": "Cotton Wreath-print hoodie",
@@ -80,6 +89,7 @@
     "SPECIAL": false,
     "ID": 4,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -87,9 +97,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514239_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514241_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514237_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514239_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514241_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/23/60/81/35/23608135_53514237_2048.jpg"
+    }
   },
   {
     "NAME": "drawstring \"Cotton Wreath\" track pants",
@@ -103,6 +115,7 @@
     "SPECIAL": false,
     "ID": 5,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -110,9 +123,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374296_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374294_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374302_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374296_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374294_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/46/90/62/22469062_52374302_1000.jpg"
+    }
   },
   {
     "NAME": "Cotton Wreath-print track pants",
@@ -126,6 +141,7 @@
     "SPECIAL": false,
     "ID": 6,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -133,9 +149,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184622_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184619_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184620_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184622_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184619_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/99/49/76/22994976_53184620_2048.jpg"
+    }
   },
   {
     "NAME": "Cotton Wreath-print track pants",
@@ -149,6 +167,7 @@
     "SPECIAL": false,
     "ID": 7,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -156,9 +175,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184638_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184649_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184657_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184638_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184649_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/99/58/52/22995852_53184657_2048.jpg"
+    }
   },
   {
     "NAME": "wreath-print cotton hoodie",
@@ -172,6 +193,7 @@
     "SPECIAL": false,
     "ID": 8,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -179,9 +201,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628391_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628372_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628378_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628391_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628372_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/63/91/80/22639180_52628378_2048.jpg"
+    }
   },
   {
     "NAME": "printed \"Cotton Wreath\" hoodie",
@@ -195,6 +219,7 @@
     "SPECIAL": false,
     "ID": 9,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -202,9 +227,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374270_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374257_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374256_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374270_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374257_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/46/90/60/22469060_52374256_2048.jpg"
+    }
   },
   {
     "NAME": "Stencil Type logo-print track pants",
@@ -218,6 +245,7 @@
     "SPECIAL": false,
     "ID": 10,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -225,9 +253,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/69/32/51/22693251_53080889_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/69/32/51/22693251_53080890_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/69/32/51/22693251_53080889_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/69/32/51/22693251_53080889_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/69/32/51/22693251_53080890_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/69/32/51/22693251_53080889_2048.jpg"
+    }
   },
   {
     "NAME": "logo-print cotton T-shirt",
@@ -241,6 +271,7 @@
     "SPECIAL": false,
     "ID": 11,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -248,9 +279,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/21/72/82/07/21728207_51903452_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/21/72/82/07/21728207_51903439_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/21/72/82/07/21728207_51903452_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/21/72/82/07/21728207_51903452_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/21/72/82/07/21728207_51903439_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/21/72/82/07/21728207_51903452_1000.jpg"
+    }
   },
   {
     "NAME": "logo-print zip-up jacket",
@@ -264,6 +297,7 @@
     "SPECIAL": false,
     "ID": 12,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -271,9 +305,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/21/72/82/12/21728212_51612785_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/21/72/82/12/21728212_51612776_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/21/72/82/12/21728212_51612785_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/21/72/82/12/21728212_51612785_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/21/72/82/12/21728212_51612776_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/21/72/82/12/21728212_51612785_2048.jpg"
+    }
   },
   {
     "NAME": "logo-print T-shirt",
@@ -287,6 +323,7 @@
     "SPECIAL": false,
     "ID": 13,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -294,9 +331,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/21/72/91/63/21729163_51624242_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/21/72/91/63/21729163_51611167_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/21/72/91/63/21729163_51624242_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/21/72/91/63/21729163_51624242_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/21/72/91/63/21729163_51611167_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/21/72/91/63/21729163_51624242_2048.jpg"
+    }
   },
   {
     "NAME": "Soccer long-sleeve T-shirt",
@@ -310,6 +349,7 @@
     "SPECIAL": false,
     "ID": 14,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -317,9 +357,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/21/72/33/00/21723300_51624276_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/21/72/33/00/21723300_51611001_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/21/72/33/00/21723300_51624276_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/21/72/33/00/21723300_51624276_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/21/72/33/00/21723300_51611001_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/21/72/33/00/21723300_51624276_2048.jpg"
+    }
   },
   {
     "NAME": "soccer-logo cotton track pants",
@@ -333,6 +375,7 @@
     "SPECIAL": false,
     "ID": 15,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -340,9 +383,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/21/72/32/79/21723279_51611656_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/21/72/32/79/21723279_51611655_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/21/72/32/79/21723279_51611656_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/21/72/32/79/21723279_51611656_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/21/72/32/79/21723279_51611655_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/21/72/32/79/21723279_51611656_2048.jpg"
+    }
   },
   {
     "NAME": "Tape Type cotton T-shirt",
@@ -356,6 +401,7 @@
     "SPECIAL": false,
     "ID": 16,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -363,9 +409,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199230_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199225_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199217_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199230_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199225_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199217_2048.jpg"
+    }
   },
   {
     "NAME": "Tape Type cotton T-shirt",
@@ -379,6 +427,7 @@
     "SPECIAL": false,
     "ID": 17,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -386,9 +435,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/19/36/99/56/19369956_44556276_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/19/36/99/56/19369956_44556265_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/19/36/99/56/19369956_44556276_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/19/36/99/56/19369956_44556276_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/19/36/99/56/19369956_44556265_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/19/36/99/56/19369956_44556276_2048.jpg"
+    }
   },
   {
     "NAME": "Caps Destroyed Flatground",
@@ -402,6 +453,7 @@
     "SPECIAL": false,
     "ID": 18,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -409,9 +461,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/16/19/29/65/16192965_32409377_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/16/19/29/65/16192965_32409378_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/16/19/29/65/16192965_32409380_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/16/19/29/65/16192965_32409377_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/16/19/29/65/16192965_32409378_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/16/19/29/65/16192965_32409380_2048.jpg"
+    }
   },
   {
     "NAME": "Cities Paris T-shirt",
@@ -425,6 +479,7 @@
     "SPECIAL": false,
     "ID": 19,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -432,9 +487,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/17/33/58/51/17335851_37569936_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/17/33/58/51/17335851_37569937_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/17/33/58/51/17335851_37572679_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/17/33/58/51/17335851_37569936_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/17/33/58/51/17335851_37569937_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/17/33/58/51/17335851_37572679_1000.jpg"
+    }
   },
   {
     "NAME": "Tape Type distressed hoodie",
@@ -448,6 +505,7 @@
     "SPECIAL": false,
     "ID": 20,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -455,9 +513,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/19/37/06/58/19370658_44804417_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/19/37/06/58/19370658_44804416_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/19/37/06/58/19370658_44805659_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/19/37/06/58/19370658_44804417_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/19/37/06/58/19370658_44804416_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/19/37/06/58/19370658_44805659_2048.jpg"
+    }
   },
   {
     "NAME": "Skater graffiti-print T-shirt",
@@ -471,6 +531,7 @@
     "SPECIAL": false,
     "ID": 21,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -478,9 +539,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/19/30/98/76/19309876_45251275_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/19/30/98/76/19309876_45251277_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/19/30/98/76/19309876_45251275_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/19/30/98/76/19309876_45251275_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/19/30/98/76/19309876_45251277_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/19/30/98/76/19309876_45251275_2048.jpg"
+    }
   },
   {
     "NAME": "hand-painted flared trousers",
@@ -494,6 +557,7 @@
     "SPECIAL": false,
     "ID": 22,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -501,9 +565,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/47/96/38/22479638_52436947_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/47/96/38/22479638_52429743_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/47/96/38/22479638_52436947_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/47/96/38/22479638_52436947_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/47/96/38/22479638_52429743_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/47/96/38/22479638_52436947_2048.jpg"
+    }
   },
   {
     "NAME": "logo-print zip-up hoodie",
@@ -517,6 +583,7 @@
     "SPECIAL": false,
     "ID": 23,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -524,9 +591,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/24/80/16/22248016_52135892_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/24/80/16/22248016_52135868_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/24/80/16/22248016_52135890_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/24/80/16/22248016_52135892_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/24/80/16/22248016_52135868_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/24/80/16/22248016_52135890_2048.jpg"
+    }
   },
   {
     "NAME": "LA Blvd flared jeans",
@@ -540,6 +609,7 @@
     "SPECIAL": false,
     "ID": 24,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -547,9 +617,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/20/08/25/55/20082555_50070839_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/20/08/25/55/20082555_50070793_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/20/08/25/55/20082555_50070838_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/20/08/25/55/20082555_50070839_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/20/08/25/55/20082555_50070793_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/20/08/25/55/20082555_50070838_2048.jpg"
+    }
   },
   {
     "NAME": "French-print cotton hoodie",
@@ -563,6 +635,7 @@
     "SPECIAL": false,
     "ID": 25,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -570,9 +643,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/24/80/12/22248012_52136149_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/24/80/12/22248012_52136188_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/24/80/12/22248012_52136173_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/24/80/12/22248012_52136149_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/24/80/12/22248012_52136188_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/24/80/12/22248012_52136173_1000.jpg"
+    }
   },
   {
     "NAME": "Eye Dye cotton T-shirt",
@@ -586,6 +661,7 @@
     "SPECIAL": false,
     "ID": 26,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -593,9 +669,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/60/31/92/22603192_52565546_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/60/31/92/22603192_52565545_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/60/31/92/22603192_52565544_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/60/31/92/22603192_52565546_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/60/31/92/22603192_52565545_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/60/31/92/22603192_52565544_1000.jpg"
+    }
   },
   {
     "NAME": "Property-print cotton hoodie",
@@ -609,6 +687,7 @@
     "SPECIAL": false,
     "ID": 27,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -616,9 +695,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/21/73/48/97/21734897_51953450_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/21/73/48/97/21734897_51940555_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/21/73/48/97/21734897_51940561_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/21/73/48/97/21734897_51953450_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/21/73/48/97/21734897_51940555_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/21/73/48/97/21734897_51940561_2048.jpg"
+    }
   },
   {
     "NAME": "logo-appliqué padded bucket hat",
@@ -632,6 +713,7 @@
     "SPECIAL": false,
     "ID": 28,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -639,9 +721,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/23/55/93/58/23559358_53525431_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/23/55/93/58/23559358_53525432_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/23/55/93/58/23559358_53525428_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/23/55/93/58/23559358_53525431_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/23/55/93/58/23559358_53525432_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/23/55/93/58/23559358_53525428_2048.jpg"
+    }
   },
   {
     "NAME": "Staggered logo-embroidered cotton hoodie",
@@ -655,6 +739,7 @@
     "SPECIAL": false,
     "ID": 29,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -662,9 +747,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/21/97/85/09/21978509_51792461_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/21/97/85/09/21978509_51792420_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/21/97/85/09/21978509_51785969_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/21/97/85/09/21978509_51792461_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/21/97/85/09/21978509_51792420_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/21/97/85/09/21978509_51785969_2048.jpg"
+    }
   },
   {
     "NAME": "Staggered-chrome cotton hoodie",
@@ -678,6 +765,7 @@
     "SPECIAL": false,
     "ID": 30,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -685,9 +773,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/59/42/69/22594269_48155565_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/59/42/69/22594269_48155570_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/59/42/69/22594269_48156218_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/59/42/69/22594269_48155565_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/59/42/69/22594269_48155570_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/59/42/69/22594269_48156218_1000.jpg"
+    }
   },
   {
     "NAME": "Core logo-print hoodie",
@@ -701,6 +791,7 @@
     "SPECIAL": false,
     "ID": 31,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -708,9 +799,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/60/34/74/22603474_52610722_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/60/34/74/22603474_52610724_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/60/34/74/22603474_52610723_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/60/34/74/22603474_52610722_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/60/34/74/22603474_52610724_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/60/34/74/22603474_52610723_2048.jpg"
+    }
   },
   {
     "NAME": "logo-print cotton hoodie",
@@ -724,6 +817,7 @@
     "SPECIAL": false,
     "ID": 32,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -731,9 +825,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/21/00/12/95/21001295_51078087_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/21/00/12/95/21001295_51078089_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/21/00/12/95/21001295_51078092_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/21/00/12/95/21001295_51078087_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/21/00/12/95/21001295_51078089_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/21/00/12/95/21001295_51078092_2048.jpg"
+    }
   },
   {
     "NAME": "MX1 skinny jeans",
@@ -747,6 +843,7 @@
     "SPECIAL": false,
     "ID": 33,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -754,9 +851,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/77/39/89/22773989_52908836_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/77/39/89/22773989_52908830_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/77/39/89/22773989_52908828_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/77/39/89/22773989_52908836_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/77/39/89/22773989_52908830_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/77/39/89/22773989_52908828_2048.jpg"
+    }
   },
   {
     "NAME": "Vintage Tiger cotton T-shirt",
@@ -770,6 +869,7 @@
     "SPECIAL": false,
     "ID": 34,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -777,9 +877,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/20/32/62/28/20326228_50384282_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/20/32/62/28/20326228_50384269_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/20/32/62/28/20326228_50384255_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/20/32/62/28/20326228_50384282_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/20/32/62/28/20326228_50384269_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/20/32/62/28/20326228_50384255_2048.jpg"
+    }
   },
   {
     "NAME": "AMIRI M.A. Bar logo-print hoodie",
@@ -793,6 +895,7 @@
     "SPECIAL": false,
     "ID": 35,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -800,9 +903,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/20/21/64/49/20216449_50171346_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/20/21/64/49/20216449_50171344_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/20/21/64/49/20216449_50171345_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/20/21/64/49/20216449_50171346_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/20/21/64/49/20216449_50171344_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/20/21/64/49/20216449_50171345_2048.jpg"
+    }
   },
   {
     "NAME": "loose zipped hoodie with celine screen print in cotton fleece",
@@ -816,6 +921,7 @@
     "SPECIAL": false,
     "ID": 36,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -823,9 +929,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://twicpics.celine.com/product-prd/images/large/2Y497670Q.38AW_1_WIN22_V3.jpg?twic=v1/resize-max=1600/quality-min=100",
-    "URL_2": "https://twicpics.celine.com/product-prd/images/large/2Y497670Q.38AW_2_WIN22_V3.jpg?twic=v1/resize-max=1600/quality-min=100",
-    "URL_3": "https://twicpics.celine.com/product-prd/images/large/2Y497670Q.38AW_3_SUM22.jpg?twic=v1/resize-max=1600/quality-min=100"
+    "PHOTOS": {
+      "URL_1": "https://twicpics.celine.com/product-prd/images/large/2Y497670Q.38AW_1_WIN22_V3.jpg?twic=v1/resize-max=1600/quality-min=100",
+      "URL_2": "https://twicpics.celine.com/product-prd/images/large/2Y497670Q.38AW_2_WIN22_V3.jpg?twic=v1/resize-max=1600/quality-min=100",
+      "URL_3": "https://twicpics.celine.com/product-prd/images/large/2Y497670Q.38AW_3_SUM22.jpg?twic=v1/resize-max=1600/quality-min=100"
+    }
   },
   {
     "NAME": "loose t-shirt with celine print in cotton jersey",
@@ -839,6 +947,7 @@
     "SPECIAL": false,
     "ID": 37,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -846,9 +955,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://twicpics.celine.com/product-prd/images/large/2X764671Q.38AW_1_WIN21_W_V9.jpg?twic=v1/resize-max=1600/quality-min=100",
-    "URL_2": "https://twicpics.celine.com/product-prd/images/large/2X764671Q.38AW_2_WIN21_W_V9.jpg?twic=v1/resize-max=1600/quality-min=100",
-    "URL_3": "https://twicpics.celine.com/product-prd/images/large/2X764671Q.38AW_3_WIN21_W_V9.jpg?twic=v1/resize-max=1600/quality-min=100"
+    "PHOTOS": {
+      "URL_1": "https://twicpics.celine.com/product-prd/images/large/2X764671Q.38AW_1_WIN21_W_V9.jpg?twic=v1/resize-max=1600/quality-min=100",
+      "URL_2": "https://twicpics.celine.com/product-prd/images/large/2X764671Q.38AW_2_WIN21_W_V9.jpg?twic=v1/resize-max=1600/quality-min=100",
+      "URL_3": "https://twicpics.celine.com/product-prd/images/large/2X764671Q.38AW_3_WIN21_W_V9.jpg?twic=v1/resize-max=1600/quality-min=100"
+    }
   },
   {
     "NAME": "loose hoodie with celine print in cotton fleece ",
@@ -862,6 +973,7 @@
     "SPECIAL": false,
     "ID": 38,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -869,9 +981,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://twicpics.celine.com/product-prd/images/large/2Y321670Q.38AW_1_SUM21_V10.jpg?twic=v1/resize-max=1600/quality-min=100",
-    "URL_2": "https://twicpics.celine.com/product-prd/images/large/2Y321670Q.38AW_4_SUM21_V10.jpg?twic=v1/resize-max=1600/quality-min=100",
-    "URL_3": "https://twicpics.celine.com/product-prd/images/large/2Y321670Q.38AW_7_SUM21_V10.jpg?twic=v1/resize-max=1600/quality-min=100"
+    "PHOTOS": {
+      "URL_1": "https://twicpics.celine.com/product-prd/images/large/2Y321670Q.38AW_1_SUM21_V10.jpg?twic=v1/resize-max=1600/quality-min=100",
+      "URL_2": "https://twicpics.celine.com/product-prd/images/large/2Y321670Q.38AW_4_SUM21_V10.jpg?twic=v1/resize-max=1600/quality-min=100",
+      "URL_3": "https://twicpics.celine.com/product-prd/images/large/2Y321670Q.38AW_7_SUM21_V10.jpg?twic=v1/resize-max=1600/quality-min=100"
+    }
   },
   {
     "NAME": "triangle-logo cotton polo shirt",
@@ -885,6 +999,7 @@
     "SPECIAL": false,
     "ID": 39,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -892,9 +1007,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/23/32/63/21/23326321_53412186_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/23/32/63/21/23326321_53388466_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/23/32/63/21/23326321_53388467_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/23/32/63/21/23326321_53412186_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/23/32/63/21/23326321_53388466_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/23/32/63/21/23326321_53388467_1000.jpg"
+    }
   },
   {
     "NAME": "contrast-stitching denim shirt",
@@ -908,6 +1025,7 @@
     "SPECIAL": false,
     "ID": 40,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -915,9 +1033,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/20/51/25/04/20512504_50519425_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/20/51/25/04/20512504_50519424_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/20/51/25/04/20512504_50519423_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/20/51/25/04/20512504_50519425_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/20/51/25/04/20512504_50519424_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/20/51/25/04/20512504_50519423_2048.jpg"
+    }
   },
   {
     "NAME": "Re-Nylon panelled T-shirt",
@@ -931,6 +1051,7 @@
     "SPECIAL": false,
     "ID": 41,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -938,9 +1059,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/19/73/58/34/19735834_44127944_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/19/73/58/34/19735834_44127945_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/19/73/58/34/19735834_44127949_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/19/73/58/34/19735834_44127944_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/19/73/58/34/19735834_44127945_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/19/73/58/34/19735834_44127949_2048.jpg"
+    }
   },
   {
     "NAME": "check-hood cotton hoodie",
@@ -954,6 +1077,7 @@
     "SPECIAL": false,
     "ID": 42,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -961,9 +1085,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/18/58/34/08/18583408_40116736_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/18/58/34/08/18583408_40116733_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/18/58/34/08/18583408_40114973_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/18/58/34/08/18583408_40116736_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/18/58/34/08/18583408_40116733_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/18/58/34/08/18583408_40114973_2048.jpg"
+    }
   },
   {
     "NAME": "checkered-collar cotton polo shirt",
@@ -977,6 +1103,7 @@
     "SPECIAL": false,
     "ID": 43,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -984,9 +1111,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/20/86/87/46/20868746_50766222_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/20/86/87/46/20868746_50766228_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/20/86/87/46/20868746_50766229_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/20/86/87/46/20868746_50766222_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/20/86/87/46/20868746_50766228_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/20/86/87/46/20868746_50766229_2048.jpg"
+    }
   },
   {
     "NAME": "Vintage Check print swim shorts",
@@ -1000,6 +1129,7 @@
     "SPECIAL": false,
     "ID": 44,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -1007,9 +1137,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/14/13/14/01/14131401_18736242_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/14/13/14/01/14131401_18736245_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/14/13/14/01/14131401_18736252_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/14/13/14/01/14131401_18736242_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/14/13/14/01/14131401_18736245_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/14/13/14/01/14131401_18736252_2048.jpg"
+    }
   },
   {
     "NAME": "reversible Vintage Check jacket",
@@ -1023,6 +1155,7 @@
     "SPECIAL": false,
     "ID": 45,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -1030,9 +1163,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/15/20/32/27/15203227_53434558_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/15/20/32/27/15203227_53434569_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/15/20/32/27/15203227_53434585_1000.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/15/20/32/27/15203227_53434558_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/15/20/32/27/15203227_53434569_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/15/20/32/27/15203227_53434585_1000.jpg"
+    }
   },
   {
     "NAME": "checkered cotton shirt",
@@ -1046,6 +1181,7 @@
     "SPECIAL": false,
     "ID": 46,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -1053,9 +1189,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/20/87/66/55/20876655_50767597_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/20/87/66/55/20876655_50767606_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/20/87/66/55/20876655_50767603_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/20/87/66/55/20876655_50767597_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/20/87/66/55/20876655_50767606_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/20/87/66/55/20876655_50767603_2048.jpg"
+    }
   },
   {
     "NAME": "contrasting-collar cotton polo shirt",
@@ -1069,6 +1207,7 @@
     "SPECIAL": false,
     "ID": 47,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -1076,9 +1215,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/22/58/19/51/22581951_52595489_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/22/58/19/51/22581951_52595497_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/22/58/19/51/22581951_52595495_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/58/19/51/22581951_52595489_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/58/19/51/22581951_52595497_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/58/19/51/22581951_52595495_2048.jpg"
+    }
   },
   {
     "NAME": "Icon Stripe placket piqué polo shirt",
@@ -1092,6 +1233,7 @@
     "SPECIAL": false,
     "ID": 48,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -1099,9 +1241,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/14/06/18/26/14061826_18459576_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/14/06/18/26/14061826_18459577_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/14/06/18/26/14061826_18459580_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/14/06/18/26/14061826_18459576_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/14/06/18/26/14061826_18459577_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/14/06/18/26/14061826_18459580_2048.jpg"
+    }
   },
   {
     "NAME": "oversized check shirt",
@@ -1115,6 +1259,7 @@
     "SPECIAL": false,
     "ID": 49,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -1122,9 +1267,11 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/14/52/95/75/14529575_24904805_1000.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/14/52/95/75/14529575_24904809_2048.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/14/52/95/75/14529575_24904812_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/14/52/95/75/14529575_24904805_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/14/52/95/75/14529575_24904809_2048.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/14/52/95/75/14529575_24904812_2048.jpg"
+    }
   },
   {
     "NAME": "Vintage-check print shirt jacket",
@@ -1138,6 +1285,7 @@
     "SPECIAL": false,
     "ID": 50,
     "SIZE": {
+      "XXS": false,
       "XS": false,
       "S": false,
       "M": true,
@@ -1145,8 +1293,10 @@
       "XL": true,
       "XXL": true
     },
-    "URL_1": "https://cdn-images.farfetch-contents.com/20/46/79/91/20467991_50440321_2048.jpg",
-    "URL_2": "https://cdn-images.farfetch-contents.com/20/46/79/91/20467991_50440304_1000.jpg",
-    "URL_3": "https://cdn-images.farfetch-contents.com/20/46/79/91/20467991_50440305_2048.jpg"
+    "PHOTOS": {
+      "URL_1": "https://cdn-images.farfetch-contents.com/20/46/79/91/20467991_50440321_2048.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/20/46/79/91/20467991_50440304_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/20/46/79/91/20467991_50440305_2048.jpg"
+    }
   }
 ]
