@@ -7,7 +7,6 @@ import {Autoplay, Pagination, Scrollbar} from "swiper/modules";
 const SwiperComponent = ({photos,swiperClasses = "swiper", imageClasses = "image", autoplay= false}) => {
     let newPhotos = []
     for(const key in photos){newPhotos.push(key)}
-    console.log(newPhotos)
     return (
         <Swiper
             grabCursor={true}

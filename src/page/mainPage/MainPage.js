@@ -1,11 +1,10 @@
 import React, {useState} from 'react';
 import Header from "../../components/Header";
-import SwiperComponent from "../../components/SwiperComponent";
 import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import TabsComponent from "../../components/Tabs";
 import ItemCardPage from "../../components/ItemCardPage";
-import {useSelector} from "react-redux";
+import Order from "../../components/Order";
 
 const GetCategories=({action, isSearch})=>{
     return <Container classname={"flex-wrap"} inner={<ItemCardPage type={action} isSearch={isSearch}/>}/>
@@ -21,11 +20,13 @@ const MainPage = () => {
         {value: "ACCESSORIES",label:"Аксессуары"},
         {value: "SPECIALS",label:"Скидки"}
     ]
+    const [isModal, setModalOrder] = useState(false)
     const [value,setValue] = useState(categoriesSelect?.[0].value)
     const [input, setInput] = useState("")
     return (
         <>
-            <Header input={input} setInput={setInput} isSearch={true}></Header>
+            <Order isModal={isModal} setModalOrder={setModalOrder}/>
+            <Header input={input} setInput={setInput} isSearch={true} setModalOrder={setModalOrder}></Header>
             <Container inner={
                 <>
                     <TabsComponent categoriesSelect={categoriesSelect} value={value} setValue={setValue} setInput={setInput}/>

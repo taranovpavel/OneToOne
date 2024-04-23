@@ -8,6 +8,8 @@ import SwiperComponent from "../../components/SwiperComponent";
 import classes from "./ClothesInfoPage.module.css";
 import Button from "../../components/Button";
 import MultipleSelector from "../../components/MultipleSelector";
+import {useSelector} from "react-redux";
+import Order from "../../components/Order";
 
 const ClothesInfoPage = () => {
     const {id} = useParams()
@@ -19,9 +21,11 @@ const ClothesInfoPage = () => {
             }
         }
     }
+    const {isModal} = useSelector(state => state.MainSlice)
     const [size,setSize] = useState(sizeFunction)
     return (
         <>
+            <Order isModal={isModal}/>
             <Header></Header>
             <Container classname={"flex"} inner={
                 <>
