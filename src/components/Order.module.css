@@ -2,7 +2,7 @@
     display: flex;
     flex-direction: column;
     gap: 16px;
-    width: 454px;
+    width: 474px;
 }
 .inputs input {
     padding: 10px 14px;
@@ -18,7 +18,7 @@
 }
 .promocode input{
     padding: 10px 14px;
-    width: 290px;
+    width: 310px;
 }
 .orderModal{
     z-index: 11;
