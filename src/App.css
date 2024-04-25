@@ -115,5 +115,31 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
 }
-
-
+.round:hover{
+    background-color: #151515;
+    color: #fafafa;
+}
+.small:hover{
+    background-color: #151515;
+    color: #fafafa;
+}
+.small100:hover{
+    background-color: #151515;
+    color: #fafafa;
+}
+.medium:hover{
+    background-color: #151515;
+    color: #fafafa;
+}
+.small:active{
+    scale: 90%;
+}
+.round:active{
+    scale: 90%;
+}
+.small100:active{
+    scale: 90%;
+}
+.medium:active{
+    scale: 90%;
+}

@@ -49,10 +49,7 @@ const itemsSlice = createSlice({
             state.items[action.payload].isDelete = true
             state.items = state.items.filter((obj) => obj.isDelete !== true)
         },
-        clearItems:(state,action)=>{
-            state.items = []
-        }
     }
 })
-export const {addItem,setModalOrder,deleteItem, minusValue,plusValue, clearItems} = itemsSlice.actions
+export const {addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
 export default itemsSlice.reducer

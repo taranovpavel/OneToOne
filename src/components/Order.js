@@ -8,16 +8,12 @@ const Order = () => {
     const {items,isModal} = useSelector(state => state.itemsReducer)
     const dispatch = useDispatch()
     let totalPrice = 0
-    let finalItems = []
     for(const item in items){
-        if (items[item].isDelete===false){
-            totalPrice += items[item].price*items[item].value
-            finalItems.push(items[item])
-        }
+        totalPrice += items[item].price*items[item].value
     }
-    if (finalItems.length === 0){
+    const deleteItemActions = (idx) =>{
+        dispatch(deleteItem(idx))
         dispatch(setModalOrder())
-        // dispatch(clearItems())
     }
     document.body.style.overflow = isModal?"hidden":"visible"
     return (
@@ -28,7 +24,7 @@ const Order = () => {
                 <div className={classes.order}>
                     <p className={classes.label}>Ваш заказ</p>
                     <div className={classes.orders}>
-                        {finalItems.map((item,idx)=>
+                        {items.map((item,idx)=>
                             <div className={classes.items} key={idx}>
                                 <div className={classes.left}>
                                     <div className={classes.image} style={{backgroundImage: `url(${item.url})`}}/>
@@ -44,7 +40,7 @@ const Order = () => {
                                     <p>{item.value}</p>
                                     <Button size={"round"} onclick={()=>dispatch(plusValue(idx))} inner={"+"}/>
                                 </div>
-                                <Button size={"round"} onclick={()=>dispatch(deleteItem(idx))} inner={"×"}/>
+                                <Button size={"round"} onclick={()=>deleteItemActions(idx)} inner={"×"}/>
                             </div>
                         )}
                     </div>
