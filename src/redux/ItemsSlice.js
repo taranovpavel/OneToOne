@@ -33,6 +33,8 @@ const itemsSlice = createSlice({
         setModalOrder:(state,action)=>{
             if (action.payload===true){
                 state.isModal = state.items.length > 0;
+            }else if(action.payload===false){
+                state.isModal = state.items.length !== 0;
             }else{
                 state.isModal = false
             }

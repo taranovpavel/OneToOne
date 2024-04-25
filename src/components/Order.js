@@ -2,7 +2,7 @@ import React from 'react';
 import classes from "./Order.module.css";
 import { ReactComponent as Cross} from "../images/icon-cross.svg"
 import {useDispatch, useSelector} from "react-redux";
-import {clearItems, deleteItem, minusValue, plusValue, setModalOrder} from "../redux/ItemsSlice";
+import { deleteItem, minusValue, plusValue, setModalOrder} from "../redux/ItemsSlice";
 import Button from "./Button";
 const Order = () => {
     const {items,isModal} = useSelector(state => state.itemsReducer)
@@ -13,7 +13,7 @@ const Order = () => {
     }
     const deleteItemActions = (idx) =>{
         dispatch(deleteItem(idx))
-        dispatch(setModalOrder())
+        dispatch(setModalOrder(false))
     }
     document.body.style.overflow = isModal?"hidden":"visible"
     return (
