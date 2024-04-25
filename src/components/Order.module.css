@@ -104,3 +104,8 @@
 .address{
     width: 100%;
 }
+.value{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}

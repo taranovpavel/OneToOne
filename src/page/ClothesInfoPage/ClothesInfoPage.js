@@ -9,7 +9,7 @@ import classes from "./ClothesInfoPage.module.css";
 import Button from "../../components/Button";
 import MultipleSelector from "../../components/MultipleSelector";
 import {useDispatch, useSelector} from "react-redux";
-import {addItem, setModalOrder} from "../../redux/ItemsSlice";
+import {addItem, setModalOrder, setNewArray} from "../../redux/ItemsSlice";
 
 const ClothesInfoPage = () => {
     const {id} = useParams()
@@ -33,6 +33,8 @@ const ClothesInfoPage = () => {
           size: size,
           price: clothes.PRICE,
           value: 1,
+          fullName: clothes.NAME,
+          isDelete: false,
           id: clothes.ID
       }))
       dispatch(setModalOrder(true))
