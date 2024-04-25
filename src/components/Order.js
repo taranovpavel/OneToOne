@@ -10,6 +10,7 @@ const Order = () => {
     for(const item in items){
         totalPrice += items[item].price
     }
+    document.body.style.overflow = isModal?"hidden":"visible"
     return (
         <>
             <Cross style={{display: `${isModal?"block":"none"}`}} onClick={()=>dispatch(setModalOrder())} className={classes.cross}/>
