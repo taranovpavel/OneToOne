@@ -3,6 +3,7 @@ import classes from "./Order.module.css";
 import { ReactComponent as Cross} from "../images/icon-cross.svg"
 import {useDispatch, useSelector} from "react-redux";
 import {setModalOrder} from "../redux/ItemsSlice";
+import Button from "./Button";
 const Order = () => {
     const {items,isModal} = useSelector(state => state.itemsReducer)
     const dispatch = useDispatch()
@@ -40,18 +41,19 @@ const Order = () => {
                         <input type="text" placeholder={"Telegram"}/>
                         <input type="text" placeholder={"e-mail"}/>
                         <input type="text" placeholder={"Индес"}/>
-                        <div>
+                        <div className={classes.address}>
                             <input type="text" placeholder={"Полный адрес"}/>
                             <p className={classes.free}>доставка по снг бесплатная</p>
                         </div>
                         <div>
                             <div className={classes.promocode}>
                                 <input type="text" placeholder={"Промокод"}/>
-                                <button>активировать</button>
+                                <Button inner={"активировать"} size={"small"}/>
                             </div>
                             <p>Промокоды можно найти у нас в <a href="">Tic-Tok</a></p>
                         </div>
-                        <button className={classes.checkout}>оформить заказ</button>
+                        <Button inner={"оформить заказ"} size={"small100"}/>
+                        {/*<button className={classes.checkout}>оформить заказ</button>*/}
                     </div>
                 </div>
             </div>

@@ -66,3 +66,34 @@ body{
     width: 105px !important;
     padding: 10px !important;
 }
+.small{
+    padding: 10px 14px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    border: 2px solid #151515;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+.small100{
+    width: 100%;
+    padding: 10px 14px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    border: 2px solid #151515;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+}
+.medium{
+    padding: 15px 30px;
+    background-color: #fafafa;
+    border-radius: 6px;
+    border: 2px solid #151515;
+    transition: 0.3s;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 700;
+}

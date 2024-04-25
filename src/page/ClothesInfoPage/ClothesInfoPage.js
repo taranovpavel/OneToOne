@@ -50,7 +50,7 @@ const ClothesInfoPage = () => {
                         <p className={classes.name}>{clothes.TYPE_RUS} {clothes.BRAND}</p>
                         <p className={classes.price}>${clothes.PRICE}</p>
                         <div className={classes.buttons}>
-                            <Button onclick={addItemAction} inner={"BUY NOW"}></Button>
+                            <Button onclick={addItemAction} inner={"КУПИТЬ"}></Button>
                             <MultipleSelector size={size} setSize={setSize} data={clothes.SIZE}/>
                         </div>
                         <p className={classes.composition}>Состав: {clothes.COMPOSITION_RUS}</p>

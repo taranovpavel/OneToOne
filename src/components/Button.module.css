@@ -1,19 +1,7 @@
-.Button{
-    padding: 15px 30px;
-    background-color: #fafafa;
-    border-radius: 6px;
-    border: 2px solid #151515;
-    transition: 0.3s;
-    cursor: pointer;
-}
-.Button:hover{
+button:hover{
     background-color: #151515;
     color: #fafafa;
 }
-.Button:active{
+button:active{
     scale: 90%;
-}
-.Button p {
-    font-size: 16px;
-    font-weight: 700;
 }
