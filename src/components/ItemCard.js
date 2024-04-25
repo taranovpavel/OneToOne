@@ -7,7 +7,7 @@ const ItemCard = ({clothes}) => {
             <div className={classes.card}>
                 <SwiperComponent photos={clothes.PHOTOS}/>
                 <p className={classes.name}>{clothes.TYPE_RUS} {clothes.BRAND}</p>
-                <p className={classes.price}>{clothes.PRICE}</p>
+                <p className={classes.price}>${clothes.PRICE}</p>
             </div>
         </Link>
     );

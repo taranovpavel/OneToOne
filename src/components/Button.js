@@ -1,8 +1,8 @@
 import React from 'react';
 import classes from "./Button.module.css"
-const Button = ({inner}) => {
+const Button = ({onclick,inner}) => {
     return (
-        <button className={classes.Button}>
+        <button onClick={onclick} className={classes.Button}>
             <p>{inner}</p>
         </button>
     );

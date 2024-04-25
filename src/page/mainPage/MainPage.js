@@ -4,7 +4,6 @@ import Container from "../../components/Container";
 import Footer from "../../components/Footer";
 import TabsComponent from "../../components/Tabs";
 import ItemCardPage from "../../components/ItemCardPage";
-import Order from "../../components/Order";
 
 const GetCategories=({action, isSearch})=>{
     return <Container classname={"flex-wrap"} inner={<ItemCardPage type={action} isSearch={isSearch}/>}/>
@@ -20,20 +19,18 @@ const MainPage = () => {
         {value: "ACCESSORIES",label:"Аксессуары"},
         {value: "SPECIALS",label:"Скидки"}
     ]
-    const [isModal, setModalOrder] = useState(false)
     const [value,setValue] = useState(categoriesSelect?.[0].value)
     const [input, setInput] = useState("")
     return (
         <>
-            <Order isModal={isModal} setModalOrder={setModalOrder}/>
-            <Header input={input} setInput={setInput} isSearch={true} setModalOrder={setModalOrder}></Header>
+            <Header input={input} setInput={setInput} isSearch={true}/>
             <Container inner={
                 <>
                     <TabsComponent categoriesSelect={categoriesSelect} value={value} setValue={setValue} setInput={setInput}/>
                     <GetCategories action={input===""?value:input} isSearch={input !== ""}/>
                 </>
             }/>
-            <Footer></Footer>
+            <Footer/>
         </>
     );
 };

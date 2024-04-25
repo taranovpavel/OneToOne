@@ -2,7 +2,7 @@
   {
     "NAME": "Cotton Wreath-print sweatshirt",
     "BRAND": "Denim Tears",
-    "PRICE": 100,
+    "PRICE": 118,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -28,7 +28,7 @@
   {
     "NAME": "printed \"Cotton Wreath\" hoodie",
     "BRAND": "Denim Tears",
-    "PRICE": "100$",
+    "PRICE": 118,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -54,7 +54,7 @@
   {
     "NAME": "Cotton Wreath-print track pants",
     "BRAND": "Denim Tears",
-    "PRICE": "100$",
+    "PRICE": 100,
     "TYPE": "PANTS",
     "TYPE_RUS": "Спортивные штаны",
     "TYPE_ENG": "Track pants",
@@ -80,7 +80,7 @@
   {
     "NAME": "Cotton Wreath-print hoodie",
     "BRAND": "Denim Tears",
-    "PRICE": "100$",
+    "PRICE": 118,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -106,7 +106,7 @@
   {
     "NAME": "drawstring \"Cotton Wreath\" track pants",
     "BRAND": "Denim Tears",
-    "PRICE": "100$",
+    "PRICE": 100,
     "TYPE": "PANTS",
     "TYPE_RUS": "Спортивные штаны",
     "TYPE_ENG": "Track pants",
@@ -132,7 +132,7 @@
   {
     "NAME": "Cotton Wreath-print track pants",
     "BRAND": "Denim Tears",
-    "PRICE": "100$",
+    "PRICE": 100,
     "TYPE": "PANTS",
     "TYPE_RUS": "Спортивные штаны",
     "TYPE_ENG": "Track pants",
@@ -158,7 +158,7 @@
   {
     "NAME": "Cotton Wreath-print track pants",
     "BRAND": "Denim Tears",
-    "PRICE": "100$",
+    "PRICE": 100,
     "TYPE": "PANTS",
     "TYPE_RUS": "Спортивные штаны",
     "TYPE_ENG": "Track pants",
@@ -184,7 +184,7 @@
   {
     "NAME": "wreath-print cotton hoodie",
     "BRAND": "Denim Tears",
-    "PRICE": "100$",
+    "PRICE": 118,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -210,7 +210,7 @@
   {
     "NAME": "printed \"Cotton Wreath\" hoodie",
     "BRAND": "Denim Tears",
-    "PRICE": "100$",
+    "PRICE": 118,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -236,7 +236,7 @@
   {
     "NAME": "Stencil Type logo-print track pants",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 128,
     "TYPE": "PANTS",
     "TYPE_RUS": "Спортивные штаны",
     "TYPE_ENG": "Track pants",
@@ -262,7 +262,7 @@
   {
     "NAME": "logo-print cotton T-shirt",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 58,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -288,7 +288,7 @@
   {
     "NAME": "logo-print zip-up jacket",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 160,
     "TYPE": "JACKETS",
     "TYPE_RUS": "Куртка",
     "TYPE_ENG": "Jacket",
@@ -314,7 +314,7 @@
   {
     "NAME": "logo-print T-shirt",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 60,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -340,7 +340,7 @@
   {
     "NAME": "Soccer long-sleeve T-shirt",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 92,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Лонгслив",
     "TYPE_ENG": "Long-sleeve",
@@ -366,7 +366,7 @@
   {
     "NAME": "soccer-logo cotton track pants",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 128,
     "TYPE": "PANTS",
     "TYPE_RUS": "Спортивные штаны",
     "TYPE_ENG": "Track pants",
@@ -390,12 +390,12 @@
     }
   },
   {
-    "NAME": "Tape Type cotton T-shirt",
+    "NAME": "Surfer graphic-print cotton vest",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 80,
     "TYPE": "T-SHIRTS",
-    "TYPE_RUS": "Футболка",
-    "TYPE_ENG": "T-shirt",
+    "TYPE_RUS": "Майка",
+    "TYPE_ENG": "Vest",
     "COMPOSITION_RUS": "Хлопок 100%",
     "COMPOSITION_ENG": "Cotton 100%",
     "SPECIAL": false,
@@ -410,15 +410,15 @@
       "XXL": true
     },
     "PHOTOS": {
-      "URL_1": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199230_2048.jpg",
-      "URL_2": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199225_2048.jpg",
-      "URL_3": "https://cdn-images.farfetch-contents.com/23/05/06/65/23050665_53199217_2048.jpg"
+      "URL_1": "https://cdn-images.farfetch-contents.com/22/13/68/25/22136825_52828907_1000.jpg",
+      "URL_2": "https://cdn-images.farfetch-contents.com/22/13/68/25/22136825_52828904_1000.jpg",
+      "URL_3": "https://cdn-images.farfetch-contents.com/22/13/68/25/22136825_52828901_1000.jpg"
     }
   },
   {
     "NAME": "Tape Type cotton T-shirt",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 56,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -444,7 +444,7 @@
   {
     "NAME": "Caps Destroyed Flatground",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 50,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -470,7 +470,7 @@
   {
     "NAME": "Cities Paris T-shirt",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 50,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -496,7 +496,7 @@
   {
     "NAME": "Tape Type distressed hoodie",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 150,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Лонгслив",
     "TYPE_ENG": "Long-sleeve",
@@ -522,7 +522,7 @@
   {
     "NAME": "Skater graffiti-print T-shirt",
     "BRAND": "Balenciaga",
-    "PRICE": "100$",
+    "PRICE": 83,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -548,7 +548,7 @@
   {
     "NAME": "hand-painted flared trousers",
     "BRAND": "GALLERY DEPT",
-    "PRICE": "100$",
+    "PRICE": 83,
     "TYPE": "PANTS",
     "TYPE_RUS": "Брюки",
     "TYPE_ENG": "Trousers",
@@ -574,7 +574,7 @@
   {
     "NAME": "logo-print zip-up hoodie",
     "BRAND": "GALLERY DEPT",
-    "PRICE": "100$",
+    "PRICE": 133,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Зип худи",
     "TYPE_ENG": "Zip-up hoodie",
@@ -600,7 +600,7 @@
   {
     "NAME": "LA Blvd flared jeans",
     "BRAND": "GALLERY DEPT",
-    "PRICE": "100$",
+    "PRICE": 136,
     "TYPE": "PANTS",
     "TYPE_RUS": "Джинсы",
     "TYPE_ENG": "Jeans",
@@ -626,7 +626,7 @@
   {
     "NAME": "French-print cotton hoodie",
     "BRAND": "GALLERY DEPT",
-    "PRICE": "100$",
+    "PRICE": 118,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -652,7 +652,7 @@
   {
     "NAME": "Eye Dye cotton T-shirt",
     "BRAND": "GALLERY DEPT",
-    "PRICE": "100$",
+    "PRICE": 63,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -678,7 +678,7 @@
   {
     "NAME": "Property-print cotton hoodie",
     "BRAND": "GALLERY DEPT",
-    "PRICE": "100$",
+    "PRICE": 120,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -704,7 +704,7 @@
   {
     "NAME": "logo-appliqué padded bucket hat",
     "BRAND": "PRADA",
-    "PRICE": "100$",
+    "PRICE": 50,
     "TYPE": "ACCESSORIES",
     "TYPE_RUS": "Панамка",
     "TYPE_ENG": "Bucket hat",
@@ -730,7 +730,7 @@
   {
     "NAME": "Staggered logo-embroidered cotton hoodie",
     "BRAND": "AMIRI",
-    "PRICE": "100$",
+    "PRICE": 110,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -756,7 +756,7 @@
   {
     "NAME": "Staggered-chrome cotton hoodie",
     "BRAND": "AMIRI",
-    "PRICE": "100$",
+    "PRICE": 100,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -782,7 +782,7 @@
   {
     "NAME": "Core logo-print hoodie",
     "BRAND": "AMIRI",
-    "PRICE": "100$",
+    "PRICE": 110,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -808,7 +808,7 @@
   {
     "NAME": "logo-print cotton hoodie",
     "BRAND": "AMIRI",
-    "PRICE": "100$",
+    "PRICE": 100,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -834,7 +834,7 @@
   {
     "NAME": "MX1 skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": "100$",
+    "PRICE": 110,
     "TYPE": "PANTS",
     "TYPE_RUS": "Скинни джинсы",
     "TYPE_ENG": "Skinny jeans",
@@ -860,7 +860,7 @@
   {
     "NAME": "Vintage Tiger cotton T-shirt",
     "BRAND": "AMIRI",
-    "PRICE": "100$",
+    "PRICE": 82,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -886,7 +886,7 @@
   {
     "NAME": "AMIRI M.A. Bar logo-print hoodie",
     "BRAND": "AMIRI",
-    "PRICE": "100$",
+    "PRICE": 108,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -912,7 +912,7 @@
   {
     "NAME": "loose zipped hoodie with celine screen print in cotton fleece",
     "BRAND": "CELINE",
-    "PRICE": "100$",
+    "PRICE": 170,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Зип худи",
     "TYPE_ENG": "Zip hoodie",
@@ -938,7 +938,7 @@
   {
     "NAME": "loose t-shirt with celine print in cotton jersey",
     "BRAND": "CELINE",
-    "PRICE": "100$",
+    "PRICE": 55,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -964,7 +964,7 @@
   {
     "NAME": "loose hoodie with celine print in cotton fleece ",
     "BRAND": "CELINE",
-    "PRICE": "100$",
+    "PRICE": 160,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -990,7 +990,7 @@
   {
     "NAME": "triangle-logo cotton polo shirt",
     "BRAND": "PRADA",
-    "PRICE": "100$",
+    "PRICE": 58,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Поло",
     "TYPE_ENG": "Polo",
@@ -1016,7 +1016,7 @@
   {
     "NAME": "contrast-stitching denim shirt",
     "BRAND": "PRADA",
-    "PRICE": "100$",
+    "PRICE": 150,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Рубашка",
     "TYPE_ENG": "Shirt",
@@ -1042,7 +1042,7 @@
   {
     "NAME": "Re-Nylon panelled T-shirt",
     "BRAND": "PRADA",
-    "PRICE": "100$",
+    "PRICE": 50,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Футболка",
     "TYPE_ENG": "T-shirt",
@@ -1068,7 +1068,7 @@
   {
     "NAME": "check-hood cotton hoodie",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 168,
     "TYPE": "HOODIES",
     "TYPE_RUS": "Худи",
     "TYPE_ENG": "Hoodie",
@@ -1094,7 +1094,7 @@
   {
     "NAME": "checkered-collar cotton polo shirt",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 85,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Поло",
     "TYPE_ENG": "Polo",
@@ -1120,7 +1120,7 @@
   {
     "NAME": "Vintage Check print swim shorts",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 80,
     "TYPE": "PANTS",
     "TYPE_RUS": "Шорты",
     "TYPE_ENG": "Shorts",
@@ -1146,7 +1146,7 @@
   {
     "NAME": "reversible Vintage Check jacket",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 162,
     "TYPE": "JACKETS",
     "TYPE_RUS": "Куртка",
     "TYPE_ENG": "Jacket",
@@ -1172,7 +1172,7 @@
   {
     "NAME": "checkered cotton shirt",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 155,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Рубашка",
     "TYPE_ENG": "Shirt",
@@ -1198,7 +1198,7 @@
   {
     "NAME": "contrasting-collar cotton polo shirt",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 85,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Поло",
     "TYPE_ENG": "Polo",
@@ -1224,7 +1224,7 @@
   {
     "NAME": "Icon Stripe placket piqué polo shirt",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 85,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Поло",
     "TYPE_ENG": "Polo",
@@ -1250,7 +1250,7 @@
   {
     "NAME": "oversized check shirt",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 150,
     "TYPE": "T-SHIRTS",
     "TYPE_RUS": "Рубашка оверсайз",
     "TYPE_ENG": "Oversized shirt",
@@ -1276,7 +1276,7 @@
   {
     "NAME": "Vintage-check print shirt jacket",
     "BRAND": "Burberry",
-    "PRICE": "100$",
+    "PRICE": 107,
     "TYPE": "JACKETS",
     "TYPE_RUS": "Куртка",
     "TYPE_ENG": "Jacket",

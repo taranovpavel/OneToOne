@@ -1,7 +1,7 @@
 import {configureStore} from "@reduxjs/toolkit";
-import MainSlice from "./MainSlice";
+import itemsReducer from './ItemsSlice';
 export const store = configureStore({
     reducer: {
-        MainSlice
+        itemsReducer
     }
 })
