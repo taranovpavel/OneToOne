@@ -9,7 +9,7 @@ import classes from "./ClothesInfoPage.module.css";
 import Button from "../../components/Button";
 import MultipleSelector from "../../components/MultipleSelector";
 import {useDispatch, useSelector} from "react-redux";
-import {addItem, setModalOrder, setNewArray} from "../../redux/ItemsSlice";
+import {addItem, setModalOrder} from "../../redux/ItemsSlice";
 
 const ClothesInfoPage = () => {
     const {id} = useParams()
@@ -28,14 +28,12 @@ const ClothesInfoPage = () => {
     const addItemAction = () => {
       dispatch(addItem({
           url: clothes.PHOTOS.URL_1,
-          name: clothes.TYPE_RUS,
+          name: clothes.TYPE==="SHOES"?clothes.NAME:clothes.TYPE_RUS,
           brand: clothes.BRAND,
           size: size,
           price: clothes.PRICE,
           value: 1,
-          fullName: clothes.NAME,
           isDelete: false,
-          id: clothes.ID
       }))
       dispatch(setModalOrder(true))
     }
@@ -49,13 +47,12 @@ const ClothesInfoPage = () => {
                     <SwiperComponent photos={clothes.PHOTOS} swiperClasses={"swiperBig"} imageClasses={"imageBig"}
                                      autoplay={true}/>
                     <div className={classes.text}>
-                        <p className={classes.name}>{clothes.TYPE_RUS} {clothes.BRAND}</p>
+                        <p className={classes.name}>{clothes.TYPE === "SHOES" ? clothes.NAME : clothes.TYPE_RUS} {clothes.BRAND}</p>
                         <p className={classes.price}>${clothes.PRICE}</p>
                         <div className={classes.buttons}>
                             <Button onclick={addItemAction} inner={"КУПИТЬ"}></Button>
                             <MultipleSelector size={size} setSize={setSize} data={clothes.SIZE}/>
                         </div>
-                        <p className={classes.composition}>Состав: {clothes.COMPOSITION_RUS}</p>
                         <p className={classes.secondaryText}>Бесплатная доставка по СНГ</p>
                         <p className={classes.secondaryText}>14-18 дней до склада, после переотправка в вашу
                             страну <br/>( в общей сложности 14-30 дней )</p>

@@ -62,7 +62,6 @@ const Order = () => {
                             </div>
                         </div>
                         <Button inner={"оформить заказ"} size={"small100"}/>
-                        {/*<button className={classes.checkout}>оформить заказ</button>*/}
                     </div>
                 </div>
             </div>
