@@ -6,7 +6,7 @@ import NothingFoundPage from "./NothingFoundPage";
 const ItemCardPage = ({type, isSearch}) => {
     let dataFilter
     if (isSearch===true){
-        dataFilter =  data.filter(item=> (item.NAME.toLowerCase()+item.TYPE_ENG.toLowerCase()+item.TYPE_RUS.toLowerCase()+item.BRAND.toLowerCase()).includes(type.toLowerCase()))
+        dataFilter =  data.filter(item=> (item.NAME.toLowerCase()+item.BRAND.toLowerCase()).includes(type.toLowerCase()))
     }
     function shuffle(arr){
         var j, temp;

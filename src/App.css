@@ -143,3 +143,22 @@ body{
 .medium:active{
     scale: 90%;
 }
+.inputs input {
+    padding: 10px 14px;
+    border-radius: 6px;
+    font-size: 18px;
+    border: 2px solid #151515;
+    width: 100%;
+}
+.inputs .error{
+    border: 2px solid #ca0e0e;
+}
+.inputs .good{
+    border: 2px solid #3dca0e;
+}
+.inputs{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 574px;
+}

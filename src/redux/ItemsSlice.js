@@ -1,11 +1,19 @@
-import {createSlice} from "@reduxjs/toolkit";
+import {createAsyncThunk, createSlice} from "@reduxjs/toolkit";
+
+export const getPost = createAsyncThunk(
+    "getPost",
+    async function(text,{dispatch}){
+        const response= await fetch(`https://api.telegram.org/bot6990935703:AAEgSTluzPSGkpm2WXQFk6Se7gax7_Be2TI/sendMessage?chat_id=-4114695078&text=${text}`)
+    }
+)
 
 const itemsSlice = createSlice({
     name: "postSlice",
     initialState: {
         items: [],
         isModal: false,
-        table: {}
+        table: {},
+        tab: "ALL"
     },
     reducers:{
         addItem:(state, action)=>{
@@ -51,7 +59,10 @@ const itemsSlice = createSlice({
             state.items[action.payload].isDelete = true
             state.items = state.items.filter((obj) => obj.isDelete !== true)
         },
+        setTab:(state,action)=>{
+            state.tab = action.payload
+        }
     }
 })
-export const {addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
+export const {setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
 export default itemsSlice.reducer
