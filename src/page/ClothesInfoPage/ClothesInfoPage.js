@@ -29,6 +29,7 @@ const ClothesInfoPage = () => {
       dispatch(addItem({
           url: clothes.PHOTOS.URL_1,
           name: clothes.TYPE==="SHOES"?clothes.NAME:clothes.TYPE_RUS,
+          fullName: clothes.NAME,
           brand: clothes.BRAND,
           size: size,
           price: clothes.PRICE,
@@ -37,8 +38,6 @@ const ClothesInfoPage = () => {
       }))
       dispatch(setModalOrder(true))
     }
-    console.log(items)
-
     return (
         <>
             <Header items={items}/>

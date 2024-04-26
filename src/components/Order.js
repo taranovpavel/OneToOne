@@ -7,7 +7,6 @@ import {deleteItem, getPost, minusValue, plusValue, setModalOrder} from "../redu
 import Button from "./Button";
 
 const Order = () => {
-    console.log(promocodes)
     const {items,isModal} = useSelector(state => state.itemsReducer)
     const email_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
     const number_REGEXP = /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/;
@@ -71,7 +70,11 @@ const Order = () => {
             console.log(classNames[key])
             if (classNames[key]==="error"){errors+=1}
         }
-        if (errors===0){dispatch(getPost("test"))}
+        if (errors===0)
+        {
+            dispatch(getPost(`ФИО:  ${data.fullName}%0AНомер:  ${data.number}%0AТелеграм:  ${data.telegram}%0AПочта:  ${data.email}%0AПочтовый Индекс:  ${data.index}%0AПолный адрес:  ${data.address}%0AЦена заказа:  ${totalPrice}`))
+            items.map((item)=>dispatch(getPost(`Название:  ${item.fullName}%0AБренд:  ${item.brand}%0AКоличество:  ${item.value}%0AРазмер:  ${item.size}`)))
+        }
     }
     const activetePromocode = () =>{
         for(const item in promocodes){
