@@ -1,0 +1,106 @@
+.promocode
+    display: flex
+    gap: 16px
+.promocode input
+    padding: 10px 14px
+    width: 410px
+    @media (max-width: 800px )
+        width: 154px
+    @media (max-width: 420px )
+        width: 114px
+.orderModal
+    z-index: 11
+    position: fixed
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    overflow: hidden
+    background-color: #fff
+    width: 670px
+    max-width: 100%
+    height: 85vh
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9)
+    border-radius: 8px
+    @media (max-width: 800px )
+        width: 400px
+    @media (max-width: 420px )
+        width: 360px
+.order
+    padding: 40px
+    width: 100%
+    height: 100%
+    overflow: hidden auto
+.background
+    z-index: 10
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+    background-color: rgba(0, 0, 0, 0.85)
+.orders
+    border-top: 1px solid #151515
+    border-bottom: 1px solid #151515
+    display: flex
+    flex-direction: column
+    gap: 10px
+    width: 100%
+.price
+    font-size: 20px
+    padding: 15px 0
+    width: 100%
+.label
+    font-size: 20px
+    padding: 0 0 15px
+    width: 374px
+.cross
+    position: absolute
+    right: 25px
+    top: 20px
+    z-index: 11
+.image
+    width: 100px
+    height: 100px
+    background-position: center
+    background-repeat: no-repeat
+    background-size: contain
+    transition: opacity 0.1s linear
+.items
+    width: 100%
+    padding: 10px
+    display: flex
+    justify-content: space-between
+    position: relative
+.text
+    display: flex
+    flex-direction: column
+    align-items: normal
+    width: 200px
+    @media (max-width: 800px )
+        width: 100%
+.left
+    display: flex
+    gap: 15px
+.name
+    font-size: 20px
+    font-weight: 700
+.address
+    width: 100%
+.value_big
+    display: flex
+    gap: 15px
+    align-items: center
+    @media (max-width: 800px )
+        display: none
+.value_small
+    gap: 15px
+    align-items: center
+    padding: 5px 0
+    display: none
+    @media (max-width: 800px )
+        display: flex
+.bigCross
+    display: block
+    @media (max-width: 800px )
+        display: none
+        

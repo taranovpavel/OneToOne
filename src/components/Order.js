@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import classes from "./Order.module.css";
+import classes from "./Order.module.sass";
 import { ReactComponent as Cross} from "../images/icon-cross.svg"
 import promocodes from '../data/promocodes.json'
 import {useDispatch, useSelector} from "react-redux";
@@ -100,18 +100,25 @@ const Order = () => {
                                 <div className={classes.left}>
                                     <div className={classes.image} style={{backgroundImage: `url(${item.url})`}}/>
                                     <div className={classes.text}>
-                                        <p className={classes.name}>{item.brand}</p>
-                                        <p className={classes.name}>{item.name}</p>
+                                        <p className={classes.name}>{item.brand} {item.name}</p>
                                         <p>размер: {item.size}</p>
-                                        <p>цена: ${item.price*item.value}</p>
+                                        <p>цена: ${item.price * item.value}</p>
+                                        <div className={classes.value_small}>
+                                            <Button size={"round"} onclick={() => dispatch(minusValue(idx))}
+                                                    inner={"-"}/>
+                                            <p>{item.value}</p>
+                                            <Button size={"round"} onclick={() => dispatch(plusValue(idx))}
+                                                    inner={"+"}/>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className={classes.value}>
-                                    <Button size={"round"} onclick={()=>dispatch(minusValue(idx))} inner={"-"}/>
+                                <div className={classes.value_big}>
+                                    <Button size={"round"} onclick={() => dispatch(minusValue(idx))} inner={"-"}/>
                                     <p>{item.value}</p>
-                                    <Button size={"round"} onclick={()=>dispatch(plusValue(idx))} inner={"+"}/>
+                                    <Button size={"round"} onclick={() => dispatch(plusValue(idx))} inner={"+"}/>
                                 </div>
-                                <Button size={"round"} onclick={()=>deleteItemActions(idx)} inner={"×"}/>
+                                <div className={classes.bigCross}><Button size={"round"} onclick={()=>deleteItemActions(idx)} inner={"×"}/></div>
+                                <Button size={"round_cross"} onclick={()=>deleteItemActions(idx)} inner={"×"}/>
                             </div>
                         )}
                     </div>

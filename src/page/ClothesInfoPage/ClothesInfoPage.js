@@ -5,7 +5,7 @@ import Container from "../../components/Container";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import SwiperComponent from "../../components/SwiperComponent";
-import classes from "./ClothesInfoPage.module.css";
+import classes from "./ClothesInfoPage.module.sass";
 import Button from "../../components/Button";
 import MultipleSelector from "../../components/MultipleSelector";
 import {useDispatch, useSelector} from "react-redux";

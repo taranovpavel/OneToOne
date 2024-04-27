@@ -5,6 +5,8 @@ import {setTab} from "../redux/ItemsSlice";
 const TabsComponent = ({categoriesSelect,setInput,valueKey= "value", labelKey = "label"}) => {
     const {tab} = useSelector(state => state.itemsReducer)
     const dispatch = useDispatch()
+    const windowInnerWidth = window.innerWidth
+    console.log(windowInnerWidth)
     const handleChange = (event,newValue) =>{
         dispatch(setTab(newValue))
         setInput("")
@@ -17,7 +19,7 @@ const TabsComponent = ({categoriesSelect,setInput,valueKey= "value", labelKey = 
                 onChange={handleChange}
                 textColor="secondary"
                 indicatorColor="secondary"
-                variant="scrollable"
+                variant={windowInnerWidth<961?"scrollable":"standard"}
                 scrollButtons="auto"
             >
                 {categoriesSelect.map((tab)=>

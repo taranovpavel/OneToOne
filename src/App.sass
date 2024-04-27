@@ -26,6 +26,10 @@ body
     padding: 30px 80px
     @media (max-width: 1440px )
         width: 100%
+    @media (max-width: 1220px )
+        flex-wrap: wrap
+        padding: 0 40px 15px
+
 .flex-wrap
     display: flex
     justify-content: center
@@ -55,12 +59,18 @@ body
     width: 480px
     margin: 0 !important
     padding: 40px 0 !important
+    @media (max-width: 1220px )
+        width: 100%
+        padding: 20px 0 !important
+    @media (max-width: 500px )
+        height: 360px
 .imageBig
     width: 100%
     height: 350px
     background-position: center
     background-repeat: no-repeat
     background-size: contain
+
 .MuiSelect-select
     width: 105px !important
     padding: 10px !important
@@ -73,6 +83,11 @@ body
     cursor: pointer
     font-size: 18px
     font-weight: 700
+    &:hover
+        background-color: #151515
+        color: #fafafa
+    &:active
+        scale: 90%
 .small100
     width: 100%
     padding: 10px 14px
@@ -83,6 +98,11 @@ body
     cursor: pointer
     font-size: 18px
     font-weight: 700
+    &:hover
+        background-color: #151515
+        color: #fafafa
+    &:active
+        scale: 90%
 .medium
     padding: 15px 30px
     background-color: #fafafa
@@ -92,6 +112,11 @@ body
     cursor: pointer
     font-size: 16px
     font-weight: 700
+    &:hover
+        background-color: #151515
+        color: #fafafa
+    &:active
+        scale: 90%
 .round
     width: 26px
     height: 26px
@@ -103,31 +128,16 @@ body
     font-size: 18px
     font-weight: 700
     cursor: pointer
+    &:hover
+        background-color: #151515
+        color: #fafafa
+    &:active
+        scale: 90%
 .round p
     position: absolute
     top: 45%
     left: 50%
     transform: translate(-50%, -50%)
-.round:hover
-    background-color: #151515
-    color: #fafafa
-.small:hover
-    background-color: #151515
-    color: #fafafa
-.small100:hover
-    background-color: #151515
-    color: #fafafa
-.medium:hover
-    background-color: #151515
-    color: #fafafa
-.small:active
-    scale: 90%
-.round:active
-    scale: 90%
-.small100:active
-    scale: 90%
-.medium:active
-    scale: 90%
 .inputs input
     padding: 10px 14px
     border-radius: 6px
@@ -142,4 +152,25 @@ body
     display: flex
     flex-direction: column
     gap: 16px
-    width: 574px
+    width: 100%
+.round_cross
+    width: 26px
+    height: 26px
+    position: absolute
+    background-color: #fafafa
+    border-radius: 100%
+    border: 2px solid #151515
+    transition: 0.3s
+    font-size: 18px
+    font-weight: 700
+    cursor: pointer
+    right: 0
+    bottom: 15px
+    display: none
+    @media (max-width: 800px )
+        display: block
+    &:hover
+        background-color: #151515
+        color: #fafafa
+    &:active
+        scale: 90%
