@@ -2047,28 +2047,5 @@
       "URL_4": "https://st-cdn.tsum.com/sig/8f478bfe06646200e1a6f998ddda7969/width/1526/i/4e/61/13/a6/4e6113a6-37fa-3d6a-8cf9-638623b2986d.jpg",
       "URL_5": "https://st-cdn.tsum.com/sig/4b557f1adcbf0871ffc9699226712318/width/1526/i/7b/a4/11/e8/7ba411e8-8e60-392a-98ff-6caf9e7deb05.jpg"
     }
-  },
-  {
-    "NAME": "Brushed rois leather and Re-Nylon booties",
-    "BRAND": "Prada",
-    "PRICE": 107,
-    "TYPE": "SHOES",
-    "SPECIAL": false,
-    "ID": 81,
-    "SIZE": {
-      "40": true,
-      "41": true,
-      "42": true,
-      "43": true,
-      "44": true,
-      "45": true,
-      "46": true
-    },
-    "PHOTOS": {
-      "URL_1": "https://www.prada.com/content/dam/pradabkg_products/2/2UE/2UE011/3LFRF0002/2UE011_3LFR_F0002_SLR.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
-      "URL_2": "https://www.prada.com/content/dam/pradabkg_products/2/2UE/2UE011/3LFRF0002/2UE011_3LFR_F0002_SLS.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
-      "URL_3": "https://www.prada.com/content/dam/pradabkg_products/2/2UE/2UE011/3LFRF0002/2UE011_3LFR_F0002_SLQ.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg",
-      "URL_4": "https://www.prada.com/content/dam/pradabkg_products/2/2UE/2UE011/3LFRF0002/2UE011_3LFR_F0002_SLD.jpg/_jcr_content/renditions/cq5dam.web.hebebed.1000.1000.jpg"
-    }
   }
 ]

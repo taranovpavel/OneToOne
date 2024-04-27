@@ -14,7 +14,8 @@ const itemsSlice = createSlice({
         isModal: false,
         isThank: false,
         table: {},
-        tab: "ALL"
+        tab: "ALL",
+        isRandom: false,
     },
     reducers:{
         addItem:(state, action)=>{
@@ -72,8 +73,11 @@ const itemsSlice = createSlice({
             }else{
                 state.isThank = false
             }
+        },
+        setRandom:(state,action)=>{
+            state.isRandom = true
         }
     }
 })
-export const {setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
+export const {setRandom,setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
 export default itemsSlice.reducer
