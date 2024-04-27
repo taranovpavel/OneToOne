@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from "./Footer.module.css";
+import classes from "./Footer.module.sass";
 import Container from "./Container";
 import { ReactComponent as Telegram } from "../images/icon-telegram.svg"
 import { ReactComponent as Instagram} from "../images/icon-instagram.svg"

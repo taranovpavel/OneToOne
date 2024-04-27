@@ -29,7 +29,7 @@ const Header = ({input, setInput, isSearch= false,}) => {
                                     {isSearch ? <input placeholder="искать" type="text"
                                                        onChange={event => setInput(event.target.value)}
                                                        className={classes.search}/> : ""}
-                                    <button onClick={() =>dispatch(setModalOrder(true))} className={classes.link}><Basket
+                                    <button onClick={() =>dispatch(setModalOrder(true))} className={classes.order}><Basket
                                         className={classes.basket}/></button>
                                 </div>
                             </div>

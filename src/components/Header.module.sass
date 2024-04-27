@@ -32,10 +32,27 @@
         background-position: 10px 8px
         padding: 8px 32px
         width: 180px
+    @media (max-width: 460px )
+        background-image: url("../images/iocn-loupe.svg")
+        background-position: 10px 8px
+        padding: 8px 32px
+        width: 120px
 .links
     display: flex
     gap: 15px
 .link
+    width: 30px
+    height: 30px
+    border-radius: 100%
+    background-color: #fff
+    align-items: center
+    display: flex
+    justify-content: center
+    border: none
+    cursor: pointer
+    @media (max-width: 620px )
+        display: none
+.order
     width: 30px
     height: 30px
     border-radius: 100%
@@ -60,4 +77,6 @@
     cursor: pointer
 .logo
     width: 150px
+    @media (max-width: 620px )
+        width: 120px
 
