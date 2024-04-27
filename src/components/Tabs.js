@@ -17,6 +17,8 @@ const TabsComponent = ({categoriesSelect,setInput,valueKey= "value", labelKey = 
                 onChange={handleChange}
                 textColor="secondary"
                 indicatorColor="secondary"
+                variant="scrollable"
+                scrollButtons="auto"
             >
                 {categoriesSelect.map((tab)=>
                     <Tab

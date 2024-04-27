@@ -1,5 +1,5 @@
 import Container from "./Container";
-import classes from "./Header.module.css";
+import classes from "./Header.module.sass";
 import {Link} from "react-router-dom";
 import { ReactComponent as Basket } from "../images/icon-basket.svg"
 import { ReactComponent as Telegram } from "../images/icon-telegram.svg"
