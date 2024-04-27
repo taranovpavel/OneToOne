@@ -1,4 +1,4 @@
-import classes from "./App.css";
+import classes from "./App.sass";
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import MainPage from "./page/mainPage/MainPage";
 import ClothesInfoPage from "./page/ClothesInfoPage/ClothesInfoPage";
