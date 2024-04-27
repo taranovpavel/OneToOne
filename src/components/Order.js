@@ -64,8 +64,9 @@ const Order = () => {
             [event.target.name]: event.target.value
         })
     }
-    document.body.style.overflow = isModal?"hidden":"visible"
-    document.body.style.overflow = isThank?"hidden":"visible"
+    let overflow = false
+    overflow = (isModal === true) || (isThank === true);
+    document.body.style.overflow = overflow?"hidden":"visible"
     const getPostActions = () =>{
         let errors = 0
         for(const key in classNames){
