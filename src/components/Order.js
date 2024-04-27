@@ -3,11 +3,12 @@ import classes from "./Order.module.css";
 import { ReactComponent as Cross} from "../images/icon-cross.svg"
 import promocodes from '../data/promocodes.json'
 import {useDispatch, useSelector} from "react-redux";
-import {deleteItem, getPost, minusValue, plusValue, setModalOrder} from "../redux/ItemsSlice";
+import {deleteItem, deleteItems, getPost, minusValue, plusValue, setModalOrder, setThank} from "../redux/ItemsSlice";
 import Button from "./Button";
+import ThankYou from "./ThankYou";
 
 const Order = () => {
-    const {items,isModal} = useSelector(state => state.itemsReducer)
+    const {items,isModal,isThank} = useSelector(state => state.itemsReducer)
     const email_REGEXP = /^(([^<>()[\].,;:\s@"]+(\.[^<>()[\].,;:\s@"]+)*)|(".+"))@(([^<>()[\].,;:\s@"]+\.)+[^<>()[\].,;:\s@"]{2,})$/iu;
     const number_REGEXP = /^(\s*)?(\+)?([- _():=+]?\d[- _():=+]?){10,14}(\s*)?$/;
     const fullName_REGEXP = /[^!@#$%]{10}/
@@ -64,6 +65,7 @@ const Order = () => {
         })
     }
     document.body.style.overflow = isModal?"hidden":"visible"
+    document.body.style.overflow = isThank?"hidden":"visible"
     const getPostActions = () =>{
         let errors = 0
         for(const key in classNames){
@@ -74,6 +76,9 @@ const Order = () => {
         {
             dispatch(getPost(`ФИО:  ${data.fullName}%0AНомер:  ${data.number}%0AТелеграм:  ${data.telegram}%0AПочта:  ${data.email}%0AПочтовый Индекс:  ${data.index}%0AПолный адрес:  ${data.address}%0AЦена заказа:  ${totalPrice}`))
             items.map((item)=>dispatch(getPost(`Название:  ${item.fullName}%0AБренд:  ${item.brand}%0AКоличество:  ${item.value}%0AРазмер:  ${item.size}`)))
+            dispatch(deleteItems())
+            dispatch(setModalOrder())
+            dispatch(setThank(true))
         }
     }
     const activetePromocode = () =>{
@@ -83,6 +88,7 @@ const Order = () => {
     }
     return (
         <>
+            <ThankYou/>
             <Cross style={{display: `${isModal?"block":"none"}`}} onClick={()=>dispatch(setModalOrder())} className={classes.cross}/>
             <div onClick={()=>dispatch(setModalOrder())} style={{display: `${isModal?"block":"none"}`}} className={classes.background}></div>
             <div style={{display: `${isModal?"block":"none"}`}} className={classes.orderModal}>

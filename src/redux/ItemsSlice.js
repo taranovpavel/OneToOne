@@ -12,6 +12,7 @@ const itemsSlice = createSlice({
     initialState: {
         items: [],
         isModal: false,
+        isThank: false,
         table: {},
         tab: "ALL"
     },
@@ -61,8 +62,18 @@ const itemsSlice = createSlice({
         },
         setTab:(state,action)=>{
             state.tab = action.payload
+        },
+        deleteItems:(state,action)=>{
+            state.items = []
+        },
+        setThank:(state,action)=>{
+            if (action.payload===true){
+                state.isThank = true
+            }else{
+                state.isThank = false
+            }
         }
     }
 })
-export const {setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
+export const {setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
 export default itemsSlice.reducer
