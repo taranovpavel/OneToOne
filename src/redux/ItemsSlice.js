@@ -16,6 +16,7 @@ const itemsSlice = createSlice({
         table: {},
         tab: "ALL",
         isRandom: false,
+        brand: "AMIRI"
     },
     reducers:{
         addItem:(state, action)=>{
@@ -76,8 +77,11 @@ const itemsSlice = createSlice({
         },
         setRandom:(state,action)=>{
             state.isRandom = true
+        },
+        setBrand:(state,action)=>{
+            state.brand = action.payload
         }
     }
 })
-export const {setRandom,setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
+export const {setBrand,setRandom,setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
 export default itemsSlice.reducer

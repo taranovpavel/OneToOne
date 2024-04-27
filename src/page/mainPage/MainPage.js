@@ -18,6 +18,7 @@ const MainPage = () => {
         {value: "JACKETS",label:"Куртки"},
         {value: "SHOES",label:"Обувь"},
         {value: "ACCESSORIES",label:"Аксессуары"},
+        {value: "BRANDS",label:"Бренды"},
         {value: "SPECIALS",label:"Скидки"}
     ]
     const {tab} = useSelector(state => state.itemsReducer)
@@ -28,7 +29,7 @@ const MainPage = () => {
             <Container inner={
                 <>
                     <TabsComponent categoriesSelect={categoriesSelect} setInput={setInput}/>
-                    <GetCategories action={input===""?tab:input} isSearch={input !== ""}/>
+                    <GetCategories action={input!==""?input:tab} isSearch={input !== ""}/>
                 </>
             }/>
             <Footer/>

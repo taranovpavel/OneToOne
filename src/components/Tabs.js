@@ -6,7 +6,6 @@ const TabsComponent = ({categoriesSelect,setInput,valueKey= "value", labelKey = 
     const {tab} = useSelector(state => state.itemsReducer)
     const dispatch = useDispatch()
     const windowInnerWidth = window.innerWidth
-    console.log(windowInnerWidth)
     const handleChange = (event,newValue) =>{
         dispatch(setTab(newValue))
         setInput("")
