@@ -24,11 +24,11 @@ const ClothesInfoPage = () => {
     const [size,setSize] = useState(sizeFunction)
 
     const dispatch = useDispatch()
-    const {items} = useSelector(state => state.itemsReducer)
+    const {items, isRUS, RUB} = useSelector(state => state.itemsReducer)
     const addItemAction = () => {
       dispatch(addItem({
           url: clothes.PHOTOS.URL_1,
-          name: clothes.TYPE==="SHOES"?clothes.NAME:clothes.TYPE_RUS,
+          name: clothes.TYPE==="SHOES"?clothes.NAME:clothes.TYPE_ENG,
           fullName: clothes.NAME,
           brand: clothes.BRAND,
           size: size,
@@ -46,17 +46,16 @@ const ClothesInfoPage = () => {
                     <SwiperComponent photos={clothes.PHOTOS} swiperClasses={"swiperBig"} imageClasses={"imageBig"}
                                      autoplay={true}/>
                     <div className={classes.text}>
-                        <p className={classes.name}>{clothes.TYPE === "SHOES" ? clothes.NAME : clothes.TYPE_RUS} {clothes.BRAND}</p>
-                        <p className={classes.price}>${clothes.PRICE}</p>
+                        <p className={classes.name}>{clothes.TYPE === "SHOES" ? clothes.NAME : clothes.TYPE_ENG} {clothes.BRAND}</p>
+                        <p className={classes.price}>{isRUS?clothes.PRICE*RUB+"₽":"$"+clothes.PRICE}</p>
                         <div className={classes.buttons}>
-                            <Button onclick={addItemAction} inner={"КУПИТЬ"}></Button>
+                            <Button onclick={addItemAction} inner={isRUS?"КУПИТЬ":"BUY"}></Button>
                             <MultipleSelector size={size} setSize={setSize} data={clothes.SIZE}/>
                         </div>
-                        <p className={classes.secondaryText}>Бесплатная доставка по СНГ</p>
-                        <p className={classes.secondaryText}>14-18 дней до склада, после переотправка в вашу
-                            страну <br/>( в общей сложности 14-30 дней )</p>
-                        <p className={classes.secondaryText}>Если есть дополнительные вопросы напишите в <a
-                            href="">поддержку</a>.</p>
+                        <p className={classes.secondaryText}>{isRUS?"Бесплатная доставка по СНГ":"Free delivery to Russia, Ukraine, Belarus, Kyrgyzstan, Kazakhstan, Tajikistan, Uzbekistan, Turkmenistan, Azerbaijan, Armenia"}</p>
+                        <p className={classes.secondaryText}>{isRUS?"14 - 18 дней до склада, после переотправка в вашу страну":"14-18 days to the warehouse, after reshipment to your country"}<br/>{isRUS?"( в общей сложности 14-30 дней )":"(total 14-30 days)"}</p>
+                        <p className={classes.secondaryText}>{isRUS?"Если есть дополнительные вопросы напишите в ":"If you have additional questions, write to "}<a
+                            href="">{isRUS?"поддержку":"support"}</a>.</p>
                     </div>
                 </>
             }/>

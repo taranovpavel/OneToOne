@@ -41,6 +41,8 @@ const ItemCardPage = ({type, isSearch}) => {
                 type === "BRANDS"?<>{dataFilter.map((item,idx) =><ItemCard key={idx} clothes={item}/>)}</>:
                     type === "ALL"?
                         <>{randomData.map((item,idx) =>item.TYPE!=="SHOES"?<ItemCard key={idx} clothes={item}/>:"")}</>:
+                        type === "SPECIALS"?
+                        <>{randomData.map((item,idx) =>item.SPECIAL===true?<ItemCard key={idx} clothes={item}/>:"")}</>:
                         <>{randomData.map((item,idx) =>item.TYPE===type?<ItemCard key={idx} clothes={item}/>:"")}</>}
         </>
     );

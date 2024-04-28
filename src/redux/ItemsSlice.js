@@ -16,7 +16,9 @@ const itemsSlice = createSlice({
         table: {},
         tab: "ALL",
         isRandom: false,
-        brand: "AMIRI"
+        brand: "AMIRI",
+        isRUS: true,
+        RUB: 95
     },
     reducers:{
         addItem:(state, action)=>{
@@ -80,8 +82,11 @@ const itemsSlice = createSlice({
         },
         setBrand:(state,action)=>{
             state.brand = action.payload
+        },
+        setIsRUS:(state,action)=>{
+            state.isRUS = action.payload
         }
     }
 })
-export const {setBrand,setRandom,setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
+export const {setIsRUS,setBrand,setRandom,setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
 export default itemsSlice.reducer

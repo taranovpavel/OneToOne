@@ -6,11 +6,13 @@ import { ReactComponent as Telegram } from "../images/icon-telegram.svg"
 import { ReactComponent as Instagram} from "../images/icon-instagram.svg"
 import { ReactComponent as Logo} from "../images/icon-logo.svg"
 import Order from "./Order";
-import {useDispatch} from "react-redux";
-import {setModalOrder} from "../redux/ItemsSlice";
+import {useDispatch, useSelector} from "react-redux";
+import {setIsRUS, setModalOrder} from "../redux/ItemsSlice";
+import Button from "./Button";
 
 const Header = ({input, setInput, isSearch= false,}) => {
     const dispatch = useDispatch()
+    const {isRUS} = useSelector(state => state.itemsReducer)
         return (
             <>
                 <Order/>
@@ -21,12 +23,14 @@ const Header = ({input, setInput, isSearch= false,}) => {
                                 <Link to="/"><Logo className={classes.logo}/></Link>
                                 <div className={classes.right}>
                                     <ul className={classes.links}>
+                                        <li><Button size={"fit"} onclick={() => dispatch(setIsRUS(!isRUS))}
+                                                    inner={isRUS ? "RUS" : "ENG"}/></li>
                                         <li><a className={classes.link}><Instagram className={classes.instagram}/></a>
                                         </li>
                                         <li><a className={classes.link}><Telegram className={classes.telegram}/></a>
                                         </li>
                                     </ul>
-                                    {isSearch ? <input placeholder="искать" type="text"
+                                    {isSearch ? <input placeholder={isRUS?"искать":"search"} type="text"
                                                        onChange={event => setInput(event.target.value)}
                                                        className={classes.search}/> : ""}
                                     <button onClick={() =>dispatch(setModalOrder(true))} className={classes.order}><Basket

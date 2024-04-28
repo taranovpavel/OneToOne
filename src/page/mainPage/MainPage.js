@@ -10,16 +10,17 @@ const GetCategories=({action, isSearch})=>{
     return <Container classname={"flex-wrap"} inner={<ItemCardPage type={action} isSearch={isSearch}/>}/>
 }
 const MainPage = () => {
+    const {isRUS} = useSelector(state => state.itemsReducer)
     const categoriesSelect = [
-        {value: "ALL",label:"Все"},
-        {value: "T-SHIRTS",label:"Футболки"},
-        {value: "HOODIES",label:"Худи / Свитеры"},
-        {value: "PANTS",label:"Брюки / Шорты"},
-        {value: "JACKETS",label:"Куртки"},
-        {value: "SHOES",label:"Обувь"},
-        {value: "ACCESSORIES",label:"Аксессуары"},
-        {value: "BRANDS",label:"Бренды"},
-        {value: "SPECIALS",label:"Скидки"}
+        {value: "ALL",label:isRUS?"Все":"All"},
+        {value: "T-SHIRTS",label:isRUS?"Футболки":"T-shirts"},
+        {value: "HOODIES",label:isRUS?"Худи / Свитеры":"Hoodies / Sweaters"},
+        {value: "PANTS",label:isRUS?"Брюки / Шорты":"Pants / Shorts"},
+        {value: "JACKETS",label:isRUS?"Куртки":"Jackets"},
+        {value: "SHOES",label:isRUS?"Обувь":"Shoes"},
+        {value: "ACCESSORIES",label:isRUS?"Аксессуары":"Accessories"},
+        {value: "BRANDS",label:isRUS?"Бренды":"Brands"},
+        {value: "SPECIALS",label:isRUS?"Скидки":"Specials"}
     ]
     const {tab} = useSelector(state => state.itemsReducer)
     const [input, setInput] = useState("")
