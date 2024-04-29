@@ -10,6 +10,7 @@ const GetCategories=({action, isSearch})=>{
     return <Container classname={"flex-wrap"} inner={<ItemCardPage type={action} isSearch={isSearch}/>}/>
 }
 const MainPage = () => {
+    window.scrollTo(0, 0)
     const {isRUS} = useSelector(state => state.itemsReducer)
     const categoriesSelect = [
         {value: "ALL",label:isRUS?"Все":"All"},

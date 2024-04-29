@@ -93,6 +93,11 @@ const Order = () => {
             <div onClick={()=>dispatch(setModalOrder())} style={{display: `${isModal?"block":"none"}`}} className={classes.background}></div>
             <div style={{display: `${isModal?"block":"none"}`}} className={classes.orderModal}>
                 <div className={classes.order}>
+
+
+                    <button onClick={()=>dispatch(setThank(true))}>THANK</button>
+
+
                     <p className={classes.label}>{isRUS?"Ваш заказ":"Your order"}</p>
                     <div className={classes.orders}>
                         {items.map((item,idx)=>

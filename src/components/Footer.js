@@ -4,7 +4,10 @@ import Container from "./Container";
 import { ReactComponent as Telegram } from "../images/icon-telegram.svg"
 import { ReactComponent as Instagram} from "../images/icon-instagram.svg"
 import { ReactComponent as Logo} from "../images/icon-logo.svg"
+import {useSelector} from "react-redux";
+import {Link} from "react-router-dom";
 const Footer = () => {
+    const {isRUS} = useSelector(state => state.itemsReducer)
     return (
         <div className={classes.footer}>
             <Container
@@ -23,22 +26,14 @@ const Footer = () => {
                         <div className={classes.bottom}>
                             <div className={classes.tables}>
                                 <ul className={classes.table}>
-                                    <li><p className={classes.label}>Покупателям</p></li>
-                                    <li><a href="">Политика конфиденциальности</a></li>
-                                    <li><a href="">Договор оферты</a></li>
-                                    <li><a href="">Доставка</a></li>
-                                    <li><a href="">Возрат</a></li>
-                                    <li><a href="">Поддержка</a></li>
-                                </ul>
-                                <ul className={classes.table}>
                                     <li><p className={classes.label}>ONETOONE</p></li>
-                                    <li><a href="">О нас</a></li>
-                                    <li><a href="">Реквизиты</a></li>
-                                    <li><a href="">Контакты</a></li>
+                                    <li><Link to={"/Privacy"}>{isRUS?"Политика конфиденциальности":"Privacy policy"}</Link></li>
+                                    <li><Link to={"/Contract"}>{isRUS?"Договор оферты":"Offer contract"}</Link></li>
+                                    <li><a href="">{isRUS?"Поддержка":"Support"}</a></li>
+                                    <li><a href="">{isRUS?"Контакты":"Contacts"}</a></li>
                                 </ul>
                             </div>
                         </div>
-                        <p className={classes.rights}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusamus assumenda blanditiis commodi culpa delectus dicta eius ex ipsum, magnam magni nam neque nulla praesentium quaerat quam sapiente sed veniam.</p>
                     </div>
                 }
             />

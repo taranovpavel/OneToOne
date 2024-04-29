@@ -12,6 +12,7 @@ import {useDispatch, useSelector} from "react-redux";
 import {addItem, setModalOrder} from "../../redux/ItemsSlice";
 
 const ClothesInfoPage = () => {
+    window.scrollTo(0, 0)
     const {id} = useParams()
     const clothes = data[id-1]
     const sizeFunction = () =>{

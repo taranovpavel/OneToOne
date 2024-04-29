@@ -41,7 +41,6 @@ const ItemCardPage = ({type, isSearch}) => {
     for (let i = 0; i < load; i++) {
         dataLoad.push(randomData[i])
     }
-    console.log(dataLoad)
     return (
         <>
             {type === "BRANDS" ? <Brands/> : ""}
