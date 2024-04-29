@@ -1,13 +1,11 @@
 .promocode
     display: flex
     gap: 16px
+    width: 100%
 .promocode input
     padding: 10px 14px
-    width: 407px
-    @media (max-width: 800px )
-        width: 154px
-    @media (max-width: 420px )
-        width: 114px
+    width: 100%
+
 .orderModal
     z-index: 11
     position: fixed
@@ -17,7 +15,6 @@
     overflow: hidden
     background-color: #fff
     width: 670px
-
     height: 85vh
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.9)
     border-radius: 8px
@@ -25,6 +22,8 @@
         width: 400px
     @media (max-width: 420px )
         width: 360px
+    @media (max-width: 360px )
+        width: 100%
 .order
     padding: 40px
     width: 100%

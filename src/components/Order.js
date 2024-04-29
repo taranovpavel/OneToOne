@@ -133,11 +133,9 @@ const Order = () => {
                             <input className={classNames.address} onChange={formValue} name="address" type="text" placeholder={isRUS?"Полный адрес":"Address"}/>
                             <p className={classes.free}>{isRUS?"Бесплатная доставка по СНГ":"Free delivery to CIS"}</p>
                         </div>
-                        <div>
-                            <div className={classes.promocode}>
-                                <input onChange={(event)=>setPromocode(event.target.value)} type="text" placeholder={isRUS?"Промокод":"Promo code"}/>
-                                <Button onclick={activetePromocode} inner={isRUS?"активировать":"activate"} size={"small"}/>
-                            </div>
+                        <div className={classes.promocode}>
+                            <input onChange={(event)=>setPromocode(event.target.value)} type="text" placeholder={isRUS?"Промокод":"Promo code"}/>
+                            <Button onclick={activetePromocode} inner={isRUS?"активировать":"activate"} size={"small"}/>
                         </div>
                         <Button onclick={getPostActions} inner={isRUS?"оформить заказ":"Make an order"} size={"small100"}/>
                     </div>
