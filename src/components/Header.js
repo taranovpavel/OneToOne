@@ -10,13 +10,13 @@ import {useDispatch, useSelector} from "react-redux";
 import {setIsRUS, setModalOrder} from "../redux/ItemsSlice";
 import Button from "./Button";
 
-const Header = ({input, setInput, isSearch= false,}) => {
+const Header = ({isFixed=false,input, setInput, isSearch= false,}) => {
     const dispatch = useDispatch()
     const {isRUS} = useSelector(state => state.itemsReducer)
         return (
             <>
                 <Order/>
-                <div className={classes.header}>
+                <div className={`${isFixed?"header_fixed":"header"}`}>
                     <Container
                         inner={
                             <div className={classes.innerHeader}>

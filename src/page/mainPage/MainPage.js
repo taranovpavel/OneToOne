@@ -6,11 +6,11 @@ import TabsComponent from "../../components/Tabs";
 import ItemCardPage from "../../components/ItemCardPage";
 import {useSelector} from "react-redux";
 
+
 const GetCategories=({action, isSearch})=>{
     return <Container classname={"flex-wrap"} inner={<ItemCardPage type={action} isSearch={isSearch}/>}/>
 }
 const MainPage = () => {
-    window.scrollTo(0, 0)
     const {isRUS} = useSelector(state => state.itemsReducer)
     const categoriesSelect = [
         {value: "ALL",label:isRUS?"Все":"All"},
@@ -27,10 +27,10 @@ const MainPage = () => {
     const [input, setInput] = useState("")
     return (
         <>
-            <Header input={input} setInput={setInput} isSearch={true}/>
+            <Header isFixed={true} input={input} setInput={setInput} isSearch={true}/>
             <Container inner={
                 <>
-                    <TabsComponent categoriesSelect={categoriesSelect} setInput={setInput}/>
+                    <TabsComponent isFixed={true} categoriesSelect={categoriesSelect} setInput={setInput}/>
                     <GetCategories action={input!==""?input:tab} isSearch={input !== ""}/>
                 </>
             }/>

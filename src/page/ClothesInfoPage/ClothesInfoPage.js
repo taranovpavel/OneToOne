@@ -9,9 +9,12 @@ import classes from "./ClothesInfoPage.module.sass";
 import Button from "../../components/Button";
 import MultipleSelector from "../../components/MultipleSelector";
 import {useDispatch, useSelector} from "react-redux";
-import {addItem, setModalOrder} from "../../redux/ItemsSlice";
+import {addItem, setI, setModalOrder} from "../../redux/ItemsSlice";
+import TableComponent from "../../components/TableComponent";
 
 const ClothesInfoPage = () => {
+    const {i,items, isRUS, RUB} = useSelector(state => state.itemsReducer)
+    const dispatch = useDispatch()
     window.scrollTo(0, 0)
     const {id} = useParams()
     const clothes = data[id-1]
@@ -23,9 +26,6 @@ const ClothesInfoPage = () => {
         }
     }
     const [size,setSize] = useState(sizeFunction)
-
-    const dispatch = useDispatch()
-    const {items, isRUS, RUB} = useSelector(state => state.itemsReducer)
     const addItemAction = () => {
       dispatch(addItem({
           url: clothes.PHOTOS.URL_1,
@@ -44,8 +44,7 @@ const ClothesInfoPage = () => {
             <Header items={items}/>
             <Container classname={"flex"} inner={
                 <>
-                    <SwiperComponent photos={clothes.PHOTOS} swiperClasses={"swiperBig"} imageClasses={"imageBig"}
-                                     autoplay={true}/>
+                    <SwiperComponent photos={clothes.PHOTOS} swiperClasses={"swiperBig"} imageClasses={"imageBig"} autoplay={true}/>
                     <div className={classes.text}>
                         <p className={classes.name}>{clothes.TYPE === "SHOES" ? clothes.NAME : clothes.TYPE_ENG} {clothes.BRAND}</p>
                         <p className={classes.price}>{isRUS?clothes.PRICE*RUB+"₽":"$"+clothes.PRICE}</p>
@@ -57,6 +56,7 @@ const ClothesInfoPage = () => {
                         <p className={classes.secondaryText}>{isRUS?"14 - 18 дней до склада, после переотправка в вашу страну":"14-18 days to the warehouse, after reshipment to your country"}<br/>{isRUS?"( в общей сложности 14-30 дней )":"(total 14-30 days)"}</p>
                         <p className={classes.secondaryText}>{isRUS?"Если есть дополнительные вопросы напишите в ":"If you have additional questions, write to "}<a
                             href="">{isRUS?"поддержку":"support"}</a>.</p>
+                        {clothes.TYPE!=="ACCESSORIES"?clothes.TYPE!=="SHOES"?<TableComponent rows={isRUS?clothes.SIZE_TABLE_RUS:clothes.SIZE_TABLE_ENG}/>:"":""}
                     </div>
                 </>
             }/>
