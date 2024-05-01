@@ -13,6 +13,10 @@ import Button from "./Button";
 const Header = ({isFixed=false,input, setInput, isSearch= false,}) => {
     const dispatch = useDispatch()
     const {isRUS} = useSelector(state => state.itemsReducer)
+    const inputFunction = (event) =>{
+        window.scrollTo(0, 0)
+        setInput(event.target.value)
+    }
         return (
             <>
                 <Order/>
@@ -31,7 +35,7 @@ const Header = ({isFixed=false,input, setInput, isSearch= false,}) => {
                                         </li>
                                     </ul>
                                     {isSearch ? <input placeholder={isRUS?"искать":"search"} type="text"
-                                                       onChange={event => setInput(event.target.value)}
+                                                       onChange={(event) => inputFunction(event)}
                                                        className={classes.search}/> : ""}
                                     <button onClick={() =>dispatch(setModalOrder(true))} className={classes.order}><Basket
                                         className={classes.basket}/></button>

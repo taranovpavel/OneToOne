@@ -13,7 +13,7 @@ import {addItem, setI, setModalOrder} from "../../redux/ItemsSlice";
 import TableComponent from "../../components/TableComponent";
 
 const ClothesInfoPage = () => {
-    const {i,items, isRUS, RUB} = useSelector(state => state.itemsReducer)
+    const {items, isRUS, RUB} = useSelector(state => state.itemsReducer)
     const dispatch = useDispatch()
     window.scrollTo(0, 0)
     const {id} = useParams()

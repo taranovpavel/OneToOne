@@ -7,6 +7,7 @@ const TabsComponent = ({isFixed = false,categoriesSelect,setInput,valueKey= "val
     const dispatch = useDispatch()
     const windowInnerWidth = window.innerWidth
     const handleChange = (event,newValue) =>{
+        window.scrollTo(0, 0)
         dispatch(setTab(newValue))
         setInput("")
     }
