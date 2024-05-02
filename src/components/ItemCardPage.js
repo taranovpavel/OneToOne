@@ -1,13 +1,15 @@
 import React, {useState} from 'react';
 import ItemCard from "./ItemCard";
-import randomData from '../data/randonClothes.json'
+import randomData from '../data/randomClothes.json'
 import NothingFoundPage from "./NothingFoundPage";
 import {useDispatch, useSelector} from "react-redux";
-import {setRandom, setScroll} from "../redux/ItemsSlice";
+import {setLimit, setRandom} from "../redux/ItemsSlice";
 import Brands from "./Brands";
+
 const ItemCardPage = ({type, isSearch}) => {
     let dataFilter = []
-    const {isRandom, brand} = useSelector(state => state.itemsReducer)
+    const {isRandom, brand,limit} = useSelector(state => state.itemsReducer)
+    const [max,setMax] = useState(limit)
     const dispatch = useDispatch()
     function shuffle(arr) {
         if (isRandom === false) {
@@ -23,25 +25,30 @@ const ItemCardPage = ({type, isSearch}) => {
         }
     }
     // shuffle(randomData)
+
     if (isSearch === true) {
         dataFilter = randomData.filter(item => (item.NAME.toLowerCase() + item.BRAND.toLowerCase()).includes(type.toLowerCase()))
+    } else if(type==="ALL"){
+        dataFilter = randomData.filter(item =>(item.TYPE!=="SHOES"))
+    } else if(type==="BRANDS"){
+        dataFilter = randomData.filter(item=>(item.BRAND.toUpperCase()).includes(brand))
+    } else if(type==="SPECIALS"){
+        dataFilter = randomData.filter(item=>(item.SPECIAL===true))
+    } else {
+        dataFilter = randomData.filter(item =>(item.TYPE).includes(type))
     }
+    const scroll = (event) => {
+        if (event.target.documentElement.scrollHeight - (event.target.documentElement.scrollTop + window.innerHeight) < 600){if (dataFilter.length>max)setMax(max+12)}
+    }
+    document.addEventListener('scroll', scroll)
+    if (limit<max){dispatch(setLimit(max))}
     return (
         <>
             {type === "BRANDS" ? <Brands/> : ""}
-            {isSearch ?
-                dataFilter.length > 0 ?
-                    <>{dataFilter.map((item, idx) => <ItemCard key={idx} clothes={item}/>)}</> :
-                    <NothingFoundPage/> :
-                type === "BRANDS" ? <>{randomData.map((item, idx) =>item.BRAND.toUpperCase()===brand?<ItemCard key={idx} clothes={item}/>:"")}</> :
-                    type === "ALL" ?
-                        <>{randomData.map((item, idx) => item.TYPE !== "SHOES" ?
-                            <ItemCard key={idx} clothes={item}/> : "")}</> :
-                        type === "SPECIALS" ?
-                            <>{randomData.map((item, idx) => item.SPECIAL === true ?
-                                <ItemCard key={idx} clothes={item}/> : "")}</> :
-                            <>{randomData.map((item, idx) => item.TYPE === type ?
-                                <ItemCard key={idx} clothes={item}/> : "")}</>}
+            {dataFilter.length > 0 ?
+                    <>{dataFilter.slice(0,max).map((item, idx) => <ItemCard key={idx} clothes={item}/>)}</> :
+                    <NothingFoundPage/>
+            }
         </>
     );
 };

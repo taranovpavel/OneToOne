@@ -19,8 +19,7 @@ const itemsSlice = createSlice({
         brand: "AMIRI",
         isRUS: true,
         RUB: 95,
-        scroll: 0,
-        i: 0,
+        limit: 6
     },
     reducers:{
         addItem:(state, action)=>{
@@ -88,13 +87,10 @@ const itemsSlice = createSlice({
         setIsRUS:(state,action)=>{
             state.isRUS = action.payload
         },
-        setScroll:(state,action)=>{
-            state.scroll = action.payload
-        },
-        setI:(state,action)=>{
-            state.scroll = action.payload
+        setLimit:(state,action)=>{
+            state.limit = action.payload
         }
     }
 })
-export const {setI,setScroll,setIsRUS,setBrand,setRandom,setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
+export const {setLimit,setIsRUS,setBrand,setRandom,setThank,deleteItems,setTab,addItem,setModalOrder,deleteItem, minusValue,plusValue} = itemsSlice.actions
 export default itemsSlice.reducer

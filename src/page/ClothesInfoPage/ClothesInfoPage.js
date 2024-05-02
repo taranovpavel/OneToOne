@@ -9,7 +9,7 @@ import classes from "./ClothesInfoPage.module.sass";
 import Button from "../../components/Button";
 import MultipleSelector from "../../components/MultipleSelector";
 import {useDispatch, useSelector} from "react-redux";
-import {addItem, setI, setModalOrder} from "../../redux/ItemsSlice";
+import {addItem, setModalOrder} from "../../redux/ItemsSlice";
 import TableComponent from "../../components/TableComponent";
 
 const ClothesInfoPage = () => {
@@ -28,7 +28,7 @@ const ClothesInfoPage = () => {
     const [size,setSize] = useState(sizeFunction)
     const addItemAction = () => {
       dispatch(addItem({
-          url: clothes.PHOTOS.URL_1,
+          url: clothes.PHOTOS[0],
           name: clothes.TYPE==="SHOES"?clothes.NAME:clothes.TYPE_ENG,
           fullName: clothes.NAME,
           brand: clothes.BRAND,

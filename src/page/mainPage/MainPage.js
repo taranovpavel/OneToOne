@@ -6,7 +6,6 @@ import TabsComponent from "../../components/Tabs";
 import ItemCardPage from "../../components/ItemCardPage";
 import {useSelector} from "react-redux";
 
-
 const GetCategories=({action, isSearch})=>{
     return <Container classname={"flex-wrap"} inner={<ItemCardPage type={action} isSearch={isSearch}/>}/>
 }
