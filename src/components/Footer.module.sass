@@ -2,86 +2,66 @@
     background-color: #151515
     color: #fafafa
     margin: 60px 0 0
-.innerFooter
-    display: flex
-    flex-direction: column
-    align-items: center
-    padding: 0 0 30px 0
-.footerTop
-    padding: 50px 0
-    display: flex
-    justify-content: space-between
-    align-items: center
-    width: 100%
-    @media (max-width: 560px )
-        padding: 15px 0
-.logo
-    width: 250px
-    @media (max-width: 560px )
-        width: 120px
-.line
-    width: 100%
-    height: 1px
-    background: #b3b3b3
-.label
-    color: #fafafa
-.tables
-    display: flex
-    align-items: normal
-    gap: 180px
-    @media (max-width: 560px )
-        width: 100%
-        flex-wrap: wrap
-        gap: 30px 180px
-        //justify-content: space-between
-.table li
-    margin-bottom: 8px
-.table li a
-    color: #b3b3b3
-.bottom
-    padding: 40px 0
-    display: flex
-    width: 100%
-    justify-content: space-between
-    align-items: normal
-.footerLinks p
-    font-weight: 700
-    font-size: 24px
-    margin-bottom: 12px
-.innerFooterLinks
-    display: flex
-    gap: 20px
-    @media (max-width: 560px )
-        gap: 10px
-.innerFooterLinks a
-    width: 40px
-    height: 40px
-    border-radius: 4px
-    background-color: #fafafa
-    align-items: center
-    display: flex
-    justify-content: space-between
-    @media (max-width: 560px )
-        width: 30px
-        height: 30px
-.instagram
-    width: 100%
-    height: 26px
-    cursor: pointer
-    @media (max-width: 560px )
-        height: 20px
-.telegram
-    width: 100%
-    height: 26px
-    margin-right: 2px
-    cursor: pointer
-    @media (max-width: 560px )
-        height: 20px
-.rights
-    font-size: 14px
-    color: #5c5c5c
-    width: 100%
-    @media (max-width: 560px )
-        font-size: 12px
-.tagline
-    font-size: 24px
+    &__inner
+        display: flex
+        flex-direction: column
+        align-items: center
+        padding: 0 0 30px 0
+        &__top
+           padding: 50px 0
+           display: flex
+           justify-content: space-between
+           align-items: center
+           width: 100%
+           @media (max-width: 560px )
+                padding: 15px 0
+           .logo
+               width: 250px
+               @media (max-width: 560px )
+                   width: 120px
+           &__links
+               display: flex
+               gap: 20px
+               @media (max-width: 560px )
+                   gap: 10px
+               .instagram
+                   width: 100%
+                   height: 26px
+                   cursor: pointer
+                   @media (max-width: 560px )
+                        height: 20px
+               .telegram
+                   width: 100%
+                   height: 26px
+                   margin-right: 2px
+                   cursor: pointer
+                   @media (max-width: 560px )
+                       height: 20px
+               a
+                   width: 40px
+                   height: 40px
+                   border-radius: 4px
+                   background-color: #fafafa
+                   align-items: center
+                   display: flex
+                   justify-content: space-between
+                   @media (max-width: 560px )
+                       width: 30px
+                       height: 30px
+        &__line
+            width: 100%
+            height: 1px
+            background: #b3b3b3
+        &__bottom
+            padding: 40px 0
+            display: flex
+            width: 100%
+            justify-content: space-between
+            align-items: normal
+            &__table
+                li
+                    margin-bottom: 8px
+                a
+                    color: #b3b3b3
+                &__label
+                    color: #fafafa

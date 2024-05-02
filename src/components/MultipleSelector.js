@@ -1,34 +1,27 @@
-import * as React from 'react';
+import React from 'react';
+import Select from '@mui/material/Select';
+import {useState} from "react";
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import FormControl from '@mui/material/FormControl';
-import Select from '@mui/material/Select';
 
 const MultipleSelector = ({size,setSize,data}) => {
-    const [open, setOpen] = React.useState(false);
+    const [open, setOpen] = useState(false);
     let newData = []
     for(const key in data){newData.push(key)}
-    const handleChange = (event) => {setSize(event.target.value)}
-    const handleClose = () => {setOpen(false)}
-    const handleOpen = () => {setOpen(true)}
     return (
         <div>
             <FormControl>
-                <InputLabel id="demo-controlled-open-select-label">Размер</InputLabel>
+                <InputLabel>Размер</InputLabel>
                 <Select
-                    labelId="demo-controlled-open-select-label"
-                    id="demo-controlled-open-select"
                     open={open}
-                    onClose={handleClose}
-                    onOpen={handleOpen}
+                    onClose={()=>setOpen(false)}
+                    onOpen={()=>setOpen(true)}
                     value={size}
                     label="Размер"
-                    onChange={handleChange}
-                    indicatorColor="secondary"
+                    onChange={(event)=>setSize(event.target.value)}
                 >
-                    {newData.map((item,idx)=>
-                        <MenuItem key={idx} disabled={!data[item]} value={item}>{item}</MenuItem>
-                    )}
+                    {newData.map((item,idx)=> <MenuItem key={idx} disabled={!data[item]} value={item}>{item}</MenuItem>)}
                 </Select>
             </FormControl>
         </div>

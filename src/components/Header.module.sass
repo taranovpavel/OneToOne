@@ -1,84 +1,75 @@
-.innerHeader
+.header__inner
     display: flex
     justify-content: space-between
     color: #ffffff
-.pages
-    display: flex
-    gap: 32px
-.right
-    display: flex
-    gap: 15px
-.search
-    padding: 8px 32px
-    border: none
-    background-image: url("../images/iocn-loupe.svg")
-    background-repeat: no-repeat
-    background-position: 10px 8px
-    border-radius: 16px
-    transition: 0.3s
-    @media (max-width: 1040px )
-        background-image: url("../images/iocn-loupe-black.svg")
-        background-position: 8px 8px
-        width: 0
-        padding: 8px 16px
-
-.search:focus
-    border: none
-    @media (max-width: 1040px )
-        background-image: url("../images/iocn-loupe.svg")
-        background-position: 10px 8px
-        padding: 8px 32px
-        width: 180px
-    @media (max-width: 460px )
-        background-image: url("../images/iocn-loupe.svg")
-        background-position: 10px 8px
-        padding: 8px 32px
-        width: 120px
-.links
-    display: flex
-    gap: 15px
-    @media (max-width: 620px )
-        gap: 0
-.link
-    width: 30px
-    height: 30px
-    border-radius: 100%
-    background-color: #fff
-    align-items: center
-    display: flex
-    justify-content: center
-    border: none
-    cursor: pointer
-    @media (max-width: 620px )
-        display: none
-.order
-    width: 30px
-    height: 30px
-    border-radius: 100%
-    background-color: #fff
-    align-items: center
-    display: flex
-    justify-content: center
-    border: none
-    cursor: pointer
-.telegram
-    width: 100%
-    height: 20px
-    margin-right: 3px
-    cursor: pointer
-.tiktok
-    width: 100%
-    height: 25px
-    cursor: pointer
-.instagram
-    width: 100%
-    height: 20px
-    cursor: pointer
-.logo
-    width: 150px
-    @media (max-width: 620px )
-        width: 120px
-    @media (max-width: 460px )
-        padding: 6px 0 0
-        width: 100px
-
+    .logo
+        width: 150px
+        @media (max-width: 620px )
+            width: 120px
+        @media (max-width: 460px )
+            padding: 6px 0 0
+            width: 100px
+    &__right
+        display: flex
+        gap: 15px
+        &__links
+            display: flex
+            gap: 15px
+            @media (max-width: 620px )
+                gap: 0
+            &__link
+                width: 30px
+                height: 30px
+                border-radius: 100%
+                background-color: #fff
+                align-items: center
+                display: flex
+                justify-content: center
+                border: none
+                cursor: pointer
+                @media (max-width: 620px )
+                    display: none
+                .telegram
+                    width: 100%
+                    height: 20px
+                    margin-right: 3px
+                    cursor: pointer
+                .instagram
+                    width: 100%
+                    height: 20px
+                    cursor: pointer
+        &__search
+            padding: 8px 32px
+            border: none
+            background-image: url("../images/iocn-loupe.svg")
+            background-repeat: no-repeat
+            background-position: 10px 8px
+            border-radius: 16px
+            transition: 0.3s
+            @media (max-width: 1040px )
+                background-image: url("../images/iocn-loupe-black.svg")
+                background-position: 8px 8px
+                width: 0
+                padding: 8px 16px
+        &__search:focus
+            border: none
+            @media (max-width: 1040px )
+                background-image: url("../images/iocn-loupe.svg")
+                background-position: 10px 8px
+                padding: 8px 32px
+                width: 180px
+            @media (max-width: 460px )
+                background-image: url("../images/iocn-loupe.svg")
+                background-position: 10px 8px
+                padding: 8px 32px
+                width: 120px
+        &__order
+            width: 30px
+            height: 30px
+            border-radius: 100%
+            background-color: #fff
+            align-items: center
+            display: flex
+            justify-content: center
+            border: none
+            cursor: pointer

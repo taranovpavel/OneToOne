@@ -1,18 +1,16 @@
 import React from 'react';
+import Container from "./Container";
 import FormControl from '@mui/joy/FormControl';
 import Radio from '@mui/joy/Radio';
 import RadioGroup from '@mui/joy/RadioGroup';
-import data from '../data/clothes.json'
 import {useDispatch, useSelector} from "react-redux";
 import {setBrand} from "../redux/ItemsSlice";
-import Container from "./Container";
+import data from '../data/clothes.json'
 
 const Brands = () => {
     const {brand} = useSelector(state => state.itemsReducer)
     const dispatch = useDispatch()
-    const handleChange = (event) => {
-        dispatch(setBrand(event.target.value))
-    };
+    const handleChange = (event) => {dispatch(setBrand(event.target.value))}
     let brands = []
     for(const item in data){brands.push(data[item].BRAND.toUpperCase())}
     brands = brands.filter(function(item, pos) {return brands.indexOf(item) === pos;})
@@ -45,8 +43,8 @@ const Brands = () => {
                     value={brand}
                     onChange={handleChange}
                 >
-                    <div className={"colums"}>
-                        <div className={"colum"}>
+                    <div className={"columns"}>
+                        <div className={"columns__colum"}>
                             {first_colum.map((item, idx) => <Radio key={idx} value={item} label={item}/>)}
                         </div>
                         <div className={"colum"}>

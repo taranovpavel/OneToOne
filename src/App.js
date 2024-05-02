@@ -4,7 +4,8 @@ import MainPage from "./page/mainPage/MainPage";
 import ClothesInfoPage from "./page/ClothesInfoPage/ClothesInfoPage";
 import PrivacyPolicyPage from "./page/PrivacyPolicyPage/PrivacyPolicyPage";
 import OfferContractPage from "./page/OfferContractPage/OfferContractPage";
-function App() {
+
+const App = () => {
   return (
     <BrowserRouter>
       <Routes>

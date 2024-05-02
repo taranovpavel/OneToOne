@@ -1,6 +1,3 @@
-body
-    background-color: #ffffff
-
 *
     font-family: "Cousine", monospace  !important
     list-style-type: none
@@ -10,6 +7,8 @@ body
     align-items: center
     outline: none
     text-decoration: none
+body
+    background-color: #ffffff
 .container
     width: 1440px
     padding: 0 20px
@@ -28,7 +27,6 @@ body
     @media (max-width: 1220px )
         flex-wrap: wrap
         padding: 0 20px 15px
-
 .flex-wrap
     display: flex
     justify-content: center
@@ -44,7 +42,19 @@ body
     @media (max-width: 1220px )
         flex-wrap: wrap
         padding: 120px 0 15px
-
+.background
+    z-index: 10
+    position: fixed
+    top: 0
+    left: 0
+    width: 100%
+    height: 100vh
+    background-color: rgba(0, 0, 0, 0.85)
+.cross
+    position: absolute
+    right: 25px
+    top: 20px
+    z-index: 11
 .swiper-pagination-bullet-active
     background-color: #9C27B0 !important
 .swiper
@@ -56,6 +66,9 @@ body
     background-position: center
     background-repeat: no-repeat
     background-size: contain
+.swiperSmall
+    @media (max-width: 890px )
+        height: 340px
 .swiperBig
     height: 600px
     width: 480px
@@ -72,130 +85,61 @@ body
     background-position: center
     background-repeat: no-repeat
     background-size: contain
-
 .MuiSelect-select
     width: 105px !important
     padding: 10px !important
-.small
-    padding: 10px 14px
+.small,.small100,.medium,.round,.round_cross,.fit
     background-color: #fafafa
-    border-radius: 6px
     border: 2px solid #151515
     transition: 0.3s
     cursor: pointer
     font-size: 18px
     font-weight: 700
-    min-width: 151px
     &:hover
         background-color: #151515
         color: #fafafa
     &:active
         scale: 90%
+.small
+    padding: 10px 14px
+    border-radius: 6px
 .small100
     width: 100%
     padding: 10px 14px
-    background-color: #fafafa
     border-radius: 6px
-    border: 2px solid #151515
-    transition: 0.3s
-    cursor: pointer
-    font-size: 18px
-    font-weight: 700
-
-    &:hover
-        background-color: #151515
-        color: #fafafa
-    &:active
-        scale: 90%
 .medium
     padding: 15px 30px
-    background-color: #fafafa
     border-radius: 6px
-    border: 2px solid #151515
-    transition: 0.3s
-    cursor: pointer
-    font-size: 16px
-    font-weight: 700
-    &:hover
-        background-color: #151515
-        color: #fafafa
-    &:active
-        scale: 90%
 .round
     width: 26px
     height: 26px
     position: relative
-    background-color: #fafafa
     border-radius: 100%
-    border: 2px solid #151515
-    transition: 0.3s
-    font-size: 18px
-    font-weight: 700
-    cursor: pointer
-    &:hover
-        background-color: #151515
-        color: #fafafa
-    &:active
-        scale: 90%
-.round p
-    position: absolute
-    top: 45%
-    left: 50%
-    transform: translate(-50%, -50%)
-.inputs input
-    padding: 10px 14px
-    border-radius: 6px
-    font-size: 18px
-    border: 2px solid #151515
-    width: 100%
-.inputs .error
-    border: 2px solid #ca0e0e
-.inputs .good
-    border: 2px solid #3dca0e
-.inputs
-    display: flex
-    flex-direction: column
-    gap: 16px
-    width: 100%
-.fit
-    background-color: #151515
-    color: #fafafa
-    transition: 0.3s
-    font-size: 18px
-    font-weight: 700
-    cursor: pointer
-    border: 2px solid #151515
-    &:active
-        scale: 90%
+    p
+        position: absolute
+        top: 45%
+        left: 50%
+        transform: translate(-50%, -50%)
 .round_cross
     width: 26px
     height: 26px
     position: absolute
-    background-color: #fafafa
     border-radius: 100%
-    border: 2px solid #151515
-    transition: 0.3s
-    font-size: 18px
-    font-weight: 700
-    cursor: pointer
     right: 0
     bottom: 15px
     display: none
     @media (max-width: 800px )
         display: block
-    &:hover
-        background-color: #151515
-        color: #fafafa
+.fit
+    background-color: #151515
+    color: #fafafa
     &:active
         scale: 90%
-.swiperSmall
-    @media (max-width: 890px )
-        height: 340px
 .MuiRadioGroup-root
     align-items: normal
 .MuiFormControl-root
     flex-direction: row !important
-.colums
+.columns
     display: flex
     align-items: normal
     width: 100%
@@ -204,13 +148,13 @@ body
     @media (max-width: 800px )
         gap: 10px 50px
         flex-wrap: wrap
-.colum
-    display: flex
-    flex-direction: column
-    gap: 10px
-    align-items: normal
-    @media (max-width: 800px )
-        width: 120px
+    &__colum
+        display: flex
+        flex-direction: column
+        gap: 10px
+        align-items: normal
+        @media (max-width: 800px )
+            width: 120px
 .contract
     h1
         font-size: 28px
@@ -223,7 +167,7 @@ body
     padding: 12px 0
     background-color: #151515
     width: 100%
-.header_fixed
+.header__fixed
     padding: 12px 0
     position: fixed
     background-color: #151515

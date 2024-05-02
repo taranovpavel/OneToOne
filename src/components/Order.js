@@ -30,30 +30,30 @@ const Order = () => {
         address:"",
     })
     const [classNames, setClassNames] = useState({
-        fullName: "error",
-        number:"error",
-        telegram:"error",
-        email:"error",
-        index:"error",
-        address:"error",
+        fullName:false,
+        number:false,
+        telegram:false,
+        email:false,
+        index:false,
+        address:false,
     })
     const [inputPromocode,setPromocode] = useState("")
     const [discount,setDiscount] = useState(1)
     totalPrice*= discount
     const formValue = (event) => {
-        let newClass = ""
+        let newClass
         if (event.target.name==="fullName"){
-            if(fullName_REGEXP.test([event.target.value])){newClass = "good"}else{newClass = "error"}
+            newClass = fullName_REGEXP.test([event.target.value]);
         }else if (event.target.name==="number"){
-            if(number_REGEXP.test([event.target.value])){newClass = "good"}else{newClass = "error"}
+            newClass = number_REGEXP.test([event.target.value]);
         }else if (event.target.name==="telegram"){
-            if(telegram_REGEXP.test([event.target.value])){newClass = "good"}else{newClass = "error"}
+            newClass = telegram_REGEXP.test([event.target.value]);
         }else if (event.target.name==="email"){
-            if(email_REGEXP.test([event.target.value])){newClass = "good"}else{newClass = "error"}
+            newClass = email_REGEXP.test([event.target.value]);
         }else if (event.target.name==="index"){
-            if(index_REGEXP.test([event.target.value])){newClass = "good"}else{newClass = "error"}
+            newClass = index_REGEXP.test([event.target.value]);
         }else if (event.target.name==="address"){
-            if(event.target.value.length>8){newClass = "good"}else{newClass = "error"}
+            newClass = event.target.value.length > 8;
         }
         setClassNames({
             ...classNames,
@@ -68,10 +68,7 @@ const Order = () => {
     document.body.style.overflow = overflow?"hidden":"visible"
     const getPostActions = () =>{
         let errors = 0
-        for(const key in classNames){
-            console.log(classNames[key])
-            if (classNames[key]==="error"){errors+=1}
-        }
+        for(const key in classNames){if (!classNames[key]){errors+=1}}
         if (errors===0)
         {
             dispatch(getPost(`ФИО:  ${data.fullName}%0AНомер:  ${data.number}%0AТелеграм:  ${data.telegram}%0AПочта:  ${data.email}%0AПочтовый Индекс:  ${data.index}%0AПолный адрес:  ${data.address}%0AЦена заказа:  ${isRUS?totalPrice*RUB+"₽":"$"+totalPrice}`))
@@ -82,28 +79,26 @@ const Order = () => {
         }
     }
     const activetePromocode = () =>{
-        for(const item in promocodes){
-            if((inputPromocode.toUpperCase()===promocodes[item].promocode.toUpperCase())){setDiscount(0.9)}
-        }
+        for(const item in promocodes){if((inputPromocode.toUpperCase()===promocodes[item].promocode.toUpperCase())){setDiscount(0.9)}}
     }
     return (
         <>
             <ThankYou/>
-            <Cross style={{display: `${isModal?"block":"none"}`}} onClick={()=>dispatch(setModalOrder())} className={classes.cross}/>
-            <div onClick={()=>dispatch(setModalOrder())} style={{display: `${isModal?"block":"none"}`}} className={classes.background}></div>
-            <div style={{display: `${isModal?"block":"none"}`}} className={classes.orderModal}>
-                <div className={classes.order}>
-                    <p className={classes.label}>{isRUS?"Ваш заказ":"Your order"}</p>
-                    <div className={classes.orders}>
+            <Cross style={{display: `${isModal?"block":"none"}`}} onClick={()=>dispatch(setModalOrder())} className={"cross"}/>
+            <div onClick={()=>dispatch(setModalOrder())} style={{display: `${isModal?"block":"none"}`}} className={"background"}></div>
+            <div style={{display: `${isModal?"block":"none"}`}} className={classes.order}>
+                <div className={classes.order__inner}>
+                    <p className={classes.order__inner__label}>{isRUS?"Ваш заказ":"Your order"}</p>
+                    <div className={classes.order__inner__orders}>
                         {items.map((item,idx)=>
-                            <div className={classes.items} key={idx}>
-                                <div className={classes.left}>
-                                    <div className={classes.image} style={{backgroundImage: `url(${item.url})`}}/>
-                                    <div className={classes.text}>
-                                        <p className={classes.name}>{item.brand} {item.name}</p>
+                            <div className={classes.order__inner__orders__items} key={idx}>
+                                <div className={classes.order__inner__orders__items__left}>
+                                    <div className={classes.order__inner__orders__items__left__image} style={{backgroundImage: `url(${item.url})`}}/>
+                                    <div className={classes.order__inner__orders__items__left__text}>
+                                        <p className={classes.order__inner__orders__items__left__text__name}>{item.brand} {item.name}</p>
                                         <p>{isRUS?"Размер":"Size"}: {item.size}</p>
                                         <p>{isRUS?"Цена: ":"Price: $"}{isRUS?item.price * item.value * RUB:item.price * item.value}{isRUS?"₽":""}</p>
-                                        <div className={classes.value_small}>
+                                        <div className={classes.order__inner__orders__items__left__text__value__small}>
                                             <Button size={"round"} onclick={() => dispatch(minusValue(idx))}
                                                     inner={"-"}/>
                                             <p>{item.value}</p>
@@ -112,28 +107,28 @@ const Order = () => {
                                         </div>
                                     </div>
                                 </div>
-                                <div className={classes.value_big}>
+                                <div className={classes.order__inner__orders__items__value__big}>
                                     <Button size={"round"} onclick={() => dispatch(minusValue(idx))} inner={"-"}/>
                                     <p>{item.value}</p>
                                     <Button size={"round"} onclick={() => dispatch(plusValue(idx))} inner={"+"}/>
                                 </div>
-                                <div className={classes.bigCross}><Button size={"round"} onclick={()=>deleteItemActions(idx)} inner={"×"}/></div>
+                                <div className={classes.order__inner__orders__items__cross__big}><Button size={"round"} onclick={()=>deleteItemActions(idx)} inner={"×"}/></div>
                                 <Button size={"round_cross"} onclick={()=>deleteItemActions(idx)} inner={"×"}/>
                             </div>
                         )}
                     </div>
-                    <p className={classes.price}>{isRUS?"Итого: ":"Total: $"}{isRUS?totalPrice*RUB:totalPrice}{isRUS?"₽":""}</p>
-                    <div className={"inputs"}>
-                        <input className={classNames.fullName} onChange={formValue} name="fullName" type="text" placeholder={isRUS?"Ф.И.О":"Full name"}/>
-                        <input className={classNames.number} onChange={formValue} name="number" type="text" placeholder={isRUS?"Номер":"Number"}/>
-                        <input className={classNames.telegram} onChange={formValue} name="telegram" type="text" placeholder={"Telegram"}/>
-                        <input className={classNames.email} onChange={formValue} name="email" type="text" placeholder={"e-mail"}/>
-                        <input className={classNames.index} onChange={formValue} name="index" type="text" placeholder={isRUS?"Почтовый индекс":"Postcode"}/>
-                        <div className={classes.address}>
-                            <input className={classNames.address} onChange={formValue} name="address" type="text" placeholder={isRUS?"Полный адрес":"Address"}/>
-                            <p className={classes.free}>{isRUS?"Бесплатная доставка по СНГ":"Free delivery to CIS"}</p>
+                    <p className={classes.order__inner__orders__price}>{isRUS?"Итого: ":"Total: $"}{isRUS?totalPrice*RUB:totalPrice}{isRUS?"₽":""}</p>
+                    <div className={classes.order__inner__orders__inputs}>
+                        <input className={classNames.fullName?`${classes.good}`:`${classes.error}`} onChange={formValue} name="fullName" type="text" placeholder={isRUS?"Ф.И.О":"Full name"}/>
+                        <input className={classNames.number?`${classes.good}`:`${classes.error}`} onChange={formValue} name="number" type="text" placeholder={isRUS?"Номер":"Number"}/>
+                        <input className={classNames.telegram?`${classes.good}`:`${classes.error}`} onChange={formValue} name="telegram" type="text" placeholder={"Telegram"}/>
+                        <input className={classNames.email?`${classes.good}`:`${classes.error}`} onChange={formValue} name="email" type="text" placeholder={"e-mail"}/>
+                        <input className={classNames.index?`${classes.good}`:`${classes.error}`} onChange={formValue} name="index" type="text" placeholder={isRUS?"Почтовый индекс":"Postcode"}/>
+                        <div className={classes.order__inner__orders__inputs__address}>
+                            <input className={classNames.address?`${classes.good}`:`${classes.error}`} onChange={formValue} name="address" type="text" placeholder={isRUS?"Полный адрес":"Address"}/>
+                            <p>{isRUS?"Бесплатная доставка по СНГ":"Free delivery to CIS"}</p>
                         </div>
-                        <div className={classes.promocode}>
+                        <div className={classes.order__inner__orders__inputs__promocode}>
                             <input onChange={(event)=>setPromocode(event.target.value)} type="text" placeholder={isRUS?"Промокод":"Promo code"}/>
                             <Button onclick={activetePromocode} inner={isRUS?"активировать":"activate"} size={"small"}/>
                         </div>

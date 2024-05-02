@@ -2,11 +2,12 @@ import React from 'react';
 import{Tabs, Tab} from "@mui/material";
 import {useDispatch, useSelector} from "react-redux";
 import {setTab} from "../redux/ItemsSlice";
+
 const TabsComponent = ({isFixed = false,categoriesSelect,setInput,valueKey= "value", labelKey = "label"}) => {
     const {tab} = useSelector(state => state.itemsReducer)
     const dispatch = useDispatch()
     const windowInnerWidth = window.innerWidth
-    const handleChange = (event,newValue) =>{
+    const handleChange = (event,newValue) => {
         window.scrollTo(0, 0)
         dispatch(setTab(newValue))
         setInput("")

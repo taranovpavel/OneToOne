@@ -1,9 +1,8 @@
 import React from 'react';
+
 const Container = ({inner,classname="container"}) => {
     return (
-        <div className={classname}>
-            {inner}
-        </div>
+        <div className={classname}>{inner}</div>
     );
 };
 

@@ -6,33 +6,30 @@ import { ReactComponent as Instagram} from "../images/icon-instagram.svg"
 import { ReactComponent as Logo} from "../images/icon-logo.svg"
 import {useSelector} from "react-redux";
 import {Link} from "react-router-dom";
+
 const Footer = () => {
     const {isRUS} = useSelector(state => state.itemsReducer)
     return (
         <div className={classes.footer}>
             <Container
                 inner={
-                    <div className={classes.innerFooter}>
-                        <div className={classes.footerTop}>
+                    <div className={classes.footer__inner}>
+                        <div className={classes.footer__inner__top}>
                             <Logo className={classes.logo}/>
-                            <div className={classes.footerLinks}>
-                                <ul className={classes.innerFooterLinks}>
-                                    <li><a href=""><Instagram className={classes.instagram}/></a></li>
-                                    <li><a href=""><Telegram className={classes.telegram}/></a></li>
-                                </ul>
-                            </div>
+                            <ul className={classes.footer__inner__top__links}>
+                                <li><a href=""><Instagram className={classes.instagram}/></a></li>
+                                <li><a href=""><Telegram className={classes.telegram}/></a></li>
+                            </ul>
                         </div>
-                        <div className={classes.line}/>
-                        <div className={classes.bottom}>
-                            <div className={classes.tables}>
-                                <ul className={classes.table}>
-                                    <li><p className={classes.label}>ONETOONE</p></li>
-                                    <li><Link to={"/Privacy"}>{isRUS?"Политика конфиденциальности":"Privacy policy"}</Link></li>
-                                    <li><Link to={"/Contract"}>{isRUS?"Договор оферты":"Offer contract"}</Link></li>
-                                    <li><a href="">{isRUS?"Поддержка":"Support"}</a></li>
-                                    <li><a href="">{isRUS?"Контакты":"Contacts"}</a></li>
-                                </ul>
-                            </div>
+                        <div className={classes.footer__inner__line}/>
+                        <div className={classes.footer__inner__bottom}>
+                            <ul className={classes.footer__inner__bottom__table}>
+                                <li><p className={classes.footer__inner__bottom__table__label}>ONETOONE</p></li>
+                                <li><Link to={"/Privacy"}>{isRUS?"Политика конфиденциальности":"Privacy policy"}</Link></li>
+                                <li><Link to={"/Contract"}>{isRUS?"Договор оферты":"Offer contract"}</Link></li>
+                                <li><a href="">{isRUS?"Поддержка":"Support"}</a></li>
+                                <li><a href="">{isRUS?"Контакты":"Contacts"}</a></li>
+                            </ul>
                         </div>
                     </div>
                 }

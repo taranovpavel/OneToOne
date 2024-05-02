@@ -4,6 +4,7 @@ import "swiper/css"
 import "swiper/css/pagination"
 import "swiper/css/autoplay"
 import {Autoplay, Pagination, Scrollbar} from "swiper/modules";
+
 const SwiperComponent = ({photos,swiperClasses = "swiper", imageClasses = "image", autoplay= false}) => {
     return (
         <Swiper
@@ -20,9 +21,7 @@ const SwiperComponent = ({photos,swiperClasses = "swiper", imageClasses = "image
             pagination={{ clickable: true }}
             className={swiperClasses}
         >
-            {photos.map((item,idx)=>
-                <SwiperSlide className={imageClasses} key={idx} style={{backgroundImage: `url(${item})`}} />
-            )}
+            {photos.map((item,idx)=> <SwiperSlide className={imageClasses} key={idx} style={{backgroundImage: `url(${item})`}} />)}
         </Swiper>
     );
 };
