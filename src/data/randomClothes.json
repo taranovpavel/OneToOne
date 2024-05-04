@@ -1136,7 +1136,7 @@
   {
     "NAME": "MX1 skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 110,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Skinny jeans",
     "SPECIAL": false,
@@ -1810,15 +1810,15 @@
   {
     "NAME": "combat boots",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 229,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 51,
     "SIZE": {
-      "35": true,
-      "36": true,
-      "37": true,
-      "38": true,
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": false,
       "39": true,
       "40": true,
       "41": true,
@@ -1826,7 +1826,7 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "https://cdn-images.farfetch-contents.com/20/65/12/44/20651244_50601167_2048.jpg",
@@ -1841,7 +1841,7 @@
     "PRICE": 107,
     "TYPE": "SHOES",
     "SPECIAL": false,
-    "ID": 52,
+    "ID": 0,
     "SIZE": {
       "35": true,
       "36": true,
@@ -1869,7 +1869,7 @@
     "PRICE": 107,
     "TYPE": "SHOES",
     "SPECIAL": false,
-    "ID": 53,
+    "ID": 0,
     "SIZE": {
       "35": true,
       "36": true,
@@ -1893,14 +1893,14 @@
   {
     "NAME": "Strike Derby",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 150,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 54,
     "SIZE": {
-      "35": true,
-      "36": true,
-      "37": true,
+      "35": false,
+      "36": false,
+      "37": false,
       "38": true,
       "39": true,
       "40": true,
@@ -1909,24 +1909,25 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/198f2c5f02f787101fa2291463b9d61b.webp",
-      "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/5fa95cd72342fcf0f4144b7c288510a0.webp",
-      "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/fa9ad5a66ee03967d7eb323e11bb228f.webp",
-      "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/f4d3ef454577ecc3797b406e803ef5fc.webp"
+      "https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/3/0/30-03-2021_GH_600600-WA960-1000_2_1.jpg",
+      "https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/3/0/30-03-2021_GH_600600-WA960-1000_1_1.jpg",
+      "https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/3/0/30-03-2021_GH_600600-WA960-1000_3_1.jpg",
+      "https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/3/0/30-03-2021_GH_600600-WA960-1000_5_1.jpg",
+      "https://media.endclothing.com/media/f_auto,q_auto:eco,w_768/prodmedia/media/catalog/product/3/0/30-03-2021_GH_600600-WA960-1000_m6_1.jpg"
     ]
   },
   {
     "NAME": "3XL mesh-panel",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 210,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 55,
     "SIZE": {
-      "35": true,
+      "35": false,
       "36": true,
       "37": true,
       "38": true,
@@ -1937,7 +1938,7 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "//www.radpresent.com/cdn/shop/products/Screenshot2023-02-16at6.35.23PM.png?v=1676547310&width=1946",
@@ -1950,12 +1951,12 @@
   {
     "NAME": "3XL mesh-panel",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 210,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 56,
     "SIZE": {
-      "35": true,
+      "35": false,
       "36": true,
       "37": true,
       "38": true,
@@ -1966,7 +1967,7 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "https://www.radpresent.com/cdn/shop/files/Screenshot2023-05-05at1.41.15PM.png?v=1683265876&width=1946",
@@ -1980,12 +1981,12 @@
   {
     "NAME": "3XL mesh-panel",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 210,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 57,
     "SIZE": {
-      "35": true,
+      "35": false,
       "36": true,
       "37": true,
       "38": true,
@@ -1996,7 +1997,7 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "//www.radpresent.com/cdn/shop/products/Screenshot2023-02-16at6.40.52PM.png?v=1676547095&width=1946",
@@ -2009,12 +2010,12 @@
   {
     "NAME": "3XL mesh-panel",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 210,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 58,
     "SIZE": {
-      "35": true,
+      "35": false,
       "36": true,
       "37": true,
       "38": true,
@@ -2025,53 +2026,55 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F07%2Fblue-Balenciaga-3xl-001.jpg?cbr=1&q=90",
-      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F07%2Fblue-Balenciaga-3xl-002.jpg?cbr=1&q=90",
-      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F07%2Fblue-Balenciaga-3xl-003.jpg?cbr=1&q=90",
-      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F07%2Fblue-Balenciaga-3xl-004.jpg?cbr=1&q=90",
-      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F07%2Fblue-Balenciaga-3xl-005.jpg?cbr=1&q=90",
-      "https://image-cdn.hypb.st/https%3A%2F%2Fhypebeast.com%2Fimage%2F2023%2F07%2Fblue-Balenciaga-3xl-006.jpg?cbr=1&q=90"
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20231117/9b1871c5bed146a08061fcbc98407953.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20231117/6ce2bb11fe0c4e82b37247a001324dc6.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20231117/cf20ac4af3b84775ab2cdb5dd1779fbe.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20231117/881d69c888034b88a2cea40355be6a39.jpg?x-oss-process=image/format,webp/resize,w_800"
     ]
   },
   {
     "NAME": "3XL mesh-panel",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 210,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 59,
     "SIZE": {
-      "35": true,
+      "35": false,
       "36": true,
       "37": true,
       "38": true,
       "39": true,
-      "40": true
+      "40": true,
+      "41": true,
+      "42": true,
+      "43": true,
+      "44": true,
+      "45": true,
+      "46": false
     },
     "PHOTOS": [
-      "https://balenciaga.dam.kering.com/m/4db4745c94b6ff59/eCom-734731W3XL11010_F.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/522a8ecbceb73d7a/eCom-734731W3XL11010_J.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/506d4a7b6b6b5e87/eCom-734731W3XL11010_I.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/74798f69e385ee25/eCom-734731W3XL11010_L.jpg?v=3",
-      "https://balenciaga.dam.kering.com/m/29ae80588f52cf16/eCom-734731W3XL11010_D.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/60872635fa85cd37/eCom-734731W3XL11010_E.jpg?v=2",
-      "https://balenciaga.dam.kering.com/m/192935fba67efdb3/eCom-734731W3XL11010_A.jpg?v=2"
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20240328/279ef00640a149bcbb7c0e149e388fe9.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20240328/da6dc733f4494e14b83b52d6d5738eff.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20240328/2414764d27e4411eba80490d0f2f8997.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20240328/4d939b7165554c0aad8e52571d2f5bce.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20240328/fe7be93e761e40a284eeaeeb59cd92e5.jpg?x-oss-process=image/format,webp/resize,w_800"
     ]
   },
   {
     "NAME": "Runner Sneaker",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 232,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 60,
     "SIZE": {
-      "35": true,
-      "36": true,
-      "37": true,
+      "35": false,
+      "36": false,
+      "37": false,
       "38": true,
       "39": true,
       "40": true,
@@ -2080,28 +2083,25 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://balenciaga.dam.kering.com/m/6c77ef323c1a7f24/eCom-656065W3RA19000_F.jpg?v=6",
-      "https://balenciaga.dam.kering.com/m/7a9c2a506015b9d1/eCom-656065W3RA19000_J.jpg?v=4",
-      "https://balenciaga.dam.kering.com/m/22e18f59b65c16b8/eCom-656065W3RA19000_I.jpg?v=6",
-      "https://balenciaga.dam.kering.com/m/31b62b9174953de1/eCom-656065W3RA19000_D.jpg?v=7",
-      "https://balenciaga.dam.kering.com/m/22e18f59b65c16b8/eCom-656065W3RA19000_I.jpg?v=6",
-      "https://balenciaga.dam.kering.com/m/31b62b9174953de1/eCom-656065W3RA19000_D.jpg?v=7"
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230608/df52afd67b354d57bd481fedea339393.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230608/9d33fa3a22e14318a436bb31907bf2fe.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230608/d0fb9f7b17f14763a9d9ca705d21c673.jpg?x-oss-process=image/format,webp/resize,w_800"
     ]
   },
   {
     "NAME": "Runner sneakers",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 232,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 61,
     "SIZE": {
-      "35": true,
-      "36": true,
-      "37": true,
+      "35": false,
+      "36": false,
+      "37": false,
       "38": true,
       "39": true,
       "40": true,
@@ -2110,29 +2110,27 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://cdn-images.farfetch-contents.com/20/13/20/86/20132086_50229656_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/20/13/20/86/20132086_50229662_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/20/13/20/86/20132086_50229663_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/20/13/20/86/20132086_50229660_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/20/13/20/86/20132086_50229652_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/20/13/20/86/20132086_50229643_1000.jpg",
-      "https://cdn-images.farfetch-contents.com/20/13/20/86/20132086_50229644_2048.jpg"
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20220217/28196643466a44eeb21c7adae2e49f8e.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20220217/858c2f431d7549928f286a28e1d8fc40.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20220217/3bec447afadb432790716c73f71c4de7.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20220217/651103b34e0848e5a8678ad67b63c9ad.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20220217/5e57a35275d345c8bb3bbbeb89b1ba96.jpg?x-oss-process=image/format,webp/resize,w_800"
     ]
   },
   {
     "NAME": "Runner sneakers",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 232,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 62,
     "SIZE": {
-      "35": true,
-      "36": true,
-      "37": true,
+      "35": false,
+      "36": false,
+      "37": false,
       "38": true,
       "39": true,
       "40": true,
@@ -2141,29 +2139,27 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://yesoriginal.com.ua/image/cache/catalog/cover/677403-W3RB2-9010-472x497.webp",
-      "https://yesoriginal.com.ua/image/cache/catalog/other_images/677403-W3RB2-9010-1-472x497.webp",
-      "https://yesoriginal.com.ua/image/cache/catalog/other_images/677403-W3RB2-9010-3-472x497.webp",
-      "https://yesoriginal.com.ua/image/cache/catalog/other_images/677403-W3RB2-9010-4-472x497.webp",
-      "https://yesoriginal.com.ua/image/cache/catalog/other_images/677403-W3RB2-9010-5-472x497.webp",
-      "https://yesoriginal.com.ua/image/cache/catalog/other_images/677403-W3RB2-9010-6-472x497.webp",
-      "https://yesoriginal.com.ua/image/cache/catalog/other_images/677403-W3RB2-9010-1-472x497.webp"
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/c26748105adf4fe3a2943aed7a578617.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/028c8f21e166407987fdaf52d0c7f290.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/cece7c2dfb1549b88caec34c9c273fb2.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/0abefa13947a4469918ed4f3889af35d.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/bd06d22ecdd24690bf8f600cd1a3353d.jpg?x-oss-process=image/format,webp/resize,w_800"
     ]
   },
   {
     "NAME": "Runner Sneaker",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 232,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 63,
     "SIZE": {
-      "35": true,
-      "36": true,
-      "37": true,
+      "35": false,
+      "36": false,
+      "37": false,
       "38": true,
       "39": true,
       "40": true,
@@ -2172,13 +2168,14 @@
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://azure-merchants.zammit.shop/active-storage/ahy4lo1cz0i33fdb9w7ehi92w40p",
-      "https://azure-merchants.zammit.shop/active-storage/b9844x54jmmuka85xmzb5yzqymmx",
-      "https://azure-merchants.zammit.shop/active-storage/z4ym802fywiv7glq3j4ylqj8h0s4",
-      "https://azure-merchants.zammit.shop/active-storage/tnczpq70r2qvwul0w5bxgs1mb8ox"
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/27c9fa86393a48a2bf1e31190d093d8e.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/a54da277999848c3987294c8383d5833.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/aa7fa532cf7b45dc982243526a3c5209.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/db345d160b8b45a1877a9e9303335795.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/cc73aa4f4fa64037a09de868c339b9a6.jpg?x-oss-process=image/format,webp/resize,w_800"
     ]
   },
   {
@@ -2187,7 +2184,7 @@
     "PRICE": 107,
     "TYPE": "SHOES",
     "SPECIAL": false,
-    "ID": 64,
+    "ID": 0,
     "SIZE": {
       "35": true,
       "36": true,
@@ -2203,10 +2200,11 @@
       "46": true
     },
     "PHOTOS": [
-      "https://sv77.com/upload/resize_cache/iblock/c0f/960_1240_2d7a58ff99b324185ccb5ad5dfbdb5e85/c0fb55b7a90a1ceff9c4480d18bfe647.webp",
-      "https://sv77.com/upload/resize_cache/iblock/4ab/960_1240_2d7a58ff99b324185ccb5ad5dfbdb5e85/4abc59bc672b3c78e0a0ca74702b114c.webp",
-      "https://sv77.com/upload/resize_cache/iblock/11b/960_1240_2d7a58ff99b324185ccb5ad5dfbdb5e85/11bd680407f1888aa6c6433a92de8bf9.webp",
-      "https://sv77.com/upload/resize_cache/iblock/c1c/960_1240_2d7a58ff99b324185ccb5ad5dfbdb5e85/c1c4914f3bcfe229b0851b66fdb217bd.webp"
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/d6f90a583cbd4780b371fb2337ac9b03.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/1abd4af84c44412598e9481477ec32c8.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/f1078f78d3e54166b06f328c03a49ded.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/8aba5b18dfc643cdbbe964851ce19389.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20230801/e3085a3099734ee289e44e13032ebd9c.jpg?x-oss-process=image/format,webp/resize,w_800"
     ]
   },
   {
@@ -2215,7 +2213,7 @@
     "PRICE": 107,
     "TYPE": "SHOES",
     "SPECIAL": false,
-    "ID": 65,
+    "ID": 0,
     "SIZE": {
       "35": true,
       "36": true,
@@ -2243,7 +2241,7 @@
     "PRICE": 107,
     "TYPE": "SHOES",
     "SPECIAL": false,
-    "ID": 66,
+    "ID": 0,
     "SIZE": {
       "35": true,
       "36": true,
@@ -2272,7 +2270,7 @@
     "PRICE": 107,
     "TYPE": "SHOES",
     "SPECIAL": false,
-    "ID": 67,
+    "ID": 0,
     "SIZE": {
       "35": true,
       "36": true,
@@ -2298,18 +2296,23 @@
   {
     "NAME": "10Xl Sneaker",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 232,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 68,
     "SIZE": {
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": false,
+      "39": true,
       "40": true,
       "41": true,
       "42": true,
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "https://img.shopstyle-cdn.com/sim/16/0d/160d127b7248d2f5f64de32e00520075_best/men-10xl-sneaker.jpg",
@@ -2325,18 +2328,23 @@
   {
     "NAME": "10XL Sneakers",
     "BRAND": "Balenciaga",
-    "PRICE": 107,
+    "PRICE": 232,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 69,
     "SIZE": {
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": false,
+      "39": true,
       "40": true,
       "41": true,
       "42": true,
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "https://www.radpresent.com/cdn/shop/files/Screenshot2024-01-11at6.22.11PM.png?v=1704969481",
@@ -2350,18 +2358,23 @@
   {
     "NAME": "Skate Sneakers",
     "BRAND": "Louis Vuitton",
-    "PRICE": 107,
+    "PRICE": 232,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 70,
     "SIZE": {
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": true,
+      "39": true,
       "40": true,
       "41": true,
       "42": true,
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker-shoes--BP9U8PGC54_PM2_Front%20view.png?wid=2400&hei=2400",
@@ -2374,22 +2387,27 @@
   {
     "NAME": "Skate Gris",
     "BRAND": "Louis Vuitton",
-    "PRICE": 107,
+    "PRICE": 242,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 71,
     "SIZE": {
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": true,
+      "39": true,
       "40": true,
       "41": true,
       "42": true,
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://droper-media.us-southeast-1.linodeobjects.com/2211202318394577.webp",
       "https://droper-media.us-southeast-1.linodeobjects.com/22112023183910391.webp",
+      "https://droper-media.us-southeast-1.linodeobjects.com/2211202318394577.webp",
       "https://droper-media.us-southeast-1.linodeobjects.com/2211202318391625.webp",
       "https://droper-media.us-southeast-1.linodeobjects.com/2211202318392529.webp",
       "https://droper-media.us-southeast-1.linodeobjects.com/22112023183931361.webp"
@@ -2398,18 +2416,23 @@
   {
     "NAME": "Skate Sneakers ",
     "BRAND": "Louis Vuitton",
-    "PRICE": 107,
+    "PRICE": 232,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 72,
     "SIZE": {
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": true,
+      "39": true,
       "40": true,
       "41": true,
       "42": true,
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "https://image.harrods.com/louis-vuitton-leather-lv-skate-sneakers_21465744_46911260_2048.jpg",
@@ -2424,22 +2447,27 @@
   {
     "NAME": "Skate Gris",
     "BRAND": "Louis Vuitton",
-    "PRICE": 107,
+    "PRICE": 242,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 73,
     "SIZE": {
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": true,
+      "39": true,
       "40": true,
       "41": true,
       "42": true,
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker-shoes--BQ9U2PMI45_PM1_Side%20view.png?wid=1090&hei=1090",
       "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker-shoes--BQ9U2PMI45_PM2_Front%20view.png?wid=2400&hei=2400",
+      "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker-shoes--BQ9U2PMI45_PM1_Side%20view.png?wid=1090&hei=1090",
       "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker-shoes--BQ9U2PMI45_PM1_Interior%20view.png?wid=1090&hei=1090",
       "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker-shoes--BQ9U2PMI45_PM1_Detail%20view.png?wid=1090&hei=1090",
       "https://eu.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker-shoes--BQ9U2PMI45_PM1_Back%20view.png?wid=1090&hei=1090",
@@ -2449,22 +2477,27 @@
   {
     "NAME": "Skate Gris",
     "BRAND": "Louis Vuitton",
-    "PRICE": 107,
+    "PRICE": 242,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 74,
     "SIZE": {
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": true,
+      "39": true,
       "40": true,
       "41": true,
       "42": true,
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
-      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker--BQ9U2PMI52_PM1_Side%20view.png?wid=2400&hei=2400",
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker--BQ9U2PMI52_PM2_Front%20view.png?wid=2400&hei=2400",
+      "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker--BQ9U2PMI52_PM1_Side%20view.png?wid=2400&hei=2400",
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker--BQ9U2PMI52_PM1_Interior%20view.png?wid=2400&hei=2400",
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker--BQ9U2PMI52_PM1_Detail%20view.png?wid=2400&hei=2400",
       "https://us.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-lv-skate-sneaker--BQ9U2PMI52_PM1_Back%20view.png?wid=2400&hei=2400",
@@ -2474,7 +2507,7 @@
   {
     "NAME": "lace-up sneakers",
     "BRAND": "Lanvin",
-    "PRICE": 107,
+    "PRICE": 242,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 75,
@@ -2488,17 +2521,15 @@
       "46": true
     },
     "PHOTOS": [
-      "https://us.lanvin.com/cdn/shop/files/FW-SKDK02-DRA2-A2151_2_550x.jpg?v=1712141299",
-      "https://us.lanvin.com/cdn/shop/files/FW-SKDK02-DRA2-A2151_3_550x.jpg?v=1712141298",
-      "https://us.lanvin.com/cdn/shop/files/FW-SKDK02-DRA2-A2151_4_550x.jpg?v=1712141300",
-      "https://us.lanvin.com/cdn/shop/files/FW-SKDK02-DRA2-A2151_5_550x.jpg?v=1712141300",
-      "https://us.lanvin.com/cdn/shop/files/FW-SKDK02-DRA2-A2151_6_550x.jpg?v=1712141298"
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20220212/30cbb772eaa14c149352b04132e104f6.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20220212/14b4c59da41a4e7bb647ce64440bd220.jpg?x-oss-process=image/format,webp/resize,w_800",
+      "https://cdn-img.poizonapp.com/pro-img/cut-img/20220212/7bc7e9b8051d4154bf5fff87fb9559fd.jpg?x-oss-process=image/format,webp/resize,w_800"
     ]
   },
   {
     "NAME": "lace-up sneakers",
     "BRAND": "Lanvin",
-    "PRICE": 107,
+    "PRICE": 242,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 76,
@@ -2512,8 +2543,8 @@
       "46": true
     },
     "PHOTOS": [
-      "https://cdn-images.farfetch-contents.com/19/34/70/49/19347049_42526532_1000.jpg",
       "https://cdn-images.farfetch-contents.com/19/34/70/49/19347049_42527354_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/19/34/70/49/19347049_42526532_1000.jpg",
       "https://cdn-images.farfetch-contents.com/19/34/70/49/19347049_42526535_1000.jpg",
       "https://cdn-images.farfetch-contents.com/19/34/70/49/19347049_42526534_1000.jpg"
     ]
@@ -2524,7 +2555,7 @@
     "PRICE": 107,
     "TYPE": "SHOES",
     "SPECIAL": false,
-    "ID": 77,
+    "ID": 0,
     "SIZE": {
       "40": true,
       "41": true,
@@ -2535,7 +2566,7 @@
       "46": true
     },
     "PHOTOS": [
-      "https://cdn.salla.sa/OyGbw/9fHFXQiu8wILCx1UMCl2llqc96fIAFcjYV9FkD6A.jpg",
+      "https://img.vitkac.com/uploads/product_thumb/BUTY%20FMSKRK11%20DRALH22-10/lg/1.jpg",
       "https://cdn.salla.sa/OyGbw/KsjjlKFe1GySxiOaeX9J65Si49R7GqVjQoPyHZce.jpg",
       "https://cdn.salla.sa/OyGbw/6prjrlIcuCEfYg188MdAZrPCS4u0uM5anqnIQ5LD.jpg",
       "https://cdn.salla.sa/OyGbw/2D5jrECzFyXqiOTFVv8aebM3vWlEse6sEmKQpdYz.jpg"
@@ -2547,7 +2578,7 @@
     "PRICE": 107,
     "TYPE": "SHOES",
     "SPECIAL": false,
-    "ID": 78,
+    "ID": 0,
     "SIZE": {
       "40": true,
       "41": true,
@@ -2569,7 +2600,7 @@
   {
     "NAME": "Curb Sneakers",
     "BRAND": "Lanvin",
-    "PRICE": 107,
+    "PRICE": 242,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 79,
@@ -2583,17 +2614,16 @@
       "46": true
     },
     "PHOTOS": [
-      "https://justinreed.com/cdn/shop/files/1_e8d47f7b-1169-437d-a78b-f9831d1ace8a_416x@2x.progressive.jpg?v=1709763314",
-      "https://justinreed.com/cdn/shop/files/2_cdbdbd7a-5044-4774-95d0-e43ed9f58e74_416x@2x.progressive.jpg?v=1709763313",
-      "https://justinreed.com/cdn/shop/files/3_760d4422-889d-4f45-adfc-abf709b8fd15_416x@2x.progressive.jpg?v=1709763315",
-      "https://justinreed.com/cdn/shop/files/4_b275c27f-d27b-401d-b0b3-6db0c6a05dc9_416x@2x.progressive.jpg?v=1709763313",
-      "https://justinreed.com/cdn/shop/files/5_f115e1ec-a81d-4fb7-bbde-e033fd7865b6_416x@2x.progressive.jpg?v=1709763314"
+      "https://cdn-images.farfetch-contents.com/18/12/56/34/18125634_38542895_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/18/12/56/34/18125634_38543067_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/18/12/56/34/18125634_38543070_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/18/12/56/34/18125634_38543077_1000.jpg"
     ]
   },
   {
     "NAME": "Leather sneakers",
     "BRAND": "GUCCI",
-    "PRICE": 107,
+    "PRICE": 196,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 80,
@@ -2617,7 +2647,7 @@
   {
     "NAME": "Varsity ripped skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -2658,7 +2688,7 @@
   {
     "NAME": "distressed skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -2698,7 +2728,7 @@
   {
     "NAME": "Mx1 distressed skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -2739,7 +2769,7 @@
   {
     "NAME": "MX1 ripped skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -2780,7 +2810,7 @@
   {
     "NAME": "logo-plaque skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -2820,7 +2850,7 @@
   {
     "NAME": "distressed skinny cut jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -2860,7 +2890,7 @@
   {
     "NAME": "MX1 distressed skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -2900,7 +2930,7 @@
   {
     "NAME": "Shotgun mid-rise skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -2940,7 +2970,7 @@
   {
     "NAME": "distressed skinny jeans",
     "BRAND": "AMIRI",
-    "PRICE": 118,
+    "PRICE": 125,
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
@@ -3700,7 +3730,7 @@
     "TYPE": "PANTS",
     "TYPE_ENG": "Shorts",
     "SPECIAL": false,
-    "ID": 110,
+    "ID": 0,
     "SIZE": {
       "XXS": false,
       "XS": true,
@@ -3736,7 +3766,7 @@
     "TYPE": "PANTS",
     "TYPE_ENG": "Shorts",
     "SPECIAL": false,
-    "ID": 111,
+    "ID": 0,
     "SIZE": {
       "XXS": false,
       "XS": true,
@@ -3805,19 +3835,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 113,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -3841,19 +3872,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 114,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -3877,19 +3909,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 115,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -3913,19 +3946,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 116,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -3949,19 +3983,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 117,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -3985,19 +4020,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 118,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4021,19 +4057,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 119,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4057,19 +4094,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 120,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4093,19 +4131,20 @@
   {
     "NAME": "Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 85,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Sweater",
     "SPECIAL": false,
     "ID": 121,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4129,19 +4168,20 @@
   {
     "NAME": "Half-Zipper Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 104,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Half-Zipper Sweater",
     "SPECIAL": false,
     "ID": 122,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4165,19 +4205,20 @@
   {
     "NAME": "Half-Zipper Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 104,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Half-Zipper Sweater",
     "SPECIAL": false,
     "ID": 123,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4201,19 +4242,20 @@
   {
     "NAME": "Half-Zipper Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 104,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Half-Zipper Sweater",
     "SPECIAL": false,
     "ID": 124,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4237,19 +4279,20 @@
   {
     "NAME": "Half-Zipper Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 104,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Half-Zipper Sweater",
     "SPECIAL": false,
     "ID": 125,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4273,19 +4316,20 @@
   {
     "NAME": "Half-Zipper Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 104,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Half-Zipper Sweater",
     "SPECIAL": false,
     "ID": 126,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4309,19 +4353,20 @@
   {
     "NAME": "Half-Zipper Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 104,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Half-Zipper Sweater",
     "SPECIAL": false,
     "ID": 127,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4345,19 +4390,20 @@
   {
     "NAME": "Half-Zipper Sweater",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 104,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Half-Zipper Sweater",
     "SPECIAL": false,
     "ID": 128,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4381,19 +4427,20 @@
   {
     "NAME": "Zip hoodie",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 117,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Zip hoodie",
     "SPECIAL": false,
     "ID": 129,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4417,19 +4464,20 @@
   {
     "NAME": "Zip hoodie",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 117,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Zip hoodie",
     "SPECIAL": false,
     "ID": 130,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4453,19 +4501,20 @@
   {
     "NAME": "Zip hoodie",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 117,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Zip hoodie",
     "SPECIAL": false,
     "ID": 131,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4489,19 +4538,20 @@
   {
     "NAME": "Zip hoodie",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 117,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Zip hoodie",
     "SPECIAL": false,
     "ID": 132,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4525,19 +4575,20 @@
   {
     "NAME": "Zip hoodie",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 117,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Zip hoodie",
     "SPECIAL": false,
     "ID": 133,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4561,19 +4612,20 @@
   {
     "NAME": "Zip hoodie",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 117,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Zip hoodie",
     "SPECIAL": false,
     "ID": 134,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
@@ -4597,19 +4649,20 @@
   {
     "NAME": "Zip hoodie",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 117,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Zip hoodie",
     "SPECIAL": false,
     "ID": 135,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],

@@ -26,7 +26,7 @@ const ItemCardPage = ({type, isSearch}) => {
     }
 
     // shuffle(randomData)
-
+    randomData = randomData.filter(item=>(item.ID!==0))
     let dataFilter = []
     if (isSearch === true) {dataFilter = randomData.filter(item => (item.NAME.toLowerCase() + item.BRAND.toLowerCase()).includes(type.toLowerCase()))}
     else if(type==="ALL"){dataFilter = randomData.filter(item =>(item.TYPE!=="SHOES"))}
