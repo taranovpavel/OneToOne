@@ -30,6 +30,7 @@ const ClothesInfoPage = () => {
           name: clothes.TYPE==="SHOES"?clothes.NAME:clothes.TYPE_ENG,
           fullName: clothes.NAME,
           brand: clothes.BRAND,
+          id: clothes.ID,
           size: size,
           price: clothes.PRICE,
           value: 1,

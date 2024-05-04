@@ -72,7 +72,7 @@ const Order = () => {
         if (errors===0)
         {
             dispatch(getPost(`ФИО:  ${data.fullName}%0AНомер:  ${data.number}%0AТелеграм:  ${data.telegram}%0AПочта:  ${data.email}%0AПочтовый Индекс:  ${data.index}%0AПолный адрес:  ${data.address}%0AЦена заказа:  ${isRUS?totalPrice*RUB+"₽":"$"+totalPrice}`))
-            items.map((item)=>dispatch(getPost(`Название:  ${item.fullName}%0AБренд:  ${item.brand}%0AКоличество:  ${item.value}%0AРазмер:  ${item.size}`)))
+            items.map((item)=>dispatch(getPost(`Название:  ${item.fullName}%0AБренд:  ${item.brand}%0AID товара: ${item.id}%0AКоличество:  ${item.value}%0AРазмер:  ${item.size}`)))
             dispatch(deleteItems())
             dispatch(setModalOrder())
             dispatch(setThank(true))
