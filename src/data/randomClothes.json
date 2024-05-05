@@ -3,6 +3,7 @@
     "NAME": "Cotton Wreath-print sweatshirt",
     "BRAND": "Denim Tears",
     "PRICE": 118,
+    "NEW_PRICE": 100,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Hoodie",
     "SPECIAL": true,
@@ -2623,18 +2624,23 @@
   {
     "NAME": "Leather sneakers",
     "BRAND": "GUCCI",
-    "PRICE": 196,
+    "PRICE": 188,
     "TYPE": "SHOES",
     "SPECIAL": false,
     "ID": 80,
     "SIZE": {
+      "35": false,
+      "36": false,
+      "37": false,
+      "38": true,
+      "39": true,
       "40": true,
       "41": true,
       "42": true,
       "43": true,
       "44": true,
       "45": true,
-      "46": true
+      "46": false
     },
     "PHOTOS": [
       "https://st-cdn.tsum.com/sig/1f3afc57853af7f71adca2ca0483d3b2/width/1526/i/5d/27/24/b4/5d2724b4-5f13-3513-92c0-0f11ea0686aa.jpg",
@@ -3798,31 +3804,35 @@
   {
     "NAME": "Stone Island Shorts",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 131,
     "TYPE": "PANTS",
     "TYPE_ENG": "Shorts",
     "SPECIAL": false,
     "ID": 112,
     "SIZE": {
-      "XXS": false,
-      "XS": true,
-      "S": true,
-      "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "28": true,
+      "29": true,
+      "30": true,
+      "31": true,
+      "32": true,
+      "33": true,
+      "34": true,
+      "35": false,
+      "36": true,
+      "37": false,
+      "38": true,
+      "39": false,
+      "40": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M"],
-      ["Pants length",52,54,56],
-      ["waist size",80,84,88],
-      ["Hip size",114,118,122]
+      ["Sizes","28","29","30","31","32","33","34","36","38","40"],
+      ["Pants length",50,50.5,51,51.5,52,52.5,53,54,55,56],
+      ["waist size",39.2,40.5,41.8,43.1,44.4,45.7,47,49.5,52,54.5]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M"],
-      ["Длина брюк",52,54,56],
-      ["Обхват талии",80,84,88],
-      ["Обхват бедра",114,118,122]
+      ["Размер","28","29","30","31","32","33","34","36","38","40"],
+      ["Длина брюк",50,50.5,51,51.5,52,52.5,53,54,55,56],
+      ["Обхват талии",39.2,40.5,41.8,43.1,44.4,45.7,47,49.5,52,54.5]
     ],
     "PHOTOS": [
       "https://www.baltini.com/cdn/shop/files/6b6dd9fcb16abe6bf4215d93e6fc417d.jpg?height=1024&v=1713529621&width=767",
@@ -4686,31 +4696,32 @@
   {
     "NAME": "T-Shirt",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 58,
     "TYPE": "T-SHIRTS",
     "TYPE_ENG": "T-Shirt",
     "SPECIAL": false,
     "ID": 136,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Chest",98,103,108,113,118,123]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Обхват груди",98,103,108,113,118,123]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/12/12395919FV_13_f.jpg",
@@ -4722,31 +4733,32 @@
   {
     "NAME": "T-Shirt",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 58,
     "TYPE": "T-SHIRTS",
     "TYPE_ENG": "T-Shirt",
     "SPECIAL": false,
     "ID": 137,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Chest",98,103,108,113,118,123]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Обхват груди",98,103,108,113,118,123]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/10/10350404JG_13_f.jpg",
@@ -4758,31 +4770,32 @@
   {
     "NAME": "T-Shirt",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 58,
     "TYPE": "T-SHIRTS",
     "TYPE_ENG": "T-Shirt",
     "SPECIAL": false,
     "ID": 138,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Chest",98,103,108,113,118,123]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Обхват груди",98,103,108,113,118,123]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/10/10350404VW_13_f.jpg",
@@ -4794,31 +4807,32 @@
   {
     "NAME": "T-Shirt",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 58,
     "TYPE": "T-SHIRTS",
     "TYPE_ENG": "T-Shirt",
     "SPECIAL": false,
     "ID": 139,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Chest",98,103,108,113,118,123]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Обхват груди",98,103,108,113,118,123]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/10/10350404XO_13_f.jpg",
@@ -4830,31 +4844,32 @@
   {
     "NAME": "T-Shirt",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 58,
     "TYPE": "T-SHIRTS",
     "TYPE_ENG": "T-Shirt",
     "SPECIAL": false,
     "ID": 140,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Chest",98,103,108,113,118,123]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",45.5,47.5,49.5,51.5,53.5,55.5],
+      ["Обхват груди",98,103,108,113,118,123]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/10/10350404BQ_13_f.jpg",
@@ -4866,31 +4881,30 @@
   {
     "NAME": "Compass-appliqué cotton track pants",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 108,
     "TYPE": "PANTS",
     "TYPE_ENG": "Track pants",
     "SPECIAL": false,
     "ID": 141,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M"],
-      ["Pants length",52,54,56],
-      ["waist size",80,84,88],
-      ["Hip size",114,118,122]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Pants length",100,102,104,106,108,110],
+      ["waist size",36,38.5,41,43.5,46,48.5]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M"],
-      ["Длина брюк",52,54,56],
-      ["Обхват талии",80,84,88],
-      ["Обхват бедра",114,118,122]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина брюк",100,102,104,106,108,110],
+      ["Обхват талии",36,38.5,41,43.5,46,48.5]
     ],
     "PHOTOS": [
       "https://cdn-images.farfetch-contents.com/22/36/74/25/22367425_52320744_1000.jpg",
@@ -4903,31 +4917,30 @@
   {
     "NAME": "Compass-appliqué track pants",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 108,
     "TYPE": "PANTS",
     "TYPE_ENG": "Track pants",
     "SPECIAL": false,
     "ID": 142,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M"],
-      ["Pants length",52,54,56],
-      ["waist size",80,84,88],
-      ["Hip size",114,118,122]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Pants length",100,102,104,106,108,110],
+      ["waist size",36,38.5,41,43.5,46,48.5]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M"],
-      ["Длина брюк",52,54,56],
-      ["Обхват талии",80,84,88],
-      ["Обхват бедра",114,118,122]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина брюк",100,102,104,106,108,110],
+      ["Обхват талии",36,38.5,41,43.5,46,48.5]
     ],
     "PHOTOS": [
       "https://cdn-images.farfetch-contents.com/22/78/85/85/22788585_52861990_1000.jpg",
@@ -4939,31 +4952,30 @@
   {
     "NAME": "Compass-badge cotton track pants",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 108,
     "TYPE": "PANTS",
     "TYPE_ENG": "Track pants",
     "SPECIAL": false,
     "ID": 143,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M"],
-      ["Pants length",52,54,56],
-      ["waist size",80,84,88],
-      ["Hip size",114,118,122]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Pants length",100,102,104,106,108,110],
+      ["waist size",36,38.5,41,43.5,46,48.5]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M"],
-      ["Длина брюк",52,54,56],
-      ["Обхват талии",80,84,88],
-      ["Обхват бедра",114,118,122]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина брюк",100,102,104,106,108,110],
+      ["Обхват талии",36,38.5,41,43.5,46,48.5]
     ],
     "PHOTOS": [
       "https://cdn-images.farfetch-contents.com/22/72/91/64/22729164_53226986_1000.jpg",
@@ -4976,31 +4988,30 @@
   {
     "NAME": "Compass-badge cotton track trousers",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 108,
     "TYPE": "PANTS",
     "TYPE_ENG": "Track pants",
     "SPECIAL": false,
     "ID": 144,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M"],
-      ["Pants length",52,54,56],
-      ["waist size",80,84,88],
-      ["Hip size",114,118,122]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Pants length",100,102,104,106,108,110],
+      ["waist size",36,38.5,41,43.5,46,48.5]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M"],
-      ["Длина брюк",52,54,56],
-      ["Обхват талии",80,84,88],
-      ["Обхват бедра",114,118,122]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина брюк",100,102,104,106,108,110],
+      ["Обхват талии",36,38.5,41,43.5,46,48.5]
     ],
     "PHOTOS": [
       "https://cdn-images.farfetch-contents.com/22/84/82/84/22848284_52946461_2048.jpg",
@@ -5013,31 +5024,30 @@
   {
     "NAME": "Compass-badge cotton track trousers",
     "BRAND": "Stone Island",
-    "PRICE": 100,
+    "PRICE": 108,
     "TYPE": "PANTS",
     "TYPE_ENG": "Track pants",
     "SPECIAL": false,
     "ID": 145,
     "SIZE": {
       "XXS": false,
-      "XS": true,
+      "XS": false,
       "S": true,
       "M": true,
-      "L": false,
-      "XL": false,
-      "XXL": false
+      "L": true,
+      "XL": true,
+      "XXL": true,
+      "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M"],
-      ["Pants length",52,54,56],
-      ["waist size",80,84,88],
-      ["Hip size",114,118,122]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Pants length",100,102,104,106,108,110],
+      ["waist size",36,38.5,41,43.5,46,48.5]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M"],
-      ["Длина брюк",52,54,56],
-      ["Обхват талии",80,84,88],
-      ["Обхват бедра",114,118,122]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина брюк",100,102,104,106,108,110],
+      ["Обхват талии",36,38.5,41,43.5,46,48.5]
     ],
     "PHOTOS": [
       "https://cdn-images.farfetch-contents.com/22/79/85/52/22798552_52866502_1000.jpg",

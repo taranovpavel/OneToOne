@@ -10,7 +10,7 @@ const ItemCard = ({clothes}) => {
             <div className={classes.card}>
                 <SwiperComponent swiperClasses={"swiperSmall"} photos={clothes.PHOTOS}/>
                 <p className={classes.card__name}>{clothes.TYPE==="SHOES"?clothes.NAME:clothes.TYPE_ENG} {clothes.BRAND}</p>
-                <p className={classes.card__price}>{isRUS?clothes.PRICE*RUB+"₽":"$"+clothes.PRICE}</p>
+                {clothes.SPECIAL?<div className={classes.card__price__container}><p className={classes.card__price__container__new}>{isRUS?clothes.NEW_PRICE*RUB+"₽":"$"+clothes.NEW_PRICE}</p><p className={classes.card__price__container__old}>{isRUS ? clothes.PRICE * RUB + "₽" : "$" + clothes.PRICE}</p></div>:<p className={classes.card__price}>{isRUS ? clothes.PRICE * RUB + "₽" : "$" + clothes.PRICE}</p>}
             </div>
         </Link>
     );

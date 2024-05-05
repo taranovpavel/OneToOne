@@ -47,19 +47,19 @@ const Brands = () => {
                         <div className={"columns__colum"}>
                             {first_colum.map((item, idx) => <Radio key={idx} value={item} label={item}/>)}
                         </div>
-                        <div className={"colum"}>
+                        <div className={"columns__colum"}>
                             {second_colum.map((item, idx) => <Radio key={idx} value={item} label={item}/>)}
                         </div>
-                        <div className={"colum"}>
+                        <div className={"columns__colum"}>
                             {third_colum.map((item, idx) => <Radio key={idx} value={item} label={item}/>)}
                         </div>
-                        <div className={"colum"}>
+                        <div className={"columns__colum"}>
                             {forth_colum.map((item, idx) => <Radio key={idx} value={item} label={item}/>)}
                         </div>
-                        <div className={"colum"}>
+                        <div className={"columns__colum"}>
                             {fifth_colum.map((item, idx) => <Radio key={idx} value={item} label={item}/>)}
                         </div>
-                        <div className={"colum"}>
+                        <div className={"columns__colum"}>
                             {sixth_colum.map((item, idx) => <Radio key={idx} value={item} label={item}/>)}
                         </div>
                     </div>
