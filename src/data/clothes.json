@@ -3861,16 +3861,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",62,64,65.5,67,68.5,70],
+      ["Shoulder width",36.5,37.5,39,40.5,42,43.5],
+      ["Chest",96,100,104,108,112,116]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",62,64,65.5,67,68.5,70],
+      ["Обхват плеча",36.5,37.5,39,40.5,42,43.5],
+      ["Обхват груди",96,100,104,108,112,116]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/39/39964419FS_13_f.jpg",
@@ -3898,16 +3898,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",62,64,65.5,67,68.5,70],
+      ["Shoulder width",36.5,37.5,39,40.5,42,43.5],
+      ["Chest",96,100,104,108,112,116]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",62,64,65.5,67,68.5,70],
+      ["Обхват плеча",36.5,37.5,39,40.5,42,43.5],
+      ["Обхват груди",96,100,104,108,112,116]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/14/14124852MU_13_f.jpg",
@@ -3935,16 +3935,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",63,64.5,66,67.5,69,70.5],
+      ["Shoulder width",39,41.5,42.5,44,45.5,47],
+      ["Chest",101,105,109,113,117]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",63,64.5,66,67.5,69,70.5],
+      ["Обхват плеча",39,41.5,42.5,44,45.5,47],
+      ["Обхват груди",101,105,109,113,117]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/14/14180067SH_13_f.jpg",
@@ -3972,16 +3972,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",63,64.5,66,67.5,69,70.5],
+      ["Shoulder width",39,41.5,42.5,44,45.5,47],
+      ["Chest",101,105,109,113,117]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",63,64.5,66,67.5,69,70.5],
+      ["Обхват плеча",39,41.5,42.5,44,45.5,47],
+      ["Обхват груди",101,105,109,113,117]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/14/14435438DD_13_f.jpg",
@@ -4009,16 +4009,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",63,64.5,66,67.5,69,70.5],
+      ["Shoulder width",39,41.5,42.5,44,45.5,47],
+      ["Chest",101,105,109,113,117]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",63,64.5,66,67.5,69,70.5],
+      ["Обхват плеча",39,41.5,42.5,44,45.5,47],
+      ["Обхват груди",101,105,109,113,117]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/14/14435438OV_13_f.jpg",
@@ -4046,16 +4046,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",63,64.5,66,67.5,69,70.5],
+      ["Shoulder width",39,41.5,42.5,44,45.5,47],
+      ["Chest",101,105,109,113,117]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",63,64.5,66,67.5,69,70.5],
+      ["Обхват плеча",39,41.5,42.5,44,45.5,47],
+      ["Обхват груди",101,105,109,113,117]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/14/14435438JJ_13_f.jpg",
@@ -4083,16 +4083,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",63,64.5,66,67.5,69,70.5],
+      ["Shoulder width",39,41.5,42.5,44,45.5,47],
+      ["Chest",101,105,109,113,117]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",63,64.5,66,67.5,69,70.5],
+      ["Обхват плеча",39,41.5,42.5,44,45.5,47],
+      ["Обхват груди",101,105,109,113,117]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/14/14435438DW_13_f.jpg",
@@ -4120,16 +4120,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",63,64.5,66,67.5,69,70.5],
+      ["Shoulder width",39,41.5,42.5,44,45.5,47],
+      ["Chest",101,105,109,113,117]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",63,64.5,66,67.5,69,70.5],
+      ["Обхват плеча",39,41.5,42.5,44,45.5,47],
+      ["Обхват груди",101,105,109,113,117]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/14/14435438MQ_13_f.jpg",
@@ -4157,16 +4157,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",63,64.5,66,67.5,69,70.5],
+      ["Shoulder width",39,41.5,42.5,44,45.5,47],
+      ["Chest",101,105,109,113,117]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",63,64.5,66,67.5,69,70.5],
+      ["Обхват плеча",39,41.5,42.5,44,45.5,47],
+      ["Обхват груди",101,105,109,113,117]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/14/14435438UC_13_f.jpg",
@@ -4194,16 +4194,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202126FC_13_f.jpg",
@@ -4231,16 +4231,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202126UW_13_f.jpg",
@@ -4268,16 +4268,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202126UB_13_f.jpg",
@@ -4305,16 +4305,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202126WU_13_f.jpg",
@@ -4342,16 +4342,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202126ED_13_f.jpg",
@@ -4379,16 +4379,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202126FU_13_f.jpg",
@@ -4416,16 +4416,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202126WW_13_f.jpg",
@@ -4453,16 +4453,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43201906UO_13_f.jpg",
@@ -4490,16 +4490,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202190VM_13_f.jpg",
@@ -4527,16 +4527,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43201052VE_13_f.jpg",
@@ -4564,16 +4564,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43202012HM_13_f.jpg",
@@ -4601,16 +4601,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43201792FN_13_f.jpg",
@@ -4638,16 +4638,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43201906BI_13_f.jpg",
@@ -4675,16 +4675,16 @@
       "XXXL": true
     },
     "SIZE_TABLE_ENG":[
-      ["Size","XS","S","M","L"],
-      ["Length of clothes",77,79,81,83],
-      ["Sleeve length",92,93,94,95],
-      ["Chest",148,152,156,160]
+      ["Size","S","M","L","XL","XXL","XXXL"],
+      ["Length of clothes",66,68,70,72,74,76],
+      ["Shoulder width",42,44,46,48,50,52],
+      ["Chest",106,111,116,121,126,131]
     ],
     "SIZE_TABLE_RUS":[
-      ["Размер","XS","S","M","L"],
-      ["Длина",77,79,81,83],
-      ["Длина рукава",92,93,94,95],
-      ["Обхват груди",148,152,156,160]
+      ["Размер","S","M","L","XL","XXL","XXXL"],
+      ["Длина",66,68,70,72,74,76],
+      ["Обхват плеча",42,44,46,48,50,52],
+      ["Обхват груди",106,111,116,121,126,131]
     ],
     "PHOTOS": [
       "https://cdn.yoox.biz/43/43200096ET_13_f.jpg",
@@ -5765,9 +5765,9 @@
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
-      ["Length of clothes",86,87,88],
-      ["Shoulder width",62,64,66],
-      ["Chest",150,154,158]
+      ["Length of clothes",76,78,80,82],
+      ["Shoulder width",51,53,55,57],
+      ["Chest",110,114,118,122]
     ],
     "SIZE_TABLE_RUS":[
       ["Размер","XS","S","M","L"],
@@ -5802,9 +5802,9 @@
     },
     "SIZE_TABLE_ENG":[
       ["Size","XS","S","M","L"],
-      ["Length of clothes",86,87,88],
-      ["Shoulder width",62,64,66],
-      ["Chest",150,154,158]
+      ["Length of clothes",76,78,80,82],
+      ["Shoulder width",51,53,55,57],
+      ["Chest",110,114,118,122]
     ],
     "SIZE_TABLE_RUS":[
       ["Размер","XS","S","M","L"],
@@ -5963,6 +5963,350 @@
       "https://editorialist.com/thumbnails/600/2022/4/019/129/712/19129712~1000_4.webp",
       "https://editorialist.com/thumbnails/600/2022/4/019/129/712/19129712~1000_5.webp"
 
+    ]
+  },
+  {
+    "NAME": "Balenciaga 3B embroidered shirt",
+    "BRAND": "Balenciaga",
+    "PRICE": 68,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Shirt",
+    "SPECIAL": false,
+    "ID": 170,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L"],
+      ["Length of clothes",78,80,82],
+      ["Shoulder width",61.5,63,64.5],
+      ["Chest",144,148,152]
+    ],
+    "SIZE_TABLE_RUS": [
+      ["Размер","S","M","L"],
+      ["Длина",78,80,82],
+      ["Обхват плеча",61.5,63,64.5],
+      ["Обхват груди",144,148,152]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/20/78/75/67/20787567_51396945_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/20/78/75/67/20787567_51396960_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/20/78/75/67/20787567_51396962_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/20/78/75/67/20787567_51396954_2048.jpg",
+      "https://cdn-images.farfetch-contents.com/20/78/75/67/20787567_51396961_2048.jpg"
+    ]
+  },
+  {
+    "NAME": "Oversized Paris Moon T-Shirt ",
+    "BRAND": "Balenciaga",
+    "PRICE": 55,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "T-Shirt",
+    "SPECIAL": false,
+    "ID": 171,
+    "SIZE": {
+      "XXS": false,
+      "XS": true,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","XS","S","M","L"],
+      ["Length of clothes",75,77,79,81],
+      ["Shoulder width",52,54,56,58],
+      ["Chest",121,125,129,133]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","XS","S","M","L"],
+      ["Длина",75,77,79,81],
+      ["Обхват плеча",52,54,56,58],
+      ["Обхват груди",121,125,129,133]
+    ],
+    "PHOTOS": [
+      "https://image.harrods.com/balenciaga-oversized-paris-moon-t-shirt_22791762_49089233_800.jpg",
+      "https://image.harrods.com/balenciaga-oversized-paris-moon-t-shirt_22791762_49088813_800.jpg",
+      "https://image.harrods.com/balenciaga-oversized-paris-moon-t-shirt_22791762_49088818_800.jpg",
+      "https://image.harrods.com/balenciaga-oversized-paris-moon-t-shirt_22791762_49088816_800.jpg",
+      "https://image.harrods.com/balenciaga-oversized-paris-moon-t-shirt_22791762_49088815_800.jpg"
+    ]
+  },
+  {
+    "NAME": "BB Classic Balenciaga Polo Shirt Oversized in white cotton piqué ",
+    "BRAND": "Balenciaga",
+    "PRICE": 75,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo Shirt",
+    "SPECIAL": false,
+    "ID": 172,
+    "SIZE": {
+      "XXS": false,
+      "XS": true,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","XS","S","M","L"],
+      ["Length of clothes",76,78,80,82],
+      ["Shoulder width",52,53,54,56],
+      ["Chest",146,150,154,158]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","XS","S","M","L"],
+      ["Длина",76,78,80,82],
+      ["Обхват плеча",52,53,54,56],
+      ["Обхват груди",146,150,154,158]
+    ],
+    "PHOTOS": [
+      "https://balenciaga.dam.kering.com/m/695e1ad792d48767/Large-791001TQVM79000_F.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/360a2a7ef756afe9/Large-791001TQVM79000_G.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/90419d74bb0487a/Large-791001TQVM79000_I.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/7e653995c2cedf71/Large-791001TQVM79000_H.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/8b0a8c0dad6853b/Large-791001TQVM79000_J.jpg?v=1"
+    ]
+  },
+  {
+    "NAME": "BB Classic Balenciaga Polo Shirt Oversized in black cotton piqué",
+    "BRAND": "Balenciaga",
+    "PRICE": 75,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo Shirt",
+    "SPECIAL": false,
+    "ID": 173,
+    "SIZE": {
+      "XXS": false,
+      "XS": true,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","XS","S","M","L"],
+      ["Length of clothes",76,78,80,82],
+      ["Shoulder width",52,53,54,56],
+      ["Chest",146,150,154,158]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","XS","S","M","L"],
+      ["Длина",76,78,80,82],
+      ["Обхват плеча",52,53,54,56],
+      ["Обхват груди",146,150,154,158]
+    ],
+    "PHOTOS": [
+      "https://balenciaga.dam.kering.com/m/74dd0fc634b77ea9/Large-791001TQVM71000_F.jpg?v=2",
+      "https://balenciaga.dam.kering.com/m/40a21650cd19f0cc/Large-791001TQVM71000_G.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/528b40ef07f71f7e/Large-791001TQVM71000_I.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/4457b4252b829fb7/Large-791001TQVM71000_H.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/7864caba17d2563c/Large-791001TQVM71000_J.jpg?v=1"
+    ]
+  },
+  {
+    "NAME": "DIY METAL OUTLINE TRACKSUIT",
+    "BRAND": "Balenciaga",
+    "PRICE": 140,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Tracksuit",
+    "SPECIAL": false,
+    "ID": 174,
+    "SIZE": {
+      "XXS": false,
+      "XS": true,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","XS","S","M","L"],
+      ["Length of clothes",76,78,80,82],
+      ["Shoulder width",52,53,54,56],
+      ["Chest",146,150,154,158]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","XS","S","M","L"],
+      ["Длина",76,78,80,82],
+      ["Обхват плеча",52,53,54,56],
+      ["Обхват груди",146,150,154,158]
+    ],
+    "PHOTOS": [
+      "https://pic.soupin.com/24/0104/2006/069_25183.jpg",
+      "https://pic.soupin.com/24/0104/2006/069_25179.jpg",
+      "https://pic.soupin.com/24/0104/2006/069_25180.jpg",
+      "https://pic.soupin.com/24/0104/2006/069_25181.jpg",
+      "https://pic.soupin.com/24/0104/2006/069_25182.jpg"
+    ]
+  },
+  {
+    "NAME": "DIY METAL OUTLINE TRACKSUIT",
+    "BRAND": "Balenciaga",
+    "PRICE": 140,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Tracksuit",
+    "SPECIAL": false,
+    "ID": 175,
+    "SIZE": {
+      "XXS": false,
+      "XS": true,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","XS","S","M","L"],
+      ["Length of clothes",76,78,80,82],
+      ["Shoulder width",52,53,54,56],
+      ["Chest",146,150,154,158]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","XS","S","M","L"],
+      ["Длина",76,78,80,82],
+      ["Обхват плеча",52,53,54,56],
+      ["Обхват груди",146,150,154,158]
+    ],
+    "PHOTOS": [
+      "https://pic.soupin.com/24/0104/2007/069_25192.jpg",
+      "https://pic.soupin.com/24/0104/2007/069_25188.jpg",
+      "https://pic.soupin.com/24/0104/2007/069_25189.jpg",
+      "https://pic.soupin.com/24/0104/2007/069_25190.jpg",
+      "https://pic.soupin.com/24/0104/2007/069_25191.jpg"
+    ]
+  },
+  {
+    "NAME": "Cash Magnet Card Holder in black and white shiny crocodile embossed calfskin ",
+    "BRAND": "Balenciaga",
+    "PRICE": 75,
+    "TYPE": "ACCESSORIES",
+    "TYPE_ENG": "Card Holder",
+    "SPECIAL": false,
+    "ID": 176,
+    "SIZE": {
+      "OS": true
+    },
+    "PHOTOS": [
+      "https://balenciaga.dam.kering.com/m/62f558707b6fd56/Large-6758352AAYM1090_F.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/6bf599a8b6dc84e/Large-6758352AAYM1090_D.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/62f558707b6fd56/Large-6758352AAYM1090_F.jpg?v=1"
+    ]
+  },
+  {
+    "NAME": "wide-leg cotton cargo jeans",
+    "BRAND": "Balenciaga",
+    "PRICE": 195,
+    "TYPE": "PANTS",
+    "TYPE_ENG": "Cargo",
+    "SPECIAL": false,
+    "ID": 177,
+    "SIZE": {
+      "26": false,
+      "28": true,
+      "30": true,
+      "32": true,
+      "34": true,
+      "36": false
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","28","30","32","34"],
+      ["Pants length",120,121,122,123],
+      ["waist size",78,80,82,84]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","28","30","32","34"],
+      ["Длина брюк",120,121,122,123],
+      ["Обхват талии",78,80,82,84]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/22/13/67/81/22136781_52124416_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/22/13/67/81/22136781_52124414_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/22/13/67/81/22136781_52124433_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/22/13/67/81/22136781_52124421_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/22/13/67/81/22136781_52124411_1000.jpg"
+    ]
+  },
+  {
+    "NAME": "Outline Large Fit Jacket in black soft left hand denim",
+    "BRAND": "Balenciaga",
+    "PRICE": 156,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 178,
+    "SIZE": {
+      "XXS": false,
+      "XS": true,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": false,
+      "XXL": false
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","XS","S","M","L"],
+      ["Length of clothes",71,73,75,77],
+      ["Shoulder width",57,59,61,63],
+      ["Chest",124,128,132,136]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","XS","S","M","L"],
+      ["Длина",71,73,75,77],
+      ["Обхват плеча",57,59,61,63],
+      ["Обхват груди",124,128,132,136]
+    ],
+    "PHOTOS": [
+      "https://balenciaga.dam.kering.com/m/7ece3513654a75c6/Large-767949TNW111672_F.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/728a7b74c7feafc2/Large-767949TNW111672_G.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/26d79d96a7d22c85/Large-767949TNW111672_I.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/6f3dea55b24dae64/Large-767949TNW111672_H.jpg?v=1",
+      "https://balenciaga.dam.kering.com/m/5cc5922e397a4c93/Large-767949TNW111672_J.jpg?v=1"
+    ]
+  },
+  {
+    "NAME": "Black cotton blend oversize sweater",
+    "BRAND": "Balenciaga",
+    "PRICE": 111,
+    "TYPE": "HOODIES",
+    "TYPE_ENG": "Sweater",
+    "SPECIAL": false,
+    "ID": 179,
+    "SIZE": {
+      "1": true,
+      "2": true,
+      "3": true,
+      "4": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","1","2","3","4"],
+      ["Length of clothes",75,77,79,81],
+      ["Shoulder width",60,61,62,63],
+      ["Chest",122,126,130,134]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","1","2","3","4"],
+      ["Длина",75,77,79,81],
+      ["Обхват плеча",60,61,62,63],
+      ["Обхват груди",122,126,130,134]
+    ],
+    "PHOTOS": [
+      "https://www.gebnegozionline.com/media/catalog/product/cache/04973426f6db03f6e54c042a57b4b528/2/0/2000011350338_1.jpg",
+      "https://www.gebnegozionline.com/media/catalog/product/cache/04973426f6db03f6e54c042a57b4b528/2/0/2000011350338-2000011346560-2000010699254.jpg",
+      "https://www.gebnegozionline.com/media/catalog/product/cache/04973426f6db03f6e54c042a57b4b528/2/0/2000011350338_2.jpg",
+      "https://www.gebnegozionline.com/media/catalog/product/cache/04973426f6db03f6e54c042a57b4b528/2/0/2000011350338_3.jpg",
+      "https://www.gebnegozionline.com/media/catalog/product/cache/04973426f6db03f6e54c042a57b4b528/2/0/2000011350338_4.jpg"
     ]
   }
 ]
