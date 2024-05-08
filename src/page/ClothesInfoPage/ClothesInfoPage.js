@@ -25,6 +25,7 @@ const ClothesInfoPage = () => {
     }
 
     const [size,setSize] = useState(sizeFunction)
+    console.log(size)
     const addItemAction = () => {
         if (clothes.SPECIAL){
             dispatch(addItem({
@@ -71,7 +72,7 @@ const ClothesInfoPage = () => {
                                 <p className={classes.text__secondary}>{isRUS?"Бесплатная доставка по СНГ":"Free delivery to Russia, Ukraine, Belarus, Kyrgyzstan, Kazakhstan, Tajikistan, Uzbekistan, Turkmenistan, Azerbaijan, Armenia"}</p>
                                 <p className={classes.text__secondary}>{isRUS?"14 - 18 дней до склада, после переотправка в вашу страну":"14-18 days to the warehouse, after reshipment to your country"}<br/>{isRUS?"( в общей сложности 14-30 дней )":"(total 14-30 days)"}</p>
                                 <p className={classes.text__secondary}>{isRUS?"Если есть дополнительные вопросы напишите в ":"If you have additional questions, write to "}<a href="">{isRUS?"поддержку":"support"}</a>.</p>
-                                {clothes.TYPE!=="ACCESSORIES"?clothes.TYPE!=="SHOES"?<TableComponent rows={isRUS?clothes.SIZE_TABLE_RUS:clothes.SIZE_TABLE_ENG}/>:"":""}
+                                {size!=="OS"?clothes.TYPE!=="SHOES"?<TableComponent rows={isRUS?clothes.SIZE_TABLE_RUS:clothes.SIZE_TABLE_ENG}/>:"":""}
                             </div>
                         </>
                     }
