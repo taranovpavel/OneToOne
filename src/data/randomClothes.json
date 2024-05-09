@@ -4180,7 +4180,7 @@
     "BRAND": "Stone Island",
     "PRICE": 104,
     "TYPE": "HOODIES",
-    "TYPE_ENG": "Half-Zipper Sweater",
+    "TYPE_ENG": "Zip Sweater",
     "SPECIAL": false,
     "ID": 122,
     "SIZE": {
@@ -4217,7 +4217,7 @@
     "BRAND": "Stone Island",
     "PRICE": 104,
     "TYPE": "HOODIES",
-    "TYPE_ENG": "Half-Zipper Sweater",
+    "TYPE_ENG": "Zip Sweater",
     "SPECIAL": false,
     "ID": 123,
     "SIZE": {
@@ -4254,7 +4254,7 @@
     "BRAND": "Stone Island",
     "PRICE": 104,
     "TYPE": "HOODIES",
-    "TYPE_ENG": "Half-Zipper Sweater",
+    "TYPE_ENG": "Zip Sweater",
     "SPECIAL": false,
     "ID": 124,
     "SIZE": {
@@ -4291,7 +4291,7 @@
     "BRAND": "Stone Island",
     "PRICE": 104,
     "TYPE": "HOODIES",
-    "TYPE_ENG": "Half-Zipper Sweater",
+    "TYPE_ENG": "Zip Sweater",
     "SPECIAL": false,
     "ID": 125,
     "SIZE": {
@@ -4328,7 +4328,7 @@
     "BRAND": "Stone Island",
     "PRICE": 104,
     "TYPE": "HOODIES",
-    "TYPE_ENG": "Half-Zipper Sweater",
+    "TYPE_ENG": "Zip Sweater",
     "SPECIAL": false,
     "ID": 126,
     "SIZE": {
@@ -4365,7 +4365,7 @@
     "BRAND": "Stone Island",
     "PRICE": 104,
     "TYPE": "HOODIES",
-    "TYPE_ENG": "Half-Zipper Sweater",
+    "TYPE_ENG": "Zip Sweater",
     "SPECIAL": false,
     "ID": 127,
     "SIZE": {
@@ -4402,7 +4402,7 @@
     "BRAND": "Stone Island",
     "PRICE": 104,
     "TYPE": "HOODIES",
-    "TYPE_ENG": "Half-Zipper Sweater",
+    "TYPE_ENG": "Zip Sweater",
     "SPECIAL": false,
     "ID": 128,
     "SIZE": {
@@ -6338,7 +6338,7 @@
     ]
   },
   {
-    "NAME": "Geth Puffer Sandal",
+    "NAME": "Puffer Sandal",
     "BRAND": "Rick Owens",
     "PRICE": 150,
     "TYPE": "SHOES",
@@ -6366,7 +6366,7 @@
     ]
   },
   {
-    "NAME": "Leather Mega Bumper",
+    "NAME": "Mega Bumper",
     "BRAND": "Rick Owens",
     "PRICE": 216,
     "TYPE": "SHOES",
@@ -6393,7 +6393,7 @@
     ]
   },
   {
-    "NAME": "Leather Mega Bumper",
+    "NAME": "Mega Bumper",
     "BRAND": "Rick Owens",
     "PRICE": 216,
     "TYPE": "SHOES",
@@ -6507,7 +6507,7 @@
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
-    "ID": 188,
+    "ID": 0,
     "SIZE": {
       "26": false,
       "28": true,
@@ -6539,7 +6539,7 @@
     "TYPE": "PANTS",
     "TYPE_ENG": "Jeans",
     "SPECIAL": false,
-    "ID": 189,
+    "ID": 0,
     "SIZE": {
       "26": false,
       "28": true,
@@ -6666,7 +6666,7 @@
   {
     "NAME": "Jumbo Peter Jacket in Black ",
     "BRAND": "Rick Owens",
-    "PRICE": 100,
+    "PRICE": 285,
     "TYPE": "JACKETS",
     "TYPE_ENG": "Jacket",
     "SPECIAL": false,

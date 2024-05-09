@@ -71,6 +71,7 @@ const ClothesInfoPage = () => {
                                 </div>
                                 <p className={classes.text__secondary}>{isRUS?"Бесплатная доставка по СНГ":"Free delivery to Russia, Ukraine, Belarus, Kyrgyzstan, Kazakhstan, Tajikistan, Uzbekistan, Turkmenistan, Azerbaijan, Armenia"}</p>
                                 <p className={classes.text__secondary}>{isRUS?"14 - 18 дней до склада, после переотправка в вашу страну":"14-18 days to the warehouse, after reshipment to your country"}<br/>{isRUS?"( в общей сложности 14-30 дней )":"(total 14-30 days)"}</p>
+                                <p className={classes.text__secondary}>{isRUS?"Наши отзывы можно посмотреть ":"You can see our reviews "}<a href="https://t.me/reviewscrips">{isRUS?"здесь":"here"}</a>.</p>
                                 <p className={classes.text__secondary}>{isRUS?"Если есть дополнительные вопросы напишите в ":"If you have additional questions, write to "}<a href="">{isRUS?"поддержку":"support"}</a>.</p>
                                 {size!=="OS"?clothes.TYPE!=="SHOES"?<TableComponent rows={isRUS?clothes.SIZE_TABLE_RUS:clothes.SIZE_TABLE_ENG}/>:"":""}
                             </div>
