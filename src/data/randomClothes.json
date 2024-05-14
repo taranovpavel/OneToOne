@@ -8879,5 +8879,929 @@
       "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/2654790394fcfb2e68fbdd65b5e4a957.webp",
       "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/6d566ee112fae4772cf0f43acdf2c840.webp"
     ]
+  },
+  {
+    "NAME": "Berretto Cap Black",
+    "BRAND": "Moncler",
+    "PRICE": 35,
+    "TYPE": "ACCESSORIES",
+    "TYPE_ENG": "Cap",
+    "SPECIAL": false,
+    "ID": 260,
+    "SIZE": {
+      "OS": true
+    },
+    "PHOTOS": [
+      "https://www.careofcarl.com/bilder/artiklar/zoom/20733910_1.jpg?m=1613393206",
+      "https://www.careofcarl.com/bilder/artiklar/zoom/20733910_3.jpg?m=1613393184",
+      "https://www.careofcarl.com/bilder/artiklar/zoom/20733910_5.jpg?m=1613393184"
+    ]
+  },
+  {
+    "NAME": "Gui logo-patch puffer gilet",
+    "BRAND": "Moncler",
+    "PRICE": 180,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Puffer Gilet",
+    "SPECIAL": false,
+    "ID": 261,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",63,65,67,69,71],
+      ["Shoulder width",42,44,46,48,50],
+      ["Chest",104,110,114,120,124]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",63,65,67,69,71],
+      ["Обхват плеча",42,44,46,48,50],
+      ["Обхват груди",104,110,114,120,124]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/20/75/74/31/20757431_50741168_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/20/75/74/31/20757431_50741161_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/20/75/74/31/20757431_50741157_2048.jpg"
+    ]
+  },
+  {
+    "NAME": "Gui logo-patch puffer gilet",
+    "BRAND": "Moncler",
+    "PRICE": 180,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Puffer Gilet",
+    "SPECIAL": false,
+    "ID": 262,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",63,65,67,69,71],
+      ["Shoulder width",42,44,46,48,50],
+      ["Chest",104,110,114,120,124]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",63,65,67,69,71],
+      ["Обхват плеча",42,44,46,48,50],
+      ["Обхват груди",104,110,114,120,124]
+    ],
+    "PHOTOS": [
+      "https://image.harrods.com/moncler-down-gui-gilet_19969796_45699450_800.jpg",
+      "https://image.harrods.com/moncler-down-gui-gilet_19969796_45696932_800.jpg",
+      "https://image.harrods.com/moncler-down-gui-gilet_19969796_45696944_800.jpg"
+    ]
+  },
+  {
+    "NAME": "Gui logo-patch puffer gilet",
+    "BRAND": "Moncler",
+    "PRICE": 120,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Puffer Gilet",
+    "SPECIAL": false,
+    "ID": 263,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",63,65,67,69,71],
+      ["Shoulder width",42,44,46,48,50],
+      ["Chest",104,110,114,120,124]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",63,65,67,69,71],
+      ["Обхват плеча",42,44,46,48,50],
+      ["Обхват груди",104,110,114,120,124]
+    ],
+    "PHOTOS": [
+      "https://haiendo-shop.com/cdn/shop/products/monclerguiolivegreen_9104e1d9-b10c-4de2-98ed-0590429aea2e_1100x.jpg?v=1662307656"
+    ]
+  },
+  {
+    "NAME": "Gui logo-patch puffer gilet",
+    "BRAND": "Moncler",
+    "PRICE": 120,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Puffer Gilet",
+    "SPECIAL": false,
+    "ID": 264,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",63,65,67,69,71],
+      ["Shoulder width",42,44,46,48,50],
+      ["Chest",104,110,114,120,124]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",63,65,67,69,71],
+      ["Обхват плеча",42,44,46,48,50],
+      ["Обхват груди",104,110,114,120,124]
+    ],
+    "PHOTOS": [
+      "https://haiendo-shop.com/cdn/shop/products/monclerguilightblue_1100x.jpg?v=1644321503"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Zip-Up Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 90,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 265,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",65,67,69,71,73],
+      ["Shoulder width",45,46,48,49,51],
+      ["Chest",130,132,134,136,138]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",65,67,69,71,73],
+      ["Обхват плеча",45,46,48,49,51],
+      ["Обхват груди",130,132,134,136,138]
+    ],
+    "PHOTOS": [
+      "https://cdn.clothbase.com/uploads/d0ae9994-e6a6-4c5d-b269-d22e8ff0f08d/300028522---33s---moncler---1a001-52595f3samakar336.jpg",
+      "https://cdn.clothbase.com/uploads/24c8dad3-db4c-491e-b8f1-01b3a612e65e/300028519---33s---moncler---1a001-52595f3samakar336_2_p.jpg",
+      "https://cdn.clothbase.com/uploads/bc89c7b5-98bd-40bb-b308-e7fbe38dc157/300028520---33s---moncler---1a001-52595f3samakar336_3_p.jpg"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Zip-Up Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 90,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 266,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",65,67,69,71,73],
+      ["Shoulder width",45,46,48,49,51],
+      ["Chest",130,132,134,136,138]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",65,67,69,71,73],
+      ["Обхват плеча",45,46,48,49,51],
+      ["Обхват груди",130,132,134,136,138]
+    ],
+    "PHOTOS": [
+      "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/2698184c2a4b6c2e106dc5c08fd8f390.webp",
+      "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/df87afcd54f80f331bc68a3f90c266be.webp",
+      "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/2698184c2a4b6c2e106dc5c08fd8f390.webp"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Zip-Up Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 150,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 267,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",64,66,68,70,72],
+      ["Shoulder width",48,50,52,54,56],
+      ["Chest",128,130,132,134,136]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",64,66,68,70,72],
+      ["Обхват плеча",48,50,52,54,56],
+      ["Обхват груди",128,130,132,134,136]
+    ],
+    "PHOTOS": [
+      "https://intermodann.ru/upload/resize_cache/iblock/04a/720_480_0/04af70b8c9f6e3b1d01b4bb5d465d315.jpg",
+      "https://intermodann.ru/upload/resize_cache/iblock/2b5/720_480_0/20180329-351.jpg",
+      "https://intermodann.ru/upload/resize_cache/iblock/a9e/720_480_0/20180329-352.jpg"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Reppe Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 120,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 268,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",65,67,69,71,73],
+      ["Shoulder width",45,46,48,50,51],
+      ["Chest",132,134,136,138,140]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",65,67,69,71,73],
+      ["Обхват плеча",45,46,48,50,51],
+      ["Обхват груди",132,134,136,138,140]
+    ],
+    "PHOTOS": [
+      "https://n.nordstrommedia.com/id/sr3/7fbe6657-0e17-432e-a352-175a7321a9aa.jpeg?crop=pad&w=780&h=1196",
+      "https://n.nordstrommedia.com/id/sr3/9e222bcc-57cd-4581-bad9-d4402fb09c95.jpeg?crop=pad&w=780&h=1196",
+      "https://n.nordstrommedia.com/id/sr3/ecbc6d7a-84ea-4a6a-bfbb-7577d7b3d510.jpeg?crop=pad&w=780&h=1196"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Reppe Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 120,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 269,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",65,67,69,71,73],
+      ["Shoulder width",45,46,48,50,51],
+      ["Chest",132,134,136,138,140]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",65,67,69,71,73],
+      ["Обхват плеча",45,46,48,50,51],
+      ["Обхват груди",132,134,136,138,140]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/22/88/70/39/22887039_53145980_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/22/88/70/39/22887039_53117291_2048.jpg",
+      "https://cdn-images.farfetch-contents.com/22/88/70/39/22887039_53117272_1000.jpg"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 120,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 270,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",65,67,69,71,73],
+      ["Shoulder width",45,46,48,50,51],
+      ["Chest",132,134,136,138,140]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",65,67,69,71,73],
+      ["Обхват плеча",45,46,48,50,51],
+      ["Обхват груди",132,134,136,138,140]
+    ],
+    "PHOTOS": [
+      "https://static.wixstatic.com/media/1b481a_6e0b963abe18433cb9d93a6b61b670bf~mv2.jpg/v1/fill/w_500,h_667,al_c,q_80,usm_0.66_1.00_0.01,enc_auto/1b481a_6e0b963abe18433cb9d93a6b61b670bf~mv2.jpg"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 120,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 271,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",65,67,69,71,73],
+      ["Shoulder width",45,46,48,50,51],
+      ["Chest",132,134,136,138,140]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",65,67,69,71,73],
+      ["Обхват плеча",45,46,48,50,51],
+      ["Обхват груди",132,134,136,138,140]
+    ],
+    "PHOTOS": [
+      "https://www.circle-fashion.com/images/moncler-grimpeurs-jacket-p51770-132880_medium.jpg"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 120,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 272,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",65,67,69,71,73],
+      ["Shoulder width",45,46,48,50,51],
+      ["Chest",132,134,136,138,140]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",65,67,69,71,73],
+      ["Обхват плеча",45,46,48,50,51],
+      ["Обхват груди",132,134,136,138,140]
+    ],
+    "PHOTOS": [
+      "https://www.circle-fashion.com/images/moncler-grimpeurs-p43634-64115_medium.jpg"
+    ]
+  },
+  {
+    "NAME": "Moncler Logo Patch Jacket",
+    "BRAND": "Moncler",
+    "PRICE": 120,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Jacket",
+    "SPECIAL": false,
+    "ID": 273,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",65,67,69,71,73],
+      ["Shoulder width",45,46,48,50,51],
+      ["Chest",132,134,136,138,140]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",65,67,69,71,73],
+      ["Обхват плеча",45,46,48,50,51],
+      ["Обхват груди",132,134,136,138,140]
+    ],
+    "PHOTOS": [
+      "https://images.lvrcdn.com/Big/c/2023/12/18/924ef96e-49a5-4282-858c-4f703599284b/35f668b7-36e2-48e0-88bc-ad429a68c39720231220123138.JPG",
+      "https://images.lvrcdn.com/Zoom/c/2023/12/18/c6927802-1132-4af1-8af3-5bf378003bc3/6296c5d7-8e5e-4d33-a655-1b4dfb19c2d220231220144711.JPG",
+      "https://images.lvrcdn.com/Zoom/c/2023/12/18/c6927802-1132-4af1-8af3-5bf378003bc3/a7eadb87-00f9-4b06-a5c3-383c3fe549f020231220144707.JPG"
+    ]
+  },
+  {
+    "NAME": "Tibb logo-patch padded gilet",
+    "BRAND": "Moncler",
+    "PRICE": 180,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Padded Gilet",
+    "SPECIAL": false,
+    "ID": 274,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",61,63,65,67,69],
+      ["Shoulder width",43,45,47,49,51],
+      ["Chest",110,114,120,124,128]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",61,63,65,67,69],
+      ["Обхват плеча",43,45,47,49,51],
+      ["Обхват груди",110,114,120,124,128]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/16/95/75/86/16957586_36926521_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/16/95/75/86/16957586_36926517_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/16/95/75/86/16957586_36926519_2048.jpg"
+    ]
+  },
+  {
+    "NAME": "Tibb logo-patch padded gilet",
+    "BRAND": "Moncler",
+    "PRICE": 180,
+    "TYPE": "JACKETS",
+    "TYPE_ENG": "Padded Gilet",
+    "SPECIAL": false,
+    "ID": 275,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",61,63,65,67,69],
+      ["Shoulder width",43,45,47,49,51],
+      ["Chest",110,114,120,124,128]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",61,63,65,67,69],
+      ["Обхват плеча",43,45,47,49,51],
+      ["Обхват груди",110,114,120,124,128]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/17/37/61/96/17376196_35925939_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/17/37/61/96/17376196_35928042_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/17/37/61/96/17376196_35925942_1000.jpg"
+    ]
+  },
+  {
+    "NAME": "logo patch polo shirt",
+    "BRAND": "Moncler",
+    "PRICE": 50,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo",
+    "SPECIAL": false,
+    "ID": 276,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",68,70,72,74,76],
+      ["Shoulder width",42,44,44,46,48],
+      ["Chest",96,100,104,108,112]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",68,70,72,74,76],
+      ["Обхват плеча",42,44,44,46,48],
+      ["Обхват груди",96,100,104,108,112]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/19/80/13/57/19801357_44531823_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/19/80/13/57/19801357_44496871_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/19/80/13/57/19801357_44496872_1000.jpg"
+    ]
+  },
+  {
+    "NAME": "logo patch polo shirt",
+    "BRAND": "Moncler",
+    "PRICE": 50,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo",
+    "SPECIAL": false,
+    "ID": 277,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",68,70,72,74,76],
+      ["Shoulder width",42,44,44,46,48],
+      ["Chest",96,100,104,108,112]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",68,70,72,74,76],
+      ["Обхват плеча",42,44,44,46,48],
+      ["Обхват груди",96,100,104,108,112]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/19/74/26/28/19742628_44197621_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/19/74/26/28/19742628_44197625_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/19/74/26/28/19742628_44197627_1000.jpg"
+    ]
+  },
+  {
+    "NAME": "logo patch polo shirt",
+    "BRAND": "Moncler",
+    "PRICE": 50,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo",
+    "SPECIAL": false,
+    "ID": 278,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",68,70,72,74,76],
+      ["Shoulder width",42,44,44,46,48],
+      ["Chest",96,100,104,108,112]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",68,70,72,74,76],
+      ["Обхват плеча",42,44,44,46,48],
+      ["Обхват груди",96,100,104,108,112]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/19/74/14/38/19741438_44195986_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/19/74/14/38/19741438_44194345_1000.jpg",
+      "https://cdn-images.farfetch-contents.com/19/74/14/38/19741438_44195985_1000.jpg"
+    ]
+  },
+  {
+    "NAME": "logo patch polo shirt",
+    "BRAND": "Moncler",
+    "PRICE": 50,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo",
+    "SPECIAL": false,
+    "ID": 279,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",68,70,72,74,76],
+      ["Shoulder width",42,44,44,46,48],
+      ["Chest",96,100,104,108,112]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",68,70,72,74,76],
+      ["Обхват плеча",42,44,44,46,48],
+      ["Обхват груди",96,100,104,108,112]
+    ],
+    "PHOTOS": [
+      "https://storage.yandexcloud.net/cdn-prod.viled.kz/v3/original/318671Xxz7u.jpg"
+    ]
+  },
+  {
+    "NAME": "logo patch polo shirt",
+    "BRAND": "Moncler",
+    "PRICE": 50,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo",
+    "SPECIAL": false,
+    "ID": 280,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",68,70,72,74,76],
+      ["Shoulder width",42,44,44,46,48],
+      ["Chest",96,100,104,108,112]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",68,70,72,74,76],
+      ["Обхват плеча",42,44,44,46,48],
+      ["Обхват груди",96,100,104,108,112]
+    ],
+    "PHOTOS": [
+      "https://yesoriginal.com.ua/image/cache/catalog/cover/8A00006-84556-795-10-472x497.webp"
+    ]
+  },
+  {
+    "NAME": "logo patch polo shirt",
+    "BRAND": "Moncler",
+    "PRICE": 50,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo",
+    "SPECIAL": false,
+    "ID": 281,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",68,70,72,74,76],
+      ["Shoulder width",42,44,44,46,48],
+      ["Chest",96,100,104,108,112]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",68,70,72,74,76],
+      ["Обхват плеча",42,44,44,46,48],
+      ["Обхват груди",96,100,104,108,112]
+    ],
+    "PHOTOS": [
+      "https://chancefashion.co.uk/cdn/shop/products/moncler-twin-tip-cotton-polo-orange-589750_720x.jpg?v=1695333201"
+    ]
+  },
+  {
+    "NAME": "logo patch polo shirt",
+    "BRAND": "Moncler",
+    "PRICE": 50,
+    "TYPE": "T-SHIRTS",
+    "TYPE_ENG": "Polo",
+    "SPECIAL": false,
+    "ID": 282,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Length of clothes",68,70,72,74,76],
+      ["Shoulder width",42,44,44,46,48],
+      ["Chest",96,100,104,108,112]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина",68,70,72,74,76],
+      ["Обхват плеча",42,44,44,46,48],
+      ["Обхват груди",96,100,104,108,112]
+    ],
+    "PHOTOS": [
+      "https://cdn.leam.com/media/catalog/product/cache/aeabbebb49dd121f76f7f159c0b1f888/p/2/p24_moncler_p24-moncler-8a7030084556455.jpg"
+    ]
+  },
+  {
+    "NAME": "Logo Patch Swim Trunks",
+    "BRAND": "Moncler",
+    "PRICE": 60,
+    "TYPE": "PANTS",
+    "TYPE_ENG": "Swim Trunks",
+    "SPECIAL": false,
+    "ID": 283,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Pants length",37,38,39,40,41],
+      ["waist size",76,80,82,84,86]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина брюк",37,38,39,40,41],
+      ["Обхват талии",76,80,82,84,86]
+    ],
+    "PHOTOS": [
+      "https://n.nordstrommedia.com/id/sr3/cb6f7eac-c14d-4111-971f-afbde6a396fc.jpeg?crop=pad&w=780&h=1196"
+    ]
+  },
+  {
+    "NAME": "Logo Patch Swim Trunks",
+    "BRAND": "Moncler",
+    "PRICE": 60,
+    "TYPE": "PANTS",
+    "TYPE_ENG": "Swim Trunks",
+    "SPECIAL": false,
+    "ID": 284,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Pants length",37,38,39,40,41],
+      ["waist size",76,80,82,84,86]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина брюк",37,38,39,40,41],
+      ["Обхват талии",76,80,82,84,86]
+    ],
+    "PHOTOS": [
+      "https://d3vfig6e0r0snz.cloudfront.net/rcYjnYuenaTH5vyDF/images/products/9e5bbaac68f7649f1f6341299ca5b735.webp"
+    ]
+  },
+  {
+    "NAME": "Logo Patch Swim Trunks",
+    "BRAND": "Moncler",
+    "PRICE": 60,
+    "TYPE": "PANTS",
+    "TYPE_ENG": "Swim Trunks",
+    "SPECIAL": false,
+    "ID": 285,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Pants length",37,38,39,40,41],
+      ["waist size",76,80,82,84,86]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина брюк",37,38,39,40,41],
+      ["Обхват талии",76,80,82,84,86]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/18/02/03/36/18020336_38112669_1000.jpg"
+    ]
+  },
+  {
+    "NAME": "Logo Patch Swim Trunks",
+    "BRAND": "Moncler",
+    "PRICE": 60,
+    "TYPE": "PANTS",
+    "TYPE_ENG": "Swim Trunks",
+    "SPECIAL": false,
+    "ID": 286,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Pants length",37,38,39,40,41],
+      ["waist size",76,80,82,84,86]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина брюк",37,38,39,40,41],
+      ["Обхват талии",76,80,82,84,86]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/20/02/31/88/20023188_45060471_1000.jpg"
+    ]
+  },
+  {
+    "NAME": "Logo Patch Swim Trunks",
+    "BRAND": "Moncler",
+    "PRICE": 60,
+    "TYPE": "PANTS",
+    "TYPE_ENG": "Swim Trunks",
+    "SPECIAL": false,
+    "ID": 287,
+    "SIZE": {
+      "XXS": false,
+      "XS": false,
+      "S": true,
+      "M": true,
+      "L": true,
+      "XL": true,
+      "XXL": true
+    },
+    "SIZE_TABLE_ENG":[
+      ["Size","S","M","L","XL","XXL"],
+      ["Pants length",37,38,39,40,41],
+      ["waist size",76,80,82,84,86]
+    ],
+    "SIZE_TABLE_RUS":[
+      ["Размер","S","M","L","XL","XXL"],
+      ["Длина брюк",37,38,39,40,41],
+      ["Обхват талии",76,80,82,84,86]
+    ],
+    "PHOTOS": [
+      "https://cdn-images.farfetch-contents.com/20/91/42/93/20914293_50995093_1000.jpg"
+    ]
   }
 ]
