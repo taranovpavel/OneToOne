@@ -20,7 +20,7 @@ const MainPage = () => {
         {value: "SHOES",label:isRUS?"Обувь":"Shoes"},
         {value: "ACCESSORIES",label:isRUS?"Аксессуары":"Accessories"},
         {value: "BRANDS",label:isRUS?"Бренды":"Brands"},
-        {value: "SPECIALS",label:isRUS?"Скидки":"Specials"}
+        // {value: "SPECIALS",label:isRUS?"Скидки":"Specials"}
     ]
     return (
         <>
