@@ -22,17 +22,17 @@ const Brands = () => {
     let fifth_colum = []
     let sixth_colum = []
     for (let i = 0;i<brands.length;i++){
-        if(i<10){
+        if(i<5){
             first_colum.push(brands[i])
-        }else if(i<20){
+        }else if(i<10){
             second_colum.push(brands[i])
-        }else if(i<30){
+        }else if(i<15){
             third_colum.push(brands[i])
-        }else if(i<40){
+        }else if(i<20){
             forth_colum.push(brands[i])
-        }else if(i<50){
+        }else if(i<25){
             fifth_colum.push(brands[i])
-        }else if(i<60){
+        }else if(i<30){
             sixth_colum.push(brands[i])
         }
     }

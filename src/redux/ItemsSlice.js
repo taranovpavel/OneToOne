@@ -15,7 +15,7 @@ const itemsSlice = createSlice({
         isThank: false,
         tab: "ALL",
         isRandom: false,
-        brand: "AMIRI",
+        brand: "ACNE STUDIOS",
         isRUS: true,
         RUB: 95,
         limit: 6

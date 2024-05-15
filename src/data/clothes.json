@@ -3,10 +3,9 @@
     "NAME": "Cotton Wreath-print sweatshirt",
     "BRAND": "Denim Tears",
     "PRICE": 118,
-    "NEW_PRICE": 100,
     "TYPE": "HOODIES",
     "TYPE_ENG": "Hoodie",
-    "SPECIAL": true,
+    "SPECIAL": false,
     "ID": 1,
     "SIZE": {
       "XXS": false,
