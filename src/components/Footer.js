@@ -27,8 +27,8 @@ const Footer = () => {
                                 <li><p className={classes.footer__inner__bottom__table__label}>ONETOONE</p></li>
                                 <li><Link to={"/Privacy"}>{isRUS?"Политика конфиденциальности":"Privacy policy"}</Link></li>
                                 <li><Link to={"/Contract"}>{isRUS?"Договор оферты":"Offer contract"}</Link></li>
-                                <li><a href="">{isRUS?"Поддержка":"Support"}</a></li>
-                                <li><a href="">{isRUS?"Контакты":"Contacts"}</a></li>
+                                <li><a href="https://t.me/onet00ne">{isRUS?"Поддержка":"Support"}</a></li>
+                                <li><a href="https://t.me/onet00ne">{isRUS?"Контакты":"Contacts"}</a></li>
                             </ul>
                         </div>
                     </div>

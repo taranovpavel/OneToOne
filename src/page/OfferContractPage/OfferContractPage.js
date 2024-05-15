@@ -44,7 +44,7 @@ const OfferContractPage = () => {
                             <p>{"4.4. Продавец не несет ответственности за содержание и достоверность информации, предоставленной Покупателем при оформлении Заказа."}</p>
                             <p>{"4.5. Покупатель несет ответственность за достоверность предоставленной информации при оформлении Заказа."}</p>
                             <p>{"4.6. Описания и характеристики Товара в Интернет-магазине содержат основные сведения о Товаре."}</p>
-                            <p>{"4.7. По всем возникающим вопросам, касающимся свойств и характеристик Товара, Покупатель может обратиться к Продавцу, посредством отправки сообщения в мессенджер https://telegram.org/ - https://t.me/sparklzy."}</p>
+                            <p>{"4.7. По всем возникающим вопросам, касающимся свойств и характеристик Товара, Покупатель может обратиться к Продавцу, посредством отправки сообщения в мессенджер https://telegram.org/ - https://t.me/onet00ne."}</p>
                             <p>{"4.8. Фотографии и макеты Товара, представленные на сайте https://onetoone.com/, созданы в условиях специального освещения с использованием профессионального оборудования, либо откорректированы в программе Photoshop, являются простыми иллюстрациями и могут отличаться от фактического внешнего вида Товара при иных условиях наблюдения."}</p>
                             <p>{"4.9. Цена Товара указана на сайте https://onetoone.com/ рядом с изображением Товара."}</p>
                             <p>{"4.10. Доставка Товара осуществляется по согласованию Покупателя и Продавца. Срок доставки Товара Покупателю состоит из срока обработки заказа и срока доставки."}</p>
@@ -63,7 +63,7 @@ const OfferContractPage = () => {
                             <p>{"6.1. Гарантийный срок на Товара равен 3 (Трём) днями исчисляется с момента передачи Товара Покупателю."}</p>
                             <p>{"6.2. Гарантия распространяется только на производственный брак и не распространяется на дефекты, образовавшиеся в результате: механических повреждений (царапин, разрывов, потертостей и т.д.); воздействия экстремальных температур, растворителей, кислот, воды; неправильного использования (эксплуатации); естественного износа."}</p>
                             <p>{"6.3. Порядок отмены Заказа:"}</p>
-                            <p>{"6.3.1. Для мгновенной отмены Заказа Покупателю необходимо связаться с Продавцом в течение 6 (Шести) часов посредством отправки сообщения в мессенджер https://telegram.org/ - https://t.me/sparklzy."}</p>
+                            <p>{"6.3.1. Для мгновенной отмены Заказа Покупателю необходимо связаться с Продавцом в течение 6 (Шести) часов посредством отправки сообщения в мессенджер https://telegram.org/ - https://t.me/onet00ne."}</p>
                             <p>{"6.3.2. Договор купли-продажи считается расторгнутым автоматически, в случае непоступления полной оплаты стоимости Заказа."}</p>
                             <p>{"6.4. Товар надлежащего качества, полученный Покупателем, обмену и возврату не подлежит."}</p>
                             <p>{"7. Ответственность"}</p>
@@ -73,7 +73,7 @@ const OfferContractPage = () => {
                             <p>{"8. Прочие условия"}</p>
                             <p>{"8.1. Покупатель обязуется дать свое согласие на обработку персональных данных путем подтверждения Положения о политике конфиденциальности персональных данных, размещенной на сайте https://onetoone.com/."}</p>
                             <p>{"8.2. Сайт https://onetoone.com/ и предоставляемые сервисы могут временно частично или полностью недоступны по причине проведения профилактических или иных работ или по любым другим причинам технического характера."}</p>
-                            <p>{"8.3. В случае возникновения вопросов и претензий со стороны Покупателя он вправе обратиться к Продавцу посредством отправки сообщения в мессенджер https://telegram.org/ - https://t.me/sparklzy. Все Возникающее споры стороны будут стараться решить путем переговоров, при недостижении соглашения, соответствующий спор подлежит разрешению в суде."}</p>
+                            <p>{"8.3. В случае возникновения вопросов и претензий со стороны Покупателя он вправе обратиться к Продавцу посредством отправки сообщения в мессенджер https://telegram.org/ - https://t.me/onet00ne. Все Возникающее споры стороны будут стараться решить путем переговоров, при недостижении соглашения, соответствующий спор подлежит разрешению в суде."}</p>
                         </>
                         :
                         <>
@@ -107,7 +107,7 @@ const OfferContractPage = () => {
                             <p>{"4.4. The Seller is not responsible for the content and accuracy of the information provided by the Buyer at the execution of the Order. "}</p>
                             <p>{"4.5. The Buyer is responsible for the accuracy of the information provided during the execution of the Order. "}</p>
                             <p>{"4.6. The descriptions and characteristics of the Goods in the online store contain basic information about the Goods."}</p>
-                            <p>{"4.7. On all emerging issues concerning properties and characteristicsGoods, the Buyer can turn to the Seller, by sending and contacting the messenger https://telegram.org/ - https:/t. me/sparklzy. "}</p>
+                            <p>{"4.7. On all emerging issues concerning properties and characteristicsGoods, the Buyer can turn to the Seller, by sending and contacting the messenger https://telegram.org/ - https://t.me/onet00ne. "}</p>
                             <p>{"4.8. Photos and mock-ups of the Goods presented on the website https://onetoone.com/, created under conditions ofspecial lighting with the use ofprofessional equipment, orcorrected inthe frame ofphotoshop, are simple illustrations and may differ from the actual appearance of the Goods under other conditions of observation. "}</p>
                             <p>{"4.9. The price of the Goods is indicated on the site https://onetoone.com/ next to the image of the Goods."}</p>
                             <p>{"4.10. Delivery of the Goods is carried out by agreement of the Buyer and the Seller. Delivery timeGoods Buyer consists of the time of order processing and delivery time. "}</p>
@@ -126,7 +126,7 @@ const OfferContractPage = () => {
                             <p>{"6.1. The warranty period for the Goods is equal to 3 (three) days from the moment of delivery of the Goods to the Buyer. "}</p>
                             <p>{"6.2. The warranty applies only to industrial defects and shall not extend to defects resulting from: mechanical damage (scratches, ruptures, abrasions, etc.); exposure to extremalture, solvents, acids, water; Improper use(operation); normal wear and tear."}</p>
                             <p>{"6.3. Order cancellation procedure:"}</p>
-                            <p>{"6.3.1. To cancel an Order immediately, the Buyer must contact the Seller within 6 (Six) hours by sending a message to the https://telegram.org/ - https://t messenger. me/sparklzy. "}</p>
+                            <p>{"6.3.1. To cancel an Order immediately, the Buyer must contact the Seller within 6 (Six) hours by sending a message to the https://telegram.org/ - https://t.me/onet00ne. "}</p>
                             <p>{"6.3.2. The contract of sale is automatically terminated in the event of failure to pay in full the cost of the Order. "}</p>
                             <p>{"6.4. Goods of appropriate quality received by the Buyer, exchange and return is not. "}</p>
                             <p>{"7. Responsibility "}</p>
@@ -136,7 +136,7 @@ const OfferContractPage = () => {
                             <p>{"8. Other conditions"}</p>
                             <p>{"8.1. The Buyer undertakes to give its consent to the processing of personal data by means of a confirmation of the Privacy Policy Policy posted on the website https://onetoone.com/"}</p>
                             <p>{"8.2. The Website https://onetoone.com/ and the services provided may be temporarily or completely unavailable due to preventive or other work or any other technical reasons. "}</p>
-                            <p>{"8.3. In case of questions and claims from the Buyer, it is right to contact the Seller by sending a message to the messenger https:///telegram.org/ - https://t. me/sparklzy. All the parties will try to settle the dispute through negotiations, accept the agreement, the relevant dispute is to be settled in court."}</p>
+                            <p>{"8.3. In case of questions and claims from the Buyer, it is right to contact the Seller by sending a message to the messenger https:///telegram.org/ - https://t.me/onet00ne. All the parties will try to settle the dispute through negotiations, accept the agreement, the relevant dispute is to be settled in court."}</p>
                         </>
                     }
                 </div>
