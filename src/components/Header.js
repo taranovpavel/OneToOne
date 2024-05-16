@@ -28,7 +28,6 @@ const Header = ({isFixed=false,setInput, isSearch= false,}) => {
                             <div className={classes.header__inner__right}>
                                 <ul className={classes.header__inner__right__links}>
                                     <li><Button size={"fit"} onclick={() => dispatch(setIsRUS())} inner={isRUS ? "RUS" : "ENG"}/></li>
-                                    <li><a href={""} className={classes.header__inner__right__links__link}><Instagram className={classes.instagram}/></a></li>
                                     <li><a href={""} className={classes.header__inner__right__links__link}><Telegram className={classes.telegram}/></a></li>
                                 </ul>
                                 {isSearch ? <input placeholder={isRUS?"искать":"search"} type="text" onChange={(event) => inputFunction(event)} className={classes.header__inner__right__search}/> : ""}

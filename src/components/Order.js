@@ -39,6 +39,7 @@ const Order = () => {
     })
     const [inputPromocode,setPromocode] = useState("")
     const [discount,setDiscount] = useState(1)
+    const [promo,setPromo] = useState("отсутствует")
     totalPrice*= discount
     const formValue = (event) => {
         let newClass
@@ -71,7 +72,7 @@ const Order = () => {
         for(const key in classNames){if (!classNames[key]){errors+=1}}
         if (errors===0)
         {
-            dispatch(getPost(`ФИО:  ${data.fullName}%0AНомер:  ${data.number}%0AТелеграм:  ${data.telegram}%0AПочта:  ${data.email}%0AПочтовый Индекс:  ${data.index}%0AПолный адрес:  ${data.address}%0AЦена заказа:  ${isRUS?totalPrice*RUB+"₽":"$"+totalPrice}`))
+            dispatch(getPost(`ФИО:  ${data.fullName}%0AНомер:  ${data.number}%0AТелеграм:  ${data.telegram}%0AПочта:  ${data.email}%0AПочтовый Индекс:  ${data.index}%0AПолный адрес:  ${data.address}%0AЦена заказа:  ${isRUS?totalPrice*RUB+"₽":"$"+totalPrice}%0AПромокод:  ${promo}`))
             items.map((item)=>dispatch(getPost(`Название:  ${item.fullName}%0AБренд:  ${item.brand}%0AID товара: ${item.id}%0AКоличество:  ${item.value}%0AРазмер:  ${item.size}`)))
             dispatch(deleteItems())
             dispatch(setModalOrder())
@@ -79,7 +80,18 @@ const Order = () => {
         }
     }
     const activetePromocode = () =>{
-        for(const item in promocodes){if((inputPromocode.toUpperCase()===promocodes[item].promocode.toUpperCase())){setDiscount(0.9)}}
+        for(const item in promocodes){
+            if((inputPromocode.toUpperCase()===promocodes[item].promocode.toUpperCase())){
+                setPromo(promocodes[item].promocode)
+                if(promocodes[item].promocode[0]==="5"){
+                    setDiscount(0.5)
+                }else if(promocodes[item].promocode[0]==="3"){
+                    setDiscount(0.7)
+                }else if(promocodes[item].promocode[0]==="1"){
+                    setDiscount(0.9)
+                }
+            }
+        }
     }
     return (
         <>

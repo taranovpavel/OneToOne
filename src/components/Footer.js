@@ -16,10 +16,6 @@ const Footer = () => {
                     <div className={classes.footer__inner}>
                         <div className={classes.footer__inner__top}>
                             <Logo className={classes.logo}/>
-                            <ul className={classes.footer__inner__top__links}>
-                                <li><a href=""><Instagram className={classes.instagram}/></a></li>
-                                <li><a href=""><Telegram className={classes.telegram}/></a></li>
-                            </ul>
                         </div>
                         <div className={classes.footer__inner__line}/>
                         <div className={classes.footer__inner__bottom}>
