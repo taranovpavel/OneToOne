@@ -2,6 +2,7 @@ import React, {useState} from 'react';
 import classes from "./Order.module.sass";
 import { ReactComponent as Cross} from "../images/icon-cross.svg"
 import promocodes from '../data/promocodes.json'
+import { ReactComponent as Rub } from "../images/icon-rub.svg"
 import {useDispatch, useSelector} from "react-redux";
 import {deleteItem, deleteItems, getPost, minusValue, plusValue, setModalOrder, setThank} from "../redux/ItemsSlice";
 import Button from "./Button";
@@ -109,7 +110,7 @@ const Order = () => {
                                     <div className={classes.order__inner__orders__items__left__text}>
                                         <p className={classes.order__inner__orders__items__left__text__name}>{item.brand} {item.name}</p>
                                         <p>{isRUS?"Размер":"Size"}: {item.size}</p>
-                                        <p>{isRUS?"Цена: ":"Price: $"}{isRUS?item.price * item.value * RUB:item.price * item.value}{isRUS?"₽":""}</p>
+                                        <div className={"flexContainer"}><p>{isRUS?"Цена: ":"Price: $"}{isRUS?item.price * item.value * RUB:item.price * item.value}</p>{isRUS?<Rub className={"rubOrder"}/>:""}</div>
                                         <div className={classes.order__inner__orders__items__left__text__value__small}>
                                             <Button size={"round"} onclick={() => dispatch(minusValue(idx))}
                                                     inner={"-"}/>
@@ -129,7 +130,7 @@ const Order = () => {
                             </div>
                         )}
                     </div>
-                    <p className={classes.order__inner__orders__price}>{isRUS?"Итого: ":"Total: $"}{isRUS?totalPrice*RUB:totalPrice}{isRUS?"₽":""}</p>
+                    <div className={"flexContainer"}><p className={classes.order__inner__orders__price}>{isRUS?"Итого: ":"Total: $"}{isRUS?totalPrice*RUB:totalPrice}</p>{isRUS?<Rub className={"rub"}/>:""}</div>
                     <div className={classes.order__inner__orders__inputs}>
                         <input className={classNames.fullName?`${classes.good}`:`${classes.error}`} onChange={formValue} name="fullName" type="text" placeholder={isRUS?"Ф.И.О":"Full name"}/>
                         <input className={classNames.number?`${classes.good}`:`${classes.error}`} onChange={formValue} name="number" type="text" placeholder={isRUS?"Номер":"Number"}/>

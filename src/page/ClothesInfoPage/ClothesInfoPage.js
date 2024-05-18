@@ -6,6 +6,7 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import SwiperComponent from "../../components/SwiperComponent";
 import classes from "./ClothesInfoPage.module.sass";
+import { ReactComponent as Rub } from "../../images/icon-rub.svg"
 import Button from "../../components/Button";
 import MultipleSelector from "../../components/MultipleSelector";
 import TableComponent from "../../components/TableComponent";
@@ -63,7 +64,7 @@ const ClothesInfoPage = () => {
                         <SwiperComponent photos={clothes.PHOTOS} swiperClasses={"swiperBig"} imageClasses={"imageBig"} autoplay={true}/>
                             <div className={classes.text}>
                                 <p className={classes.text__name}>{clothes.TYPE === "SHOES" ? clothes.NAME : clothes.TYPE_ENG} {clothes.BRAND}</p>
-                                {clothes.SPECIAL?<div className={classes.text__price__container}><p className={classes.text__price__container__new}>{isRUS?clothes.NEW_PRICE*RUB+"₽":"$"+clothes.NEW_PRICE}</p><p className={classes.text__price__container__old}>{isRUS ? clothes.PRICE * RUB + "₽" : "$" + clothes.PRICE}</p></div>:<p className={classes.text__price}>{isRUS ? clothes.PRICE * RUB + "₽" : "$" + clothes.PRICE}</p>}
+                                {clothes.SPECIAL?<div className={classes.text__price__container}><p className={classes.text__price__container__new}>{isRUS?clothes.NEW_PRICE*RUB+"₽":"$"+clothes.NEW_PRICE}</p><p className={classes.text__price__container__old}>{isRUS ? clothes.PRICE * RUB + "₽" : "$" + clothes.PRICE}</p></div>:<div className={"flexContainer"}><p className={classes.text__price}>{isRUS ? clothes.PRICE * RUB : "$" + clothes.PRICE}</p>{isRUS?<Rub className={"rubBig"}/>:""}</div>}
                                 <div className={classes.text__buttons}>
                                     <Button onclick={addItemAction} inner={isRUS?"КУПИТЬ":"BUY"}></Button>
                                     <MultipleSelector size={size} setSize={setSize} data={clothes.SIZE}/>
