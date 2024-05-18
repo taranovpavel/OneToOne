@@ -25,7 +25,6 @@ const ClothesInfoPage = () => {
     }
 
     const [size,setSize] = useState(sizeFunction)
-    console.log(size)
     const addItemAction = () => {
         if (clothes.SPECIAL){
             dispatch(addItem({
