@@ -30,6 +30,7 @@ const ItemCardPage = ({type, isSearch}) => {
     else if(type==="ALL"){dataFilter = randomData.filter(item =>(item.TYPE!=="SHOES" && item.ID!==0))}
     else if(type==="BRANDS"){dataFilter = randomData.filter(item=>(item.BRAND.toUpperCase()).includes(brand)&& item.ID!==0)}
     else if(type==="SPECIALS"){dataFilter = randomData.filter(item=>(item.SPECIAL===true)&& item.ID!==0)}
+    else if(type==="NEW"){dataFilter = randomData.filter(item=>(item.ID>=312)&& item.ID!==0)}
     else {dataFilter = randomData.filter(item =>(item.TYPE).includes(type)&& item.ID!==0)}
     const scroll = (event) => {if (event.target.documentElement.scrollHeight - (event.target.documentElement.scrollTop + window.innerHeight) < 600){if (dataFilter.length>max)setMax(max+12)}}
     document.addEventListener('scroll', scroll)

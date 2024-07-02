@@ -13,6 +13,7 @@ const MainPage = () => {
     const [input, setInput] = useState("")
     const categoriesSelect = [
         {value: "ALL",label:isRUS?"Все":"All"},
+        {value: "NEW",label:isRUS?"Новое":"New"},
         {value: "T-SHIRTS",label:isRUS?"Футболки":"T-shirts"},
         {value: "HOODIES",label:isRUS?"Худи / Свитеры":"Hoodies / Sweaters"},
         {value: "PANTS",label:isRUS?"Брюки / Шорты":"Pants / Shorts"},
